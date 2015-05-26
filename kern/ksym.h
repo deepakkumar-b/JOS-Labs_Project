@@ -1,0 +1,1 @@
+int KERN_ISLOADED = 0;

@@ -1,0 +1,3185 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+-format	GNUmakefile	/^	git archive --format=tar HEAD | gzip > lab$(LAB)-handin.tar.gz$/;"	m
+ADDRESS	kern/libdwarf_lineno.c	214;"	d	file:
+ADDRESS	kern/libdwarf_lineno.c	95;"	d	file:
+ALLOC_ZERO	kern/pmap.h	/^	ALLOC_ZERO = 1<<0,$/;"	e	enum:__anon13
+ALT	kern/console.c	218;"	d	file:
+APPEND_HILO	kern/multiboot.h	18;"	d
+APPEND_ROW	kern/libdwarf_lineno.c	212;"	d	file:
+APPEND_ROW	kern/libdwarf_lineno.c	78;"	d	file:
+AR	GNUmakefile	/^AR	:= $(GCCPREFIX)ar$/;"	m
+ARRAYSIZE	user/testbss.c	5;"	d	file:
+AS	GNUmakefile	/^AS	:= $(GCCPREFIX)as$/;"	m
+ASM	lib/string.c	9;"	d	file:
+ASM	obj/kern/kernel.asm	/^#define ASM 1$/;"	d
+ASM	obj/user/badsegment.asm	/^#define ASM 1$/;"	d
+ASM	obj/user/breakpoint.asm	/^#define ASM 1$/;"	d
+ASM	obj/user/buggyhello.asm	/^#define ASM 1$/;"	d
+ASM	obj/user/buggyhello2.asm	/^#define ASM 1$/;"	d
+ASM	obj/user/divzero.asm	/^#define ASM 1$/;"	d
+ASM	obj/user/evilhello.asm	/^#define ASM 1$/;"	d
+ASM	obj/user/faultread.asm	/^#define ASM 1$/;"	d
+ASM	obj/user/faultreadkernel.asm	/^#define ASM 1$/;"	d
+ASM	obj/user/faultwrite.asm	/^#define ASM 1$/;"	d
+ASM	obj/user/faultwritekernel.asm	/^#define ASM 1$/;"	d
+ASM	obj/user/hello.asm	/^#define ASM 1$/;"	d
+ASM	obj/user/softint.asm	/^#define ASM 1$/;"	d
+ASM	obj/user/testbss.asm	/^#define ASM 1$/;"	d
+BACKTRACE_RE	grade-lab1	/^BACKTRACE_RE = r"^ *rbp +00000080042[0-9a-z]{5} +rip +000000800420[0-1][0-9a-z]{3}"$/;"	v
+BOOT_CFLAGS	GNUmakefile	/^BOOT_CFLAGS := $(CFLAGS) -DJOS_KERNEL -gdwarf-2 -m32$/;"	m
+BOOT_LDFLAGS	GNUmakefile	/^BOOT_LDFLAGS := -m elf_i386$/;"	m
+BOOT_PAGE_TABLE_END	kern/pmap.c	16;"	d	file:
+BOOT_PAGE_TABLE_START	kern/pmap.c	15;"	d	file:
+BUFLEN	lib/readline.c	4;"	d	file:
+BUFLEN	obj/kern/kernel.asm	/^#define BUFLEN 1024$/;"	d
+C	kern/console.c	285;"	d	file:
+CAPSLOCK	kern/console.c	220;"	d	file:
+CC	GNUmakefile	/^CC	:= $(GCCPREFIX)gcc -pipe$/;"	m
+CFA	kern/libdwarf_frame.c	145;"	d	file:
+CFA	kern/libdwarf_frame.c	495;"	d	file:
+CFA	kern/libdwarf_frame.c	591;"	d	file:
+CFA	obj/kern/kernel.asm	/^#define CFA rt->rt3_cfa_rule$/;"	d
+CFLAGS	GNUmakefile	/^CFLAGS := $(CFLAGS) $(DEFS) $(LABDEFS) -O0 -fno-builtin -I$(TOP) -MD$/;"	m
+CGA_BASE	kern/console.h	13;"	d
+CGA_BUF	kern/console.h	14;"	d
+CHECKSUM	kern/entry.S	/^#define CHECKSUM (-(MULTIBOOT_HEADER_MAGIC + MULTIBOOT_HEADER_FLAGS))$/;"	d
+CHECK_TABLE_SIZE	kern/libdwarf_frame.c	150;"	d	file:
+CHECK_TABLE_SIZE	kern/libdwarf_frame.c	499;"	d	file:
+CMDBUF_SIZE	kern/monitor.c	17;"	d	file:
+CMDBYTE	inc/kbdreg.h	60;"	d
+COLORS	gradelib.py	/^COLORS = {"default": "\\033[0m", "red": "\\033[31m", "green": "\\033[32m"}$/;"	v
+COM1	kern/console.c	26;"	d	file:
+COM_DLL	kern/console.c	30;"	d	file:
+COM_DLM	kern/console.c	31;"	d	file:
+COM_FCR	kern/console.c	35;"	d	file:
+COM_IER	kern/console.c	32;"	d	file:
+COM_IER_RDI	kern/console.c	33;"	d	file:
+COM_IIR	kern/console.c	34;"	d	file:
+COM_LCR	kern/console.c	36;"	d	file:
+COM_LCR_DLAB	kern/console.c	37;"	d	file:
+COM_LCR_WLEN8	kern/console.c	38;"	d	file:
+COM_LSR	kern/console.c	43;"	d	file:
+COM_LSR_DATA	kern/console.c	44;"	d	file:
+COM_LSR_TSRE	kern/console.c	46;"	d	file:
+COM_LSR_TXRDY	kern/console.c	45;"	d	file:
+COM_MCR	kern/console.c	39;"	d	file:
+COM_MCR_DTR	kern/console.c	41;"	d	file:
+COM_MCR_OUT2	kern/console.c	42;"	d	file:
+COM_MCR_RTS	kern/console.c	40;"	d	file:
+COM_RX	kern/console.c	28;"	d	file:
+COM_TX	kern/console.c	29;"	d	file:
+CONSBUFSIZE	kern/console.c	381;"	d	file:
+CR0_AM	inc/mmu.h	102;"	d
+CR0_CD	inc/mmu.h	104;"	d
+CR0_EM	inc/mmu.h	97;"	d
+CR0_ET	inc/mmu.h	99;"	d
+CR0_MP	inc/mmu.h	96;"	d
+CR0_NE	inc/mmu.h	100;"	d
+CR0_NW	inc/mmu.h	103;"	d
+CR0_PE	inc/mmu.h	95;"	d
+CR0_PG	inc/mmu.h	105;"	d
+CR0_TS	inc/mmu.h	98;"	d
+CR0_WP	inc/mmu.h	101;"	d
+CR4_DE	inc/mmu.h	110;"	d
+CR4_MCE	inc/mmu.h	108;"	d
+CR4_PAE	inc/mmu.h	116;"	d
+CR4_PCE	inc/mmu.h	107;"	d
+CR4_PSE	inc/mmu.h	109;"	d
+CR4_PVI	inc/mmu.h	112;"	d
+CR4_TSD	inc/mmu.h	111;"	d
+CR4_VME	inc/mmu.h	113;"	d
+CRT_COLS	kern/console.h	17;"	d
+CRT_ROWS	kern/console.h	16;"	d
+CRT_SIZE	kern/console.h	18;"	d
+CTL	kern/console.c	217;"	d	file:
+CURRENT_TEST	gradelib.py	/^CURRENT_TEST = None$/;"	v
+Command	kern/monitor.c	/^struct Command {$/;"	s	file:
+DEBUG_ABBREV	kern/elf_rw.c	/^	DEBUG_ABBREV,$/;"	e	enum:__anon11	file:
+DEBUG_FRAME	kern/elf_rw.c	/^	DEBUG_FRAME,$/;"	e	enum:__anon11	file:
+DEBUG_INFO	kern/elf_rw.c	/^	DEBUG_INFO,$/;"	e	enum:__anon11	file:
+DEBUG_LINE	kern/elf_rw.c	/^	DEBUG_LINE,$/;"	e	enum:__anon11	file:
+DEBUG_STR	kern/elf_rw.c	/^	DEBUG_STR,$/;"	e	enum:__anon11	file:
+DWARF_API_H	kern/dwarf_api.h	2;"	d
+DWARF_ERROR_H_	kern/dwarf_error.h	2;"	d
+DWARF_H	kern/dwarf.h	2;"	d
+DWARF_SET_ERROR	kern/dwarf_error.h	41;"	d
+DW_ACCESS_private	kern/dwarf_define.h	402;"	d
+DW_ACCESS_protected	kern/dwarf_define.h	401;"	d
+DW_ACCESS_public	kern/dwarf_define.h	400;"	d
+DW_ATE_address	kern/dwarf_define.h	382;"	d
+DW_ATE_boolean	kern/dwarf_define.h	383;"	d
+DW_ATE_complex_float	kern/dwarf_define.h	384;"	d
+DW_ATE_decimal_float	kern/dwarf_define.h	396;"	d
+DW_ATE_edited	kern/dwarf_define.h	393;"	d
+DW_ATE_float	kern/dwarf_define.h	385;"	d
+DW_ATE_hi_user	kern/dwarf_define.h	398;"	d
+DW_ATE_imaginary_float	kern/dwarf_define.h	390;"	d
+DW_ATE_lo_user	kern/dwarf_define.h	397;"	d
+DW_ATE_numeric_string	kern/dwarf_define.h	392;"	d
+DW_ATE_packed_decimal	kern/dwarf_define.h	391;"	d
+DW_ATE_signed	kern/dwarf_define.h	386;"	d
+DW_ATE_signed_char	kern/dwarf_define.h	387;"	d
+DW_ATE_signed_fixed	kern/dwarf_define.h	394;"	d
+DW_ATE_unsigned	kern/dwarf_define.h	388;"	d
+DW_ATE_unsigned_char	kern/dwarf_define.h	389;"	d
+DW_ATE_unsigned_fixed	kern/dwarf_define.h	395;"	d
+DW_AT_abstract_origin	kern/dwarf_define.h	133;"	d
+DW_AT_accessibility	kern/dwarf_define.h	134;"	d
+DW_AT_address_class	kern/dwarf_define.h	135;"	d
+DW_AT_allocated	kern/dwarf_define.h	162;"	d
+DW_AT_artificial	kern/dwarf_define.h	136;"	d
+DW_AT_associated	kern/dwarf_define.h	163;"	d
+DW_AT_base_types	kern/dwarf_define.h	137;"	d
+DW_AT_binary_scale	kern/dwarf_define.h	175;"	d
+DW_AT_bit_offset	kern/dwarf_define.h	105;"	d
+DW_AT_bit_size	kern/dwarf_define.h	106;"	d
+DW_AT_bit_stride	kern/dwarf_define.h	130;"	d
+DW_AT_byte_size	kern/dwarf_define.h	104;"	d
+DW_AT_byte_stride	kern/dwarf_define.h	165;"	d
+DW_AT_call_column	kern/dwarf_define.h	171;"	d
+DW_AT_call_file	kern/dwarf_define.h	172;"	d
+DW_AT_call_line	kern/dwarf_define.h	173;"	d
+DW_AT_calling_convention	kern/dwarf_define.h	138;"	d
+DW_AT_common_reference	kern/dwarf_define.h	118;"	d
+DW_AT_comp_dir	kern/dwarf_define.h	119;"	d
+DW_AT_const_expr	kern/dwarf_define.h	192;"	d
+DW_AT_const_value	kern/dwarf_define.h	120;"	d
+DW_AT_containing_type	kern/dwarf_define.h	121;"	d
+DW_AT_count	kern/dwarf_define.h	139;"	d
+DW_AT_data_bit_offset	kern/dwarf_define.h	191;"	d
+DW_AT_data_location	kern/dwarf_define.h	164;"	d
+DW_AT_data_member_location	kern/dwarf_define.h	140;"	d
+DW_AT_decimal_scale	kern/dwarf_define.h	176;"	d
+DW_AT_decimal_sign	kern/dwarf_define.h	178;"	d
+DW_AT_decl_column	kern/dwarf_define.h	141;"	d
+DW_AT_decl_file	kern/dwarf_define.h	142;"	d
+DW_AT_decl_line	kern/dwarf_define.h	143;"	d
+DW_AT_declaration	kern/dwarf_define.h	144;"	d
+DW_AT_default_value	kern/dwarf_define.h	122;"	d
+DW_AT_description	kern/dwarf_define.h	174;"	d
+DW_AT_digit_count	kern/dwarf_define.h	179;"	d
+DW_AT_discr	kern/dwarf_define.h	113;"	d
+DW_AT_discr_list	kern/dwarf_define.h	145;"	d
+DW_AT_discr_value	kern/dwarf_define.h	114;"	d
+DW_AT_element_list	kern/dwarf_define.h	107;"	d
+DW_AT_elemental	kern/dwarf_define.h	186;"	d
+DW_AT_encoding	kern/dwarf_define.h	146;"	d
+DW_AT_endianity	kern/dwarf_define.h	185;"	d
+DW_AT_entry_pc	kern/dwarf_define.h	166;"	d
+DW_AT_enum_class	kern/dwarf_define.h	193;"	d
+DW_AT_explicit	kern/dwarf_define.h	183;"	d
+DW_AT_extension	kern/dwarf_define.h	168;"	d
+DW_AT_external	kern/dwarf_define.h	147;"	d
+DW_AT_frame_base	kern/dwarf_define.h	148;"	d
+DW_AT_friend	kern/dwarf_define.h	149;"	d
+DW_AT_hi_user	kern/dwarf_define.h	196;"	d
+DW_AT_high_pc	kern/dwarf_define.h	110;"	d
+DW_AT_identifier_case	kern/dwarf_define.h	150;"	d
+DW_AT_import	kern/dwarf_define.h	116;"	d
+DW_AT_inline	kern/dwarf_define.h	123;"	d
+DW_AT_is_optional	kern/dwarf_define.h	124;"	d
+DW_AT_language	kern/dwarf_define.h	111;"	d
+DW_AT_linkage_name	kern/dwarf_define.h	194;"	d
+DW_AT_lo_user	kern/dwarf_define.h	195;"	d
+DW_AT_location	kern/dwarf_define.h	100;"	d
+DW_AT_low_pc	kern/dwarf_define.h	109;"	d
+DW_AT_lower_bound	kern/dwarf_define.h	125;"	d
+DW_AT_macro_info	kern/dwarf_define.h	151;"	d
+DW_AT_main_subprogram	kern/dwarf_define.h	190;"	d
+DW_AT_member	kern/dwarf_define.h	112;"	d
+DW_AT_mutable	kern/dwarf_define.h	181;"	d
+DW_AT_name	kern/dwarf_define.h	101;"	d
+DW_AT_namelist_item	kern/dwarf_define.h	152;"	d
+DW_AT_object_pointer	kern/dwarf_define.h	184;"	d
+DW_AT_ordering	kern/dwarf_define.h	102;"	d
+DW_AT_picture_string	kern/dwarf_define.h	180;"	d
+DW_AT_priority	kern/dwarf_define.h	153;"	d
+DW_AT_producer	kern/dwarf_define.h	126;"	d
+DW_AT_prototyped	kern/dwarf_define.h	127;"	d
+DW_AT_pure	kern/dwarf_define.h	187;"	d
+DW_AT_ranges	kern/dwarf_define.h	169;"	d
+DW_AT_recursive	kern/dwarf_define.h	188;"	d
+DW_AT_return_addr	kern/dwarf_define.h	128;"	d
+DW_AT_segment	kern/dwarf_define.h	154;"	d
+DW_AT_sibling	kern/dwarf_define.h	99;"	d
+DW_AT_signature	kern/dwarf_define.h	189;"	d
+DW_AT_small	kern/dwarf_define.h	177;"	d
+DW_AT_specification	kern/dwarf_define.h	155;"	d
+DW_AT_start_scope	kern/dwarf_define.h	129;"	d
+DW_AT_static_link	kern/dwarf_define.h	156;"	d
+DW_AT_stmt_list	kern/dwarf_define.h	108;"	d
+DW_AT_stride_size	kern/dwarf_define.h	131;"	d
+DW_AT_string_length	kern/dwarf_define.h	117;"	d
+DW_AT_subscr_data	kern/dwarf_define.h	103;"	d
+DW_AT_threads_scaled	kern/dwarf_define.h	182;"	d
+DW_AT_trampoline	kern/dwarf_define.h	170;"	d
+DW_AT_type	kern/dwarf_define.h	157;"	d
+DW_AT_upper_bound	kern/dwarf_define.h	132;"	d
+DW_AT_use_UTF8	kern/dwarf_define.h	167;"	d
+DW_AT_use_location	kern/dwarf_define.h	158;"	d
+DW_AT_variable_parameter	kern/dwarf_define.h	159;"	d
+DW_AT_virtuality	kern/dwarf_define.h	160;"	d
+DW_AT_visibility	kern/dwarf_define.h	115;"	d
+DW_AT_vtable_elem_location	kern/dwarf_define.h	161;"	d
+DW_CC_hi_user	kern/dwarf_define.h	449;"	d
+DW_CC_lo_user	kern/dwarf_define.h	448;"	d
+DW_CC_nocall	kern/dwarf_define.h	447;"	d
+DW_CC_normal	kern/dwarf_define.h	445;"	d
+DW_CC_program	kern/dwarf_define.h	446;"	d
+DW_CFA_advance_loc	kern/dwarf_define.h	493;"	d
+DW_CFA_advance_loc1	kern/dwarf_define.h	500;"	d
+DW_CFA_advance_loc2	kern/dwarf_define.h	501;"	d
+DW_CFA_advance_loc4	kern/dwarf_define.h	502;"	d
+DW_CFA_def_cfa	kern/dwarf_define.h	510;"	d
+DW_CFA_def_cfa_expression	kern/dwarf_define.h	513;"	d
+DW_CFA_def_cfa_offset	kern/dwarf_define.h	512;"	d
+DW_CFA_def_cfa_offset_sf	kern/dwarf_define.h	517;"	d
+DW_CFA_def_cfa_register	kern/dwarf_define.h	511;"	d
+DW_CFA_def_cfa_sf	kern/dwarf_define.h	516;"	d
+DW_CFA_expression	kern/dwarf_define.h	514;"	d
+DW_CFA_extended	kern/dwarf_define.h	496;"	d
+DW_CFA_high_user	kern/dwarf_define.h	522;"	d
+DW_CFA_lo_user	kern/dwarf_define.h	521;"	d
+DW_CFA_nop	kern/dwarf_define.h	498;"	d
+DW_CFA_offset	kern/dwarf_define.h	494;"	d
+DW_CFA_offset_extended	kern/dwarf_define.h	503;"	d
+DW_CFA_offset_extended_sf	kern/dwarf_define.h	515;"	d
+DW_CFA_register	kern/dwarf_define.h	507;"	d
+DW_CFA_remember_state	kern/dwarf_define.h	508;"	d
+DW_CFA_restore	kern/dwarf_define.h	495;"	d
+DW_CFA_restore_extended	kern/dwarf_define.h	504;"	d
+DW_CFA_restore_state	kern/dwarf_define.h	509;"	d
+DW_CFA_same_value	kern/dwarf_define.h	506;"	d
+DW_CFA_set_loc	kern/dwarf_define.h	499;"	d
+DW_CFA_undefined	kern/dwarf_define.h	505;"	d
+DW_CFA_val_expression	kern/dwarf_define.h	520;"	d
+DW_CFA_val_offset	kern/dwarf_define.h	518;"	d
+DW_CFA_val_offset_sf	kern/dwarf_define.h	519;"	d
+DW_CHILDREN_no	kern/dwarf_define.h	96;"	d
+DW_CHILDREN_yes	kern/dwarf_define.h	97;"	d
+DW_DLE_ARANGE_OFFSET_BAD	kern/dwarf_error.h	/^        DW_DLE_ARANGE_OFFSET_BAD,       \/* Invalid arange offset. *\/$/;"	e	enum:__anon15
+DW_DLE_ARGUMENT	kern/dwarf_error.h	/^        DW_DLE_ARGUMENT,                \/* Invalid argument. *\/$/;"	e	enum:__anon15
+DW_DLE_ATTR_FORM_BAD	kern/dwarf_error.h	/^        DW_DLE_ATTR_FORM_BAD,           \/* Invalid attribute form. *\/$/;"	e	enum:__anon15
+DW_DLE_CU_LENGTH_ERROR	kern/dwarf_error.h	/^        DW_DLE_CU_LENGTH_ERROR,         \/* Invalid compilation unit data. *\/$/;"	e	enum:__anon15
+DW_DLE_DEBUG_ABBREV_NULL	kern/dwarf_error.h	/^        DW_DLE_DEBUG_ABBREV_NULL,       \/* Abbrev not found. *\/$/;"	e	enum:__anon15
+DW_DLE_DEBUG_FRAME_LENGTH_BAD	kern/dwarf_error.h	/^        DW_DLE_DEBUG_FRAME_LENGTH_BAD,  \/* Frame section too short. *\/$/;"	e	enum:__anon15
+DW_DLE_DEBUG_INFO_NULL	kern/dwarf_error.h	/^        DW_DLE_DEBUG_INFO_NULL,         \/* Debug info NULL. *\/$/;"	e	enum:__anon15
+DW_DLE_DEBUG_LINE_LENGTH_BAD	kern/dwarf_error.h	/^        DW_DLE_DEBUG_LINE_LENGTH_BAD,   \/* Line info section too short. *\/$/;"	e	enum:__anon15
+DW_DLE_DEBUG_LOC_SECTION_SHORT	kern/dwarf_error.h	/^        DW_DLE_DEBUG_LOC_SECTION_SHORT, \/* Loclist section too short. *\/$/;"	e	enum:__anon15
+DW_DLE_DEBUG_MACRO_INCONSISTENT	kern/dwarf_error.h	/^        DW_DLE_DEBUG_MACRO_INCONSISTENT,\/* Invalid macinfo data. *\/$/;"	e	enum:__anon15
+DW_DLE_DF_REG_NUM_TOO_HIGH	kern/dwarf_error.h	/^        DW_DLE_DF_REG_NUM_TOO_HIGH,     \/* Insufficient regtable space. *\/$/;"	e	enum:__anon15
+DW_DLE_DIE_NO_CU_CONTEXT	kern/dwarf_error.h	/^        DW_DLE_DIE_NO_CU_CONTEXT,       \/* No current compilation unit. *\/$/;"	e	enum:__anon15
+DW_DLE_DIR_INDEX_BAD	kern/dwarf_error.h	/^        DW_DLE_DIR_INDEX_BAD,           \/* Invalid dir index. *\/$/;"	e	enum:__anon15
+DW_DLE_ELF	kern/dwarf_error.h	/^        DW_DLE_ELF,                     \/* ELF error. *\/$/;"	e	enum:__anon15
+DW_DLE_ELF_SECT_ERR	kern/dwarf_error.h	/^        DW_DLE_ELF_SECT_ERR,            \/* Application callback failed. *\/$/;"	e	enum:__anon15
+DW_DLE_ERROR	kern/dwarf_error.h	/^        DW_DLE_ERROR,                   \/* An error! *\/$/;"	e	enum:__anon15
+DW_DLE_EXPR_LENGTH_BAD	kern/dwarf_error.h	/^        DW_DLE_EXPR_LENGTH_BAD,         \/* Invalid DWARF expression. *\/$/;"	e	enum:__anon15
+DW_DLE_FRAME_AUGMENTATION_UNKNOWN	kern/dwarf_error.h	/^        DW_DLE_FRAME_AUGMENTATION_UNKNOWN, \/* Unknown CIE augmentation. *\/$/;"	e	enum:__anon15
+DW_DLE_FRAME_INSTR_EXEC_ERROR	kern/dwarf_error.h	/^        DW_DLE_FRAME_INSTR_EXEC_ERROR,  \/* Frame instruction exec error. *\/$/;"	e	enum:__anon15
+DW_DLE_FRAME_TABLE_COL_BAD	kern/dwarf_error.h	/^        DW_DLE_FRAME_TABLE_COL_BAD,     \/* Invalid table column. *\/$/;"	e	enum:__anon15
+DW_DLE_FRAME_VERSION_BAD	kern/dwarf_error.h	/^        DW_DLE_FRAME_VERSION_BAD,       \/* Invalid frame section version. *\/$/;"	e	enum:__anon15
+DW_DLE_LINE_FILE_NUM_BAD	kern/dwarf_error.h	/^        DW_DLE_LINE_FILE_NUM_BAD,       \/* Invalid file number. *\/$/;"	e	enum:__anon15
+DW_DLE_LOC_EXPR_BAD	kern/dwarf_error.h	/^        DW_DLE_LOC_EXPR_BAD,            \/* Invalid location expression. *\/$/;"	e	enum:__anon15
+DW_DLE_MEMORY	kern/dwarf_error.h	/^        DW_DLE_MEMORY,                  \/* Insufficient memory. *\/$/;"	e	enum:__anon15
+DW_DLE_NONE	kern/dwarf_error.h	/^        DW_DLE_NONE,                    \/* No error. *\/$/;"	e	enum:__anon15
+DW_DLE_NO_CIE_FOR_FDE	kern/dwarf_error.h	/^        DW_DLE_NO_CIE_FOR_FDE,          \/* CIE not found for certain FDE. *\/$/;"	e	enum:__anon15
+DW_DLE_NO_ENTRY	kern/dwarf_error.h	/^        DW_DLE_NO_ENTRY,                \/* No entry. *\/$/;"	e	enum:__anon15
+DW_DLE_NUM	kern/dwarf_error.h	/^        DW_DLE_NUM                      \/* Max error number. *\/$/;"	e	enum:__anon15
+DW_DLE_PC_NOT_IN_FDE_RANGE	kern/dwarf_error.h	/^        DW_DLE_PC_NOT_IN_FDE_RANGE,     \/* PC requested not in the FDE range. *\/$/;"	e	enum:__anon15
+DW_DLE_VERSION_STAMP_ERROR	kern/dwarf_error.h	/^        DW_DLE_VERSION_STAMP_ERROR,     \/* Invalid version. *\/$/;"	e	enum:__anon15
+DW_DLV_ERROR	kern/dwarf_error.h	6;"	d
+DW_DLV_NO_ENTRY	kern/dwarf_error.h	4;"	d
+DW_DLV_OK	kern/dwarf_error.h	5;"	d
+DW_DSC_label	kern/dwarf_define.h	465;"	d
+DW_DSC_range	kern/dwarf_define.h	466;"	d
+DW_DS_leading_overpunch	kern/dwarf_define.h	460;"	d
+DW_DS_leading_separate	kern/dwarf_define.h	462;"	d
+DW_DS_trailing_overpunch	kern/dwarf_define.h	461;"	d
+DW_DS_trailing_separate	kern/dwarf_define.h	463;"	d
+DW_DS_unsigned	kern/dwarf_define.h	459;"	d
+DW_EH_PE_absptr	kern/dwarf_define.h	528;"	d
+DW_EH_PE_aligned	kern/dwarf_define.h	541;"	d
+DW_EH_PE_datarel	kern/dwarf_define.h	539;"	d
+DW_EH_PE_funcrel	kern/dwarf_define.h	540;"	d
+DW_EH_PE_omit	kern/dwarf_define.h	542;"	d
+DW_EH_PE_pcrel	kern/dwarf_define.h	537;"	d
+DW_EH_PE_sdata2	kern/dwarf_define.h	534;"	d
+DW_EH_PE_sdata4	kern/dwarf_define.h	535;"	d
+DW_EH_PE_sdata8	kern/dwarf_define.h	536;"	d
+DW_EH_PE_sleb128	kern/dwarf_define.h	533;"	d
+DW_EH_PE_textrel	kern/dwarf_define.h	538;"	d
+DW_EH_PE_udata2	kern/dwarf_define.h	530;"	d
+DW_EH_PE_udata4	kern/dwarf_define.h	531;"	d
+DW_EH_PE_udata8	kern/dwarf_define.h	532;"	d
+DW_EH_PE_uleb128	kern/dwarf_define.h	529;"	d
+DW_END_big	kern/dwarf_define.h	405;"	d
+DW_END_default	kern/dwarf_define.h	404;"	d
+DW_END_high_user	kern/dwarf_define.h	408;"	d
+DW_END_little	kern/dwarf_define.h	406;"	d
+DW_END_lo_user	kern/dwarf_define.h	407;"	d
+DW_EXPR_EXPRESSION	kern/dwarf.h	46;"	d
+DW_EXPR_OFFSET	kern/dwarf.h	44;"	d
+DW_EXPR_VAL_EXPRESSION	kern/dwarf.h	47;"	d
+DW_EXPR_VAL_OFFSET	kern/dwarf.h	45;"	d
+DW_FORM_addr	kern/dwarf_define.h	198;"	d
+DW_FORM_block	kern/dwarf_define.h	205;"	d
+DW_FORM_block1	kern/dwarf_define.h	206;"	d
+DW_FORM_block2	kern/dwarf_define.h	199;"	d
+DW_FORM_block4	kern/dwarf_define.h	200;"	d
+DW_FORM_data1	kern/dwarf_define.h	207;"	d
+DW_FORM_data2	kern/dwarf_define.h	201;"	d
+DW_FORM_data4	kern/dwarf_define.h	202;"	d
+DW_FORM_data8	kern/dwarf_define.h	203;"	d
+DW_FORM_exprloc	kern/dwarf_define.h	220;"	d
+DW_FORM_flag	kern/dwarf_define.h	208;"	d
+DW_FORM_flag_present	kern/dwarf_define.h	221;"	d
+DW_FORM_indirect	kern/dwarf_define.h	218;"	d
+DW_FORM_ref1	kern/dwarf_define.h	213;"	d
+DW_FORM_ref2	kern/dwarf_define.h	214;"	d
+DW_FORM_ref4	kern/dwarf_define.h	215;"	d
+DW_FORM_ref8	kern/dwarf_define.h	216;"	d
+DW_FORM_ref_addr	kern/dwarf_define.h	212;"	d
+DW_FORM_ref_sig8	kern/dwarf_define.h	222;"	d
+DW_FORM_ref_udata	kern/dwarf_define.h	217;"	d
+DW_FORM_sdata	kern/dwarf_define.h	209;"	d
+DW_FORM_sec_offset	kern/dwarf_define.h	219;"	d
+DW_FORM_string	kern/dwarf_define.h	204;"	d
+DW_FORM_strp	kern/dwarf_define.h	210;"	d
+DW_FORM_udata	kern/dwarf_define.h	211;"	d
+DW_FRAME_CFA_COL	kern/dwarf.h	49;"	d
+DW_FRAME_CFA_COL3	kern/dwarf.h	42;"	d
+DW_FRAME_HIGHEST_NORMAL_REGISTER	kern/dwarf.h	26;"	d
+DW_FRAME_LAST_REG_NUM	kern/dwarf.h	33;"	d
+DW_FRAME_RA_COL	kern/dwarf.h	29;"	d
+DW_FRAME_REG_INITIAL_VALUE	kern/dwarf.h	37;"	d
+DW_FRAME_SAME_VAL	kern/dwarf.h	41;"	d
+DW_FRAME_STATIC_LINK	kern/dwarf.h	30;"	d
+DW_FRAME_UNDEFINED_VAL	kern/dwarf.h	40;"	d
+DW_ID_case_insensitive	kern/dwarf_define.h	443;"	d
+DW_ID_case_sensitive	kern/dwarf_define.h	440;"	d
+DW_ID_down_case	kern/dwarf_define.h	442;"	d
+DW_ID_up_case	kern/dwarf_define.h	441;"	d
+DW_INL_declared_inlined	kern/dwarf_define.h	454;"	d
+DW_INL_declared_not_inlined	kern/dwarf_define.h	453;"	d
+DW_INL_inlined	kern/dwarf_define.h	452;"	d
+DW_INL_not_inlined	kern/dwarf_define.h	451;"	d
+DW_LANG_Ada83	kern/dwarf_define.h	420;"	d
+DW_LANG_Ada95	kern/dwarf_define.h	430;"	d
+DW_LANG_C	kern/dwarf_define.h	419;"	d
+DW_LANG_C89	kern/dwarf_define.h	418;"	d
+DW_LANG_C99	kern/dwarf_define.h	429;"	d
+DW_LANG_C_plus_plus	kern/dwarf_define.h	421;"	d
+DW_LANG_Cobol74	kern/dwarf_define.h	422;"	d
+DW_LANG_Cobol85	kern/dwarf_define.h	423;"	d
+DW_LANG_D	kern/dwarf_define.h	436;"	d
+DW_LANG_Fortran77	kern/dwarf_define.h	424;"	d
+DW_LANG_Fortran90	kern/dwarf_define.h	425;"	d
+DW_LANG_Fortran95	kern/dwarf_define.h	431;"	d
+DW_LANG_Java	kern/dwarf_define.h	428;"	d
+DW_LANG_Modula2	kern/dwarf_define.h	427;"	d
+DW_LANG_ObjC	kern/dwarf_define.h	433;"	d
+DW_LANG_ObjC_plus_plus	kern/dwarf_define.h	434;"	d
+DW_LANG_PLI	kern/dwarf_define.h	432;"	d
+DW_LANG_Pascal83	kern/dwarf_define.h	426;"	d
+DW_LANG_UPC	kern/dwarf_define.h	435;"	d
+DW_LANG_hi_user	kern/dwarf_define.h	438;"	d
+DW_LANG_lo_user	kern/dwarf_define.h	437;"	d
+DW_LNE_define_file	kern/dwarf_define.h	483;"	d
+DW_LNE_end_sequence	kern/dwarf_define.h	481;"	d
+DW_LNE_hi_user	kern/dwarf_define.h	485;"	d
+DW_LNE_lo_user	kern/dwarf_define.h	484;"	d
+DW_LNE_set_address	kern/dwarf_define.h	482;"	d
+DW_LNS_advance_line	kern/dwarf_define.h	470;"	d
+DW_LNS_advance_pc	kern/dwarf_define.h	469;"	d
+DW_LNS_const_add_pc	kern/dwarf_define.h	475;"	d
+DW_LNS_copy	kern/dwarf_define.h	468;"	d
+DW_LNS_fixed_advance_pc	kern/dwarf_define.h	476;"	d
+DW_LNS_negate_stmt	kern/dwarf_define.h	473;"	d
+DW_LNS_set_basic_block	kern/dwarf_define.h	474;"	d
+DW_LNS_set_column	kern/dwarf_define.h	472;"	d
+DW_LNS_set_epilogue_begin	kern/dwarf_define.h	478;"	d
+DW_LNS_set_file	kern/dwarf_define.h	471;"	d
+DW_LNS_set_isa	kern/dwarf_define.h	479;"	d
+DW_LNS_set_prologue_end	kern/dwarf_define.h	477;"	d
+DW_MACINFO_define	kern/dwarf_define.h	487;"	d
+DW_MACINFO_end_file	kern/dwarf_define.h	490;"	d
+DW_MACINFO_start_file	kern/dwarf_define.h	489;"	d
+DW_MACINFO_undef	kern/dwarf_define.h	488;"	d
+DW_MACINFO_vendor_ext	kern/dwarf_define.h	491;"	d
+DW_OBJECT_LSB	kern/dwarf.h	/^    DW_OBJECT_LSB$/;"	e	enum:__anon8
+DW_OBJECT_MSB	kern/dwarf.h	/^    DW_OBJECT_MSB,$/;"	e	enum:__anon8
+DW_OP_GNU_push_tls_address	kern/dwarf_define.h	379;"	d
+DW_OP_abs	kern/dwarf_define.h	243;"	d
+DW_OP_addr	kern/dwarf_define.h	224;"	d
+DW_OP_and	kern/dwarf_define.h	244;"	d
+DW_OP_bit_piece	kern/dwarf_define.h	375;"	d
+DW_OP_bra	kern/dwarf_define.h	258;"	d
+DW_OP_breg0	kern/dwarf_define.h	330;"	d
+DW_OP_breg1	kern/dwarf_define.h	331;"	d
+DW_OP_breg10	kern/dwarf_define.h	340;"	d
+DW_OP_breg11	kern/dwarf_define.h	341;"	d
+DW_OP_breg12	kern/dwarf_define.h	342;"	d
+DW_OP_breg13	kern/dwarf_define.h	343;"	d
+DW_OP_breg14	kern/dwarf_define.h	344;"	d
+DW_OP_breg15	kern/dwarf_define.h	345;"	d
+DW_OP_breg16	kern/dwarf_define.h	346;"	d
+DW_OP_breg17	kern/dwarf_define.h	347;"	d
+DW_OP_breg18	kern/dwarf_define.h	348;"	d
+DW_OP_breg19	kern/dwarf_define.h	349;"	d
+DW_OP_breg2	kern/dwarf_define.h	332;"	d
+DW_OP_breg20	kern/dwarf_define.h	350;"	d
+DW_OP_breg21	kern/dwarf_define.h	351;"	d
+DW_OP_breg22	kern/dwarf_define.h	352;"	d
+DW_OP_breg23	kern/dwarf_define.h	353;"	d
+DW_OP_breg24	kern/dwarf_define.h	354;"	d
+DW_OP_breg25	kern/dwarf_define.h	355;"	d
+DW_OP_breg26	kern/dwarf_define.h	356;"	d
+DW_OP_breg27	kern/dwarf_define.h	357;"	d
+DW_OP_breg28	kern/dwarf_define.h	358;"	d
+DW_OP_breg29	kern/dwarf_define.h	359;"	d
+DW_OP_breg3	kern/dwarf_define.h	333;"	d
+DW_OP_breg30	kern/dwarf_define.h	360;"	d
+DW_OP_breg31	kern/dwarf_define.h	361;"	d
+DW_OP_breg4	kern/dwarf_define.h	334;"	d
+DW_OP_breg5	kern/dwarf_define.h	335;"	d
+DW_OP_breg6	kern/dwarf_define.h	336;"	d
+DW_OP_breg7	kern/dwarf_define.h	337;"	d
+DW_OP_breg8	kern/dwarf_define.h	338;"	d
+DW_OP_breg9	kern/dwarf_define.h	339;"	d
+DW_OP_bregx	kern/dwarf_define.h	364;"	d
+DW_OP_call2	kern/dwarf_define.h	370;"	d
+DW_OP_call4	kern/dwarf_define.h	371;"	d
+DW_OP_call_frame_cfa	kern/dwarf_define.h	374;"	d
+DW_OP_call_ref	kern/dwarf_define.h	372;"	d
+DW_OP_const1s	kern/dwarf_define.h	227;"	d
+DW_OP_const1u	kern/dwarf_define.h	226;"	d
+DW_OP_const2s	kern/dwarf_define.h	229;"	d
+DW_OP_const2u	kern/dwarf_define.h	228;"	d
+DW_OP_const4s	kern/dwarf_define.h	231;"	d
+DW_OP_const4u	kern/dwarf_define.h	230;"	d
+DW_OP_const8s	kern/dwarf_define.h	233;"	d
+DW_OP_const8u	kern/dwarf_define.h	232;"	d
+DW_OP_consts	kern/dwarf_define.h	235;"	d
+DW_OP_constu	kern/dwarf_define.h	234;"	d
+DW_OP_deref	kern/dwarf_define.h	225;"	d
+DW_OP_deref_size	kern/dwarf_define.h	366;"	d
+DW_OP_div	kern/dwarf_define.h	245;"	d
+DW_OP_drop	kern/dwarf_define.h	237;"	d
+DW_OP_dup	kern/dwarf_define.h	236;"	d
+DW_OP_eq	kern/dwarf_define.h	259;"	d
+DW_OP_fbreg	kern/dwarf_define.h	363;"	d
+DW_OP_form_tls_address	kern/dwarf_define.h	373;"	d
+DW_OP_ge	kern/dwarf_define.h	260;"	d
+DW_OP_gt	kern/dwarf_define.h	261;"	d
+DW_OP_hi_user	kern/dwarf_define.h	380;"	d
+DW_OP_implicit_value	kern/dwarf_define.h	376;"	d
+DW_OP_le	kern/dwarf_define.h	262;"	d
+DW_OP_lit0	kern/dwarf_define.h	266;"	d
+DW_OP_lit1	kern/dwarf_define.h	267;"	d
+DW_OP_lit10	kern/dwarf_define.h	276;"	d
+DW_OP_lit11	kern/dwarf_define.h	277;"	d
+DW_OP_lit12	kern/dwarf_define.h	278;"	d
+DW_OP_lit13	kern/dwarf_define.h	279;"	d
+DW_OP_lit14	kern/dwarf_define.h	280;"	d
+DW_OP_lit15	kern/dwarf_define.h	281;"	d
+DW_OP_lit16	kern/dwarf_define.h	282;"	d
+DW_OP_lit17	kern/dwarf_define.h	283;"	d
+DW_OP_lit18	kern/dwarf_define.h	284;"	d
+DW_OP_lit19	kern/dwarf_define.h	285;"	d
+DW_OP_lit2	kern/dwarf_define.h	268;"	d
+DW_OP_lit20	kern/dwarf_define.h	286;"	d
+DW_OP_lit21	kern/dwarf_define.h	287;"	d
+DW_OP_lit22	kern/dwarf_define.h	288;"	d
+DW_OP_lit23	kern/dwarf_define.h	289;"	d
+DW_OP_lit24	kern/dwarf_define.h	290;"	d
+DW_OP_lit25	kern/dwarf_define.h	291;"	d
+DW_OP_lit26	kern/dwarf_define.h	292;"	d
+DW_OP_lit27	kern/dwarf_define.h	293;"	d
+DW_OP_lit28	kern/dwarf_define.h	294;"	d
+DW_OP_lit29	kern/dwarf_define.h	295;"	d
+DW_OP_lit3	kern/dwarf_define.h	269;"	d
+DW_OP_lit30	kern/dwarf_define.h	296;"	d
+DW_OP_lit31	kern/dwarf_define.h	297;"	d
+DW_OP_lit4	kern/dwarf_define.h	270;"	d
+DW_OP_lit5	kern/dwarf_define.h	271;"	d
+DW_OP_lit6	kern/dwarf_define.h	272;"	d
+DW_OP_lit7	kern/dwarf_define.h	273;"	d
+DW_OP_lit8	kern/dwarf_define.h	274;"	d
+DW_OP_lit9	kern/dwarf_define.h	275;"	d
+DW_OP_lo_user	kern/dwarf_define.h	378;"	d
+DW_OP_lt	kern/dwarf_define.h	263;"	d
+DW_OP_minus	kern/dwarf_define.h	246;"	d
+DW_OP_mod	kern/dwarf_define.h	247;"	d
+DW_OP_mul	kern/dwarf_define.h	248;"	d
+DW_OP_ne	kern/dwarf_define.h	264;"	d
+DW_OP_neg	kern/dwarf_define.h	249;"	d
+DW_OP_nop	kern/dwarf_define.h	368;"	d
+DW_OP_not	kern/dwarf_define.h	250;"	d
+DW_OP_or	kern/dwarf_define.h	251;"	d
+DW_OP_over	kern/dwarf_define.h	238;"	d
+DW_OP_pick	kern/dwarf_define.h	239;"	d
+DW_OP_piece	kern/dwarf_define.h	365;"	d
+DW_OP_plus	kern/dwarf_define.h	252;"	d
+DW_OP_plus_uconst	kern/dwarf_define.h	253;"	d
+DW_OP_push_object_address	kern/dwarf_define.h	369;"	d
+DW_OP_reg0	kern/dwarf_define.h	298;"	d
+DW_OP_reg1	kern/dwarf_define.h	299;"	d
+DW_OP_reg10	kern/dwarf_define.h	308;"	d
+DW_OP_reg11	kern/dwarf_define.h	309;"	d
+DW_OP_reg12	kern/dwarf_define.h	310;"	d
+DW_OP_reg13	kern/dwarf_define.h	311;"	d
+DW_OP_reg14	kern/dwarf_define.h	312;"	d
+DW_OP_reg15	kern/dwarf_define.h	313;"	d
+DW_OP_reg16	kern/dwarf_define.h	314;"	d
+DW_OP_reg17	kern/dwarf_define.h	315;"	d
+DW_OP_reg18	kern/dwarf_define.h	316;"	d
+DW_OP_reg19	kern/dwarf_define.h	317;"	d
+DW_OP_reg2	kern/dwarf_define.h	300;"	d
+DW_OP_reg20	kern/dwarf_define.h	318;"	d
+DW_OP_reg21	kern/dwarf_define.h	319;"	d
+DW_OP_reg22	kern/dwarf_define.h	320;"	d
+DW_OP_reg23	kern/dwarf_define.h	321;"	d
+DW_OP_reg24	kern/dwarf_define.h	322;"	d
+DW_OP_reg25	kern/dwarf_define.h	323;"	d
+DW_OP_reg26	kern/dwarf_define.h	324;"	d
+DW_OP_reg27	kern/dwarf_define.h	325;"	d
+DW_OP_reg28	kern/dwarf_define.h	326;"	d
+DW_OP_reg29	kern/dwarf_define.h	327;"	d
+DW_OP_reg3	kern/dwarf_define.h	301;"	d
+DW_OP_reg30	kern/dwarf_define.h	328;"	d
+DW_OP_reg31	kern/dwarf_define.h	329;"	d
+DW_OP_reg4	kern/dwarf_define.h	302;"	d
+DW_OP_reg5	kern/dwarf_define.h	303;"	d
+DW_OP_reg6	kern/dwarf_define.h	304;"	d
+DW_OP_reg7	kern/dwarf_define.h	305;"	d
+DW_OP_reg8	kern/dwarf_define.h	306;"	d
+DW_OP_reg9	kern/dwarf_define.h	307;"	d
+DW_OP_regx	kern/dwarf_define.h	362;"	d
+DW_OP_rot	kern/dwarf_define.h	241;"	d
+DW_OP_shl	kern/dwarf_define.h	254;"	d
+DW_OP_shr	kern/dwarf_define.h	255;"	d
+DW_OP_shra	kern/dwarf_define.h	256;"	d
+DW_OP_skip	kern/dwarf_define.h	265;"	d
+DW_OP_stack_value	kern/dwarf_define.h	377;"	d
+DW_OP_swap	kern/dwarf_define.h	240;"	d
+DW_OP_xderef	kern/dwarf_define.h	242;"	d
+DW_OP_xderef_size	kern/dwarf_define.h	367;"	d
+DW_OP_xor	kern/dwarf_define.h	257;"	d
+DW_ORD_col_major	kern/dwarf_define.h	457;"	d
+DW_ORD_row_major	kern/dwarf_define.h	456;"	d
+DW_REG_TABLE_SIZE	kern/dwarf.h	52;"	d
+DW_TAG_access_declaration	kern/dwarf_define.h	60;"	d
+DW_TAG_array_type	kern/dwarf_define.h	32;"	d
+DW_TAG_base_type	kern/dwarf_define.h	61;"	d
+DW_TAG_catch_block	kern/dwarf_define.h	62;"	d
+DW_TAG_class_type	kern/dwarf_define.h	33;"	d
+DW_TAG_common_block	kern/dwarf_define.h	51;"	d
+DW_TAG_common_inclusion	kern/dwarf_define.h	52;"	d
+DW_TAG_compile_unit	kern/dwarf_define.h	43;"	d
+DW_TAG_condition	kern/dwarf_define.h	88;"	d
+DW_TAG_const_type	kern/dwarf_define.h	63;"	d
+DW_TAG_constant	kern/dwarf_define.h	64;"	d
+DW_TAG_dwarf_procedure	kern/dwarf_define.h	80;"	d
+DW_TAG_entry_point	kern/dwarf_define.h	34;"	d
+DW_TAG_enumeration_type	kern/dwarf_define.h	35;"	d
+DW_TAG_enumerator	kern/dwarf_define.h	65;"	d
+DW_TAG_formal_parameter	kern/dwarf_define.h	36;"	d
+DW_TAG_friend	kern/dwarf_define.h	66;"	d
+DW_TAG_hi_user	kern/dwarf_define.h	94;"	d
+DW_TAG_imported_declaration	kern/dwarf_define.h	37;"	d
+DW_TAG_imported_module	kern/dwarf_define.h	84;"	d
+DW_TAG_imported_unit	kern/dwarf_define.h	87;"	d
+DW_TAG_inheritance	kern/dwarf_define.h	53;"	d
+DW_TAG_inlined_subroutine	kern/dwarf_define.h	54;"	d
+DW_TAG_interface_type	kern/dwarf_define.h	82;"	d
+DW_TAG_label	kern/dwarf_define.h	38;"	d
+DW_TAG_lexical_block	kern/dwarf_define.h	39;"	d
+DW_TAG_lo_user	kern/dwarf_define.h	93;"	d
+DW_TAG_member	kern/dwarf_define.h	40;"	d
+DW_TAG_module	kern/dwarf_define.h	55;"	d
+DW_TAG_namelist	kern/dwarf_define.h	67;"	d
+DW_TAG_namelist_item	kern/dwarf_define.h	68;"	d
+DW_TAG_namespace	kern/dwarf_define.h	83;"	d
+DW_TAG_packed_type	kern/dwarf_define.h	69;"	d
+DW_TAG_partial_unit	kern/dwarf_define.h	86;"	d
+DW_TAG_pointer_type	kern/dwarf_define.h	41;"	d
+DW_TAG_ptr_to_member_type	kern/dwarf_define.h	56;"	d
+DW_TAG_reference_type	kern/dwarf_define.h	42;"	d
+DW_TAG_restrict_type	kern/dwarf_define.h	81;"	d
+DW_TAG_rvalue_reference_type	kern/dwarf_define.h	91;"	d
+DW_TAG_set_type	kern/dwarf_define.h	57;"	d
+DW_TAG_shared_type	kern/dwarf_define.h	89;"	d
+DW_TAG_string_type	kern/dwarf_define.h	44;"	d
+DW_TAG_structure_type	kern/dwarf_define.h	45;"	d
+DW_TAG_subprogram	kern/dwarf_define.h	70;"	d
+DW_TAG_subrange_type	kern/dwarf_define.h	58;"	d
+DW_TAG_subroutine_type	kern/dwarf_define.h	46;"	d
+DW_TAG_template_alias	kern/dwarf_define.h	92;"	d
+DW_TAG_template_type_param	kern/dwarf_define.h	72;"	d
+DW_TAG_template_type_parameter	kern/dwarf_define.h	71;"	d
+DW_TAG_template_value_param	kern/dwarf_define.h	74;"	d
+DW_TAG_template_value_parameter	kern/dwarf_define.h	73;"	d
+DW_TAG_thrown_type	kern/dwarf_define.h	75;"	d
+DW_TAG_try_block	kern/dwarf_define.h	76;"	d
+DW_TAG_type_unit	kern/dwarf_define.h	90;"	d
+DW_TAG_typedef	kern/dwarf_define.h	47;"	d
+DW_TAG_union_type	kern/dwarf_define.h	48;"	d
+DW_TAG_unspecified_parameters	kern/dwarf_define.h	49;"	d
+DW_TAG_unspecified_type	kern/dwarf_define.h	85;"	d
+DW_TAG_variable	kern/dwarf_define.h	78;"	d
+DW_TAG_variant	kern/dwarf_define.h	50;"	d
+DW_TAG_variant_part	kern/dwarf_define.h	77;"	d
+DW_TAG_volatile_type	kern/dwarf_define.h	79;"	d
+DW_TAG_with_stmt	kern/dwarf_define.h	59;"	d
+DW_VIRTUALITY_none	kern/dwarf_define.h	414;"	d
+DW_VIRTUALITY_pure_virtual	kern/dwarf_define.h	416;"	d
+DW_VIRTUALITY_virtual	kern/dwarf_define.h	415;"	d
+DW_VIS_exported	kern/dwarf_define.h	411;"	d
+DW_VIS_local	kern/dwarf_define.h	410;"	d
+DW_VIS_qualified	kern/dwarf_define.h	412;"	d
+Disassembly	obj/boot/boot.asm	/^Disassembly of section .text:$/;"	l
+Disassembly	obj/kern/kernel.asm	/^Disassembly of section .bootstrap:$/;"	l
+Disassembly	obj/kern/kernel.asm	/^Disassembly of section .text:$/;"	l
+Disassembly	obj/user/badsegment.asm	/^Disassembly of section .text:$/;"	l
+Disassembly	obj/user/breakpoint.asm	/^Disassembly of section .text:$/;"	l
+Disassembly	obj/user/buggyhello.asm	/^Disassembly of section .text:$/;"	l
+Disassembly	obj/user/buggyhello2.asm	/^Disassembly of section .text:$/;"	l
+Disassembly	obj/user/divzero.asm	/^Disassembly of section .text:$/;"	l
+Disassembly	obj/user/evilhello.asm	/^Disassembly of section .text:$/;"	l
+Disassembly	obj/user/faultread.asm	/^Disassembly of section .text:$/;"	l
+Disassembly	obj/user/faultreadkernel.asm	/^Disassembly of section .text:$/;"	l
+Disassembly	obj/user/faultwrite.asm	/^Disassembly of section .text:$/;"	l
+Disassembly	obj/user/faultwritekernel.asm	/^Disassembly of section .text:$/;"	l
+Disassembly	obj/user/hello.asm	/^Disassembly of section .text:$/;"	l
+Disassembly	obj/user/softint.asm	/^Disassembly of section .text:$/;"	l
+Disassembly	obj/user/testbss.asm	/^Disassembly of section .text:$/;"	l
+Dwarf_Abbrev	kern/dwarf.h	/^}Dwarf_Abbrev;$/;"	t	typeref:struct:_Dwarf_Abbrev
+Dwarf_Addr	kern/dwarf.h	/^typedef uint64_t        Dwarf_Addr;$/;"	t
+Dwarf_AttrDef	kern/dwarf.h	/^}Dwarf_AttrDef;$/;"	t	typeref:struct:_Dwarf_AttrDef
+Dwarf_Attribute	kern/dwarf.h	/^}Dwarf_Attribute;$/;"	t	typeref:struct:_Dwarf_Attribute
+Dwarf_Block	kern/dwarf.h	/^} Dwarf_Block;$/;"	t	typeref:struct:__anon6
+Dwarf_Bool	kern/dwarf.h	/^typedef int             Dwarf_Bool;$/;"	t
+Dwarf_CU	kern/dwarf.h	/^}Dwarf_CU;$/;"	t	typeref:struct:_Dwarf_CU
+Dwarf_Cie	kern/dwarf.h	/^typedef struct _Dwarf_Cie       *Dwarf_Cie;$/;"	t	typeref:struct:_Dwarf_Cie
+Dwarf_Debug	kern/dwarf.h	/^typedef struct _Dwarf_Debug     *Dwarf_Debug;$/;"	t	typeref:struct:_Dwarf_Debug
+Dwarf_Die	kern/dwarf.h	/^}Dwarf_Die;$/;"	t	typeref:struct:_Dwarf_Die
+Dwarf_Endianness	kern/dwarf.h	/^} Dwarf_Endianness;$/;"	t	typeref:enum:__anon8
+Dwarf_Endianness	obj/kern/kernel.asm	/^Dwarf_Endianness$/;"	l
+Dwarf_Error	kern/dwarf.h	/^} Dwarf_Error;$/;"	t	typeref:struct:_Dwarf_Error
+Dwarf_Fde	kern/dwarf.h	/^typedef struct _Dwarf_Fde       *Dwarf_Fde;$/;"	t	typeref:struct:_Dwarf_Fde
+Dwarf_Half	kern/dwarf.h	/^typedef uint16_t        Dwarf_Half;$/;"	t
+Dwarf_Half	obj/kern/kernel.asm	/^Dwarf_Half$/;"	l
+Dwarf_Line	kern/dwarf.h	/^typedef _Dwarf_Line     *Dwarf_Line;$/;"	t
+Dwarf_LineInfo	kern/dwarf.h	/^typedef _Dwarf_LineInfo  *Dwarf_LineInfo;$/;"	t
+Dwarf_Loc	kern/dwarf.h	/^} Dwarf_Loc;$/;"	t	typeref:struct:__anon4
+Dwarf_Locdesc	kern/dwarf.h	/^} Dwarf_Locdesc;  $/;"	t	typeref:struct:__anon5
+Dwarf_Off	kern/dwarf.h	/^typedef off_t           Dwarf_Off;$/;"	t
+Dwarf_P_Fde	kern/dwarf.h	/^typedef struct _Dwarf_Fde       *Dwarf_P_Fde;$/;"	t	typeref:struct:_Dwarf_Fde
+Dwarf_Ptr	kern/dwarf.h	/^typedef void            *Dwarf_Ptr;$/;"	t
+Dwarf_Regtable	kern/dwarf.h	/^} Dwarf_Regtable;$/;"	t	typeref:struct:__anon9
+Dwarf_Regtable3	kern/dwarf.h	/^} Dwarf_Regtable3;$/;"	t	typeref:struct:__anon3
+Dwarf_Regtable_Entry3	kern/dwarf.h	/^} Dwarf_Regtable_Entry3;$/;"	t	typeref:struct:__anon2
+Dwarf_Section	kern/dwarf.h	/^} Dwarf_Section;$/;"	t	typeref:struct:_Dwarf_Section
+Dwarf_Section	obj/kern/kernel.asm	/^Dwarf_Section *$/;"	l
+Dwarf_Signed	kern/dwarf.h	/^typedef int64_t         Dwarf_Signed;$/;"	t
+Dwarf_Small	kern/dwarf.h	/^typedef uint8_t         Dwarf_Small;$/;"	t
+Dwarf_Small	obj/kern/kernel.asm	/^Dwarf_Small$/;"	l
+Dwarf_Unsigned	kern/dwarf.h	/^typedef uint64_t        Dwarf_Unsigned;$/;"	t
+Dwarf_Unsigned	kern/libdwarf_rw.c	261;"	d	file:
+Dwarf_Unsigned	obj/kern/kernel.asm	/^#define Dwarf_Unsigned uint64_t$/;"	d
+E0ESC	kern/console.c	224;"	d	file:
+EFER_LME	inc/mmu.h	118;"	d
+EFER_MSR	inc/mmu.h	117;"	d
+EI_DATA	kern/dwarf_elf.h	7;"	d
+EI_NIDENT	kern/dwarf_elf.h	6;"	d
+ELFCLASS32	kern/dwarf_elf.h	14;"	d
+ELFCLASS64	kern/dwarf_elf.h	15;"	d
+ELFCLASSNONE	kern/dwarf_elf.h	13;"	d
+ELFDATA2LSB	kern/dwarf_elf.h	10;"	d
+ELFDATA2MSB	kern/dwarf_elf.h	11;"	d
+ELFDATANONE	kern/dwarf_elf.h	9;"	d
+ELFHDR	boot/main.c	33;"	d	file:
+ELF_H	kern/dwarf_elf.h	2;"	d
+ELF_MAGIC	inc/elf.h	4;"	d
+ELF_MAGIC	kern/dwarf_elf.h	4;"	d
+ELF_PROG_FLAG_EXEC	inc/elf.h	53;"	d
+ELF_PROG_FLAG_EXEC	kern/dwarf_elf.h	123;"	d
+ELF_PROG_FLAG_READ	inc/elf.h	55;"	d
+ELF_PROG_FLAG_READ	kern/dwarf_elf.h	125;"	d
+ELF_PROG_FLAG_WRITE	inc/elf.h	54;"	d
+ELF_PROG_FLAG_WRITE	kern/dwarf_elf.h	124;"	d
+ELF_PROG_LOAD	inc/elf.h	50;"	d
+ELF_PROG_LOAD	kern/dwarf_elf.h	120;"	d
+ELF_SHN_UNDEF	inc/elf.h	64;"	d
+ELF_SHN_UNDEF	kern/dwarf_elf.h	134;"	d
+ELF_SHT_NULL	inc/elf.h	58;"	d
+ELF_SHT_NULL	kern/dwarf_elf.h	128;"	d
+ELF_SHT_PROGBITS	inc/elf.h	59;"	d
+ELF_SHT_PROGBITS	kern/dwarf_elf.h	129;"	d
+ELF_SHT_STRTAB	inc/elf.h	61;"	d
+ELF_SHT_STRTAB	kern/dwarf_elf.h	131;"	d
+ELF_SHT_SYMTAB	inc/elf.h	60;"	d
+ELF_SHT_SYMTAB	kern/dwarf_elf.h	130;"	d
+ENVGENSHIFT	kern/env.c	22;"	d	file:
+ENVX	inc/env.h	31;"	d
+ENV_CREATE	kern/env.h	28;"	d
+ENV_DYING	inc/env.h	/^	ENV_DYING,$/;"	e	enum:__anon18
+ENV_FREE	inc/env.h	/^	ENV_FREE = 0,$/;"	e	enum:__anon18
+ENV_NOT_RUNNABLE	inc/env.h	/^	ENV_NOT_RUNNABLE$/;"	e	enum:__anon18
+ENV_PASTE3	kern/env.h	26;"	d
+ENV_RUNNABLE	inc/env.h	/^	ENV_RUNNABLE,$/;"	e	enum:__anon18
+ENV_RUNNING	inc/env.h	/^	ENV_RUNNING,$/;"	e	enum:__anon18
+ENV_TYPE_USER	inc/env.h	/^	ENV_TYPE_USER = 0,$/;"	e	enum:EnvType
+EXTPHYSMEM	inc/memlayout.h	96;"	d
+E_BAD_ENV	inc/error.h	/^	E_BAD_ENV	= 2,	\/\/ Environment doesn't exist or otherwise$/;"	e	enum:__anon17
+E_FAULT	inc/error.h	/^	E_FAULT		= 6,	\/\/ Memory fault$/;"	e	enum:__anon17
+E_INVAL	inc/error.h	/^	E_INVAL		= 3,	\/\/ Invalid parameter$/;"	e	enum:__anon17
+E_NO_FREE_ENV	inc/error.h	/^	E_NO_FREE_ENV	= 5,	\/\/ Attempt to create a new environment beyond$/;"	e	enum:__anon17
+E_NO_MEM	inc/error.h	/^	E_NO_MEM	= 4,	\/\/ Request failed due to memory shortage$/;"	e	enum:__anon17
+E_NO_SYS	inc/error.h	/^	E_NO_SYS	= 7,	\/\/ Unimplemented system call$/;"	e	enum:__anon17
+E_UNSPECIFIED	inc/error.h	/^	E_UNSPECIFIED	= 1,	\/\/ Unspecified or unknown problem$/;"	e	enum:__anon17
+Elf	inc/elf.h	/^struct Elf {$/;"	s
+Elf	kern/dwarf_elf.h	113;"	d
+Elf	kern/dwarf_elf.h	66;"	d
+Elf32	kern/dwarf_elf.h	/^}Elf32;$/;"	t	typeref:struct:_Elf32
+Elf64	kern/dwarf_elf.h	/^}Elf64;$/;"	t	typeref:struct:_Elf64
+Env	inc/env.h	/^struct Env {$/;"	s
+EnvType	inc/env.h	/^enum EnvType {$/;"	g
+FEC_PR	inc/mmu.h	144;"	d
+FEC_U	inc/mmu.h	146;"	d
+FEC_WR	inc/mmu.h	145;"	d
+FL_AC	inc/mmu.h	138;"	d
+FL_AF	inc/mmu.h	123;"	d
+FL_CF	inc/mmu.h	121;"	d
+FL_DF	inc/mmu.h	128;"	d
+FL_ID	inc/mmu.h	141;"	d
+FL_IF	inc/mmu.h	127;"	d
+FL_IOPL_0	inc/mmu.h	131;"	d
+FL_IOPL_1	inc/mmu.h	132;"	d
+FL_IOPL_2	inc/mmu.h	133;"	d
+FL_IOPL_3	inc/mmu.h	134;"	d
+FL_IOPL_MASK	inc/mmu.h	130;"	d
+FL_NT	inc/mmu.h	135;"	d
+FL_OF	inc/mmu.h	129;"	d
+FL_PF	inc/mmu.h	122;"	d
+FL_RF	inc/mmu.h	136;"	d
+FL_SF	inc/mmu.h	125;"	d
+FL_TF	inc/mmu.h	126;"	d
+FL_VIF	inc/mmu.h	139;"	d
+FL_VIP	inc/mmu.h	140;"	d
+FL_VM	inc/mmu.h	137;"	d
+FL_ZF	inc/mmu.h	124;"	d
+GCCPREFIX	GNUmakefile	/^GCCPREFIX := $(shell if i386-jos-elf-objdump -i 2>&1 | grep '^elf64-x86-64$$' >\/dev\/null 2>&1; \\$/;"	m
+GCC_LIB	GNUmakefile	/^GCC_LIB := $(shell $(CC) $(CFLAGS) -print-libgcc-file-name)$/;"	m
+GDBClient	gradelib.py	/^class GDBClient(object):$/;"	c
+GDBPORT	GNUmakefile	/^GDBPORT	:= $(shell expr `id -u` % 5000 + 25000)$/;"	m
+GD_KD	inc/memlayout.h	17;"	d
+GD_KT	inc/memlayout.h	16;"	d
+GD_TSS0	inc/memlayout.h	20;"	d
+GD_UD	inc/memlayout.h	19;"	d
+GD_UT	inc/memlayout.h	18;"	d
+Gatedesc	inc/mmu.h	/^struct Gatedesc {$/;"	s
+IMAGES	GNUmakefile	/^IMAGES = $(OBJDIR)\/kern\/kernel.img$/;"	m
+INITCFA	kern/libdwarf_frame.c	146;"	d	file:
+INITCFA	kern/libdwarf_frame.c	496;"	d	file:
+INITRL	kern/libdwarf_frame.c	148;"	d	file:
+INITRL	kern/libdwarf_frame.c	498;"	d	file:
+IOPHYSMEM	inc/memlayout.h	95;"	d
+IO_RTC	kern/kclock.h	9;"	d
+IRQ_ERROR	inc/trap.h	40;"	d
+IRQ_IDE	inc/trap.h	39;"	d
+IRQ_KBD	inc/trap.h	36;"	d
+IRQ_OFFSET	inc/trap.h	32;"	d
+IRQ_SERIAL	inc/trap.h	37;"	d
+IRQ_SPURIOUS	inc/trap.h	38;"	d
+IRQ_TIMER	inc/trap.h	35;"	d
+JOS_INC_ASSERT_H	inc/assert.h	4;"	d
+JOS_INC_ELF_H	inc/elf.h	2;"	d
+JOS_INC_ENV_H	inc/env.h	4;"	d
+JOS_INC_ERROR_H	inc/error.h	4;"	d
+JOS_INC_LIB_H	inc/lib.h	8;"	d
+JOS_INC_MEMLAYOUT_H	inc/memlayout.h	2;"	d
+JOS_INC_MMU_H	inc/mmu.h	2;"	d
+JOS_INC_QUEUE_H	inc/queue.h	36;"	d
+JOS_INC_STDARG_H	inc/stdarg.h	4;"	d
+JOS_INC_STDIO_H	inc/stdio.h	2;"	d
+JOS_INC_STRING_H	inc/string.h	2;"	d
+JOS_INC_SYSCALL_H	inc/syscall.h	2;"	d
+JOS_INC_TRAP_H	inc/trap.h	2;"	d
+JOS_INC_TYPES_H	inc/types.h	2;"	d
+JOS_INC_X86_H	inc/x86.h	2;"	d
+JOS_KBDREG_H	inc/kbdreg.h	2;"	d
+JOS_KERN_ENV_H	kern/env.h	4;"	d
+JOS_KERN_KCLOCK_H	kern/kclock.h	4;"	d
+JOS_KERN_KDEBUG_H	kern/kdebug.h	2;"	d
+JOS_KERN_MONITOR_H	kern/monitor.h	2;"	d
+JOS_KERN_PMAP_H	kern/pmap.h	4;"	d
+JOS_KERN_SYSCALL_H	kern/syscall.h	2;"	d
+JOS_KERN_TRAP_H	kern/trap.h	4;"	d
+JOS_STAB_H	inc/stab.h	2;"	d
+KADDR	kern/pmap.h	36;"	d
+KBCMDP	inc/kbdreg.h	29;"	d
+KBC_AUXDISABLE	inc/kbdreg.h	32;"	d
+KBC_AUXECHO	inc/kbdreg.h	36;"	d
+KBC_AUXENABLE	inc/kbdreg.h	33;"	d
+KBC_AUXTEST	inc/kbdreg.h	34;"	d
+KBC_AUXWRITE	inc/kbdreg.h	37;"	d
+KBC_DISABLE	inc/kbdreg.h	66;"	d
+KBC_ECHO	inc/kbdreg.h	71;"	d
+KBC_ENABLE	inc/kbdreg.h	67;"	d
+KBC_KBDDISABLE	inc/kbdreg.h	40;"	d
+KBC_KBDECHO	inc/kbdreg.h	35;"	d
+KBC_KBDENABLE	inc/kbdreg.h	41;"	d
+KBC_KBDTEST	inc/kbdreg.h	39;"	d
+KBC_MODEIND	inc/kbdreg.h	70;"	d
+KBC_PULSE0	inc/kbdreg.h	42;"	d
+KBC_PULSE1	inc/kbdreg.h	43;"	d
+KBC_PULSE2	inc/kbdreg.h	44;"	d
+KBC_PULSE3	inc/kbdreg.h	45;"	d
+KBC_RAMREAD	inc/kbdreg.h	30;"	d
+KBC_RAMWRITE	inc/kbdreg.h	31;"	d
+KBC_RESEND	inc/kbdreg.h	64;"	d
+KBC_RESET	inc/kbdreg.h	63;"	d
+KBC_SELFTEST	inc/kbdreg.h	38;"	d
+KBC_SETDEFAULT	inc/kbdreg.h	65;"	d
+KBC_SETTABLE	inc/kbdreg.h	69;"	d
+KBC_TYPEMATIC	inc/kbdreg.h	68;"	d
+KBDATAP	inc/kbdreg.h	47;"	d
+KBOUTP	inc/kbdreg.h	48;"	d
+KBR_ACK	inc/kbdreg.h	76;"	d
+KBR_BREAK	inc/kbdreg.h	79;"	d
+KBR_ECHO	inc/kbdreg.h	81;"	d
+KBR_EXTENDED	inc/kbdreg.h	74;"	d
+KBR_FAILURE	inc/kbdreg.h	78;"	d
+KBR_OVERRUN	inc/kbdreg.h	77;"	d
+KBR_RESEND	inc/kbdreg.h	75;"	d
+KBR_RSTDONE	inc/kbdreg.h	80;"	d
+KBSTATP	inc/kbdreg.h	19;"	d
+KBS_DIB	inc/kbdreg.h	20;"	d
+KBS_IBF	inc/kbdreg.h	21;"	d
+KBS_NOSEC	inc/kbdreg.h	24;"	d
+KBS_OCMD	inc/kbdreg.h	23;"	d
+KBS_PERR	inc/kbdreg.h	27;"	d
+KBS_RERR	inc/kbdreg.h	26;"	d
+KBS_TERR	inc/kbdreg.h	25;"	d
+KBS_WARM	inc/kbdreg.h	22;"	d
+KC8_CPU	inc/kbdreg.h	57;"	d
+KC8_IGNSEC	inc/kbdreg.h	56;"	d
+KC8_KDISABLE	inc/kbdreg.h	55;"	d
+KC8_KENABLE	inc/kbdreg.h	59;"	d
+KC8_MDISABLE	inc/kbdreg.h	54;"	d
+KC8_MENABLE	inc/kbdreg.h	58;"	d
+KC8_TRANS	inc/kbdreg.h	53;"	d
+KELFHDR	kern/elf_rw.c	13;"	d	file:
+KERNBASE	inc/memlayout.h	90;"	d
+KERN_CFLAGS	GNUmakefile	/^KERN_CFLAGS := $(CFLAGS) -DJOS_KERNEL -DDWARF_SUPPORT -gdwarf-2 -mcmodel=large -m64$/;"	m
+KEY_DEL	inc/kbdreg.h	14;"	d
+KEY_DN	inc/kbdreg.h	8;"	d
+KEY_END	inc/kbdreg.h	6;"	d
+KEY_HOME	inc/kbdreg.h	5;"	d
+KEY_INS	inc/kbdreg.h	13;"	d
+KEY_LF	inc/kbdreg.h	9;"	d
+KEY_PGDN	inc/kbdreg.h	12;"	d
+KEY_PGUP	inc/kbdreg.h	11;"	d
+KEY_RT	inc/kbdreg.h	10;"	d
+KEY_UP	inc/kbdreg.h	7;"	d
+KSTACKTOP	inc/memlayout.h	99;"	d
+KSTKGAP	inc/memlayout.h	101;"	d
+KSTKSIZE	inc/memlayout.h	100;"	d
+K_LDCMDBYTE	inc/kbdreg.h	51;"	d
+K_RDCMDBYTE	inc/kbdreg.h	50;"	d
+LAB	conf/lab.mk	/^LAB=3$/;"	m
+LABSETUP	GNUmakefile	/^LABSETUP ?= .\/$/;"	m
+LD	GNUmakefile	/^LD	:= $(GCCPREFIX)ld$/;"	m
+LDFLAGS	GNUmakefile	/^LDFLAGS := -m elf_x86_64 -z max-page-size=0x1000 --print-gc-sections$/;"	m
+LINE	kern/libdwarf_lineno.c	213;"	d	file:
+LINE	kern/libdwarf_lineno.c	94;"	d	file:
+LIST_EMPTY	inc/queue.h	142;"	d
+LIST_ENTRY	inc/queue.h	129;"	d
+LIST_FIRST	inc/queue.h	147;"	d
+LIST_FOREACH	inc/queue.h	160;"	d
+LIST_HEAD	inc/queue.h	109;"	d
+LIST_HEAD_INITIALIZER	inc/queue.h	118;"	d
+LIST_INIT	inc/queue.h	168;"	d
+LIST_INSERT_AFTER	inc/queue.h	177;"	d
+LIST_INSERT_BEFORE	inc/queue.h	190;"	d
+LIST_INSERT_HEAD	inc/queue.h	201;"	d
+LIST_NEXT	inc/queue.h	153;"	d
+LIST_REMOVE	inc/queue.h	212;"	d
+LOG2NENV	inc/env.h	29;"	d
+MAKE_TIMESTAMP	gradelib.py	/^MAKE_TIMESTAMP = 0$/;"	v
+MAX	inc/types.h	49;"	d
+MAXARGS	kern/monitor.c	162;"	d	file:
+MAXARGS	obj/kern/kernel.asm	/^#define MAXARGS 16$/;"	d
+MAXERROR	inc/error.h	/^	MAXERROR$/;"	e	enum:__anon17
+MB_FLAG_MMAP	kern/multiboot.h	29;"	d
+MB_TYPE_ACPI_NVS	kern/multiboot.h	26;"	d
+MB_TYPE_ACPI_RECLM	kern/multiboot.h	25;"	d
+MB_TYPE_BAD	kern/multiboot.h	27;"	d
+MB_TYPE_RESERVED	kern/multiboot.h	24;"	d
+MB_TYPE_USABLE	kern/multiboot.h	23;"	d
+MC_NVRAM_SIZE	kern/kclock.h	12;"	d
+MC_NVRAM_START	kern/kclock.h	11;"	d
+MIN	inc/types.h	43;"	d
+MMIOBASE	inc/memlayout.h	105;"	d
+MMIOLIM	inc/memlayout.h	104;"	d
+MONO_BASE	kern/console.h	11;"	d
+MONO_BUF	kern/console.h	12;"	d
+MULTIBOOT_HEADER_FLAGS	kern/entry.S	/^#define MULTIBOOT_HEADER_FLAGS (0)$/;"	d
+MULTIBOOT_HEADER_MAGIC	kern/entry.S	/^#define MULTIBOOT_HEADER_MAGIC (0x1BADB002)$/;"	d
+NATIVE_CFLAGS	GNUmakefile	/^NATIVE_CFLAGS := $(CFLAGS) $(DEFS) $(LABDEFS) -I$(TOP) -MD -Wall$/;"	m
+NATTRDEF	kern/dwarf.h	4;"	d
+NATTRVAL	kern/dwarf.h	5;"	d
+NCC	GNUmakefile	/^NCC	:= gcc $(CC_VER) -pipe$/;"	m
+NCOMMANDS	kern/monitor.c	32;"	d	file:
+NDEBUG_SECT	kern/elf_rw.c	/^	NDEBUG_SECT,$/;"	e	enum:__anon11	file:
+NENV	inc/env.h	30;"	d
+NM	GNUmakefile	/^NM	:= $(GCCPREFIX)nm$/;"	m
+NO	kern/console.c	214;"	d	file:
+NPDENTRIES	inc/mmu.h	56;"	d
+NPDPENTRIES	inc/mmu.h	55;"	d
+NPMLENTRIES	inc/mmu.h	54;"	d
+NPTENTRIES	inc/mmu.h	57;"	d
+NSYSCALLS	inc/syscall.h	/^	NSYSCALLS$/;"	e	enum:__anon19
+NULL	inc/stdio.h	7;"	d
+NULL	inc/types.h	5;"	d
+NUMLOCK	kern/console.c	221;"	d	file:
+NVRAM_BASEHI	kern/kclock.h	16;"	d
+NVRAM_BASELO	kern/kclock.h	15;"	d
+NVRAM_CENTURY	kern/kclock.h	31;"	d
+NVRAM_EXTGT16HI	kern/kclock.h	28;"	d
+NVRAM_EXTGT16LO	kern/kclock.h	27;"	d
+NVRAM_EXTHI	kern/kclock.h	20;"	d
+NVRAM_EXTLO	kern/kclock.h	19;"	d
+NVRAM_PEXTHI	kern/kclock.h	24;"	d
+NVRAM_PEXTLO	kern/kclock.h	23;"	d
+N_BCOMM	inc/stab.h	37;"	d
+N_BINCL	inc/stab.h	29;"	d
+N_BSLINE	inc/stab.h	25;"	d
+N_DSLINE	inc/stab.h	24;"	d
+N_ECOML	inc/stab.h	39;"	d
+N_ECOMM	inc/stab.h	38;"	d
+N_EINCL	inc/stab.h	32;"	d
+N_ENTRY	inc/stab.h	33;"	d
+N_EXCL	inc/stab.h	35;"	d
+N_FNAME	inc/stab.h	16;"	d
+N_FUN	inc/stab.h	17;"	d
+N_GSYM	inc/stab.h	15;"	d
+N_LBRAC	inc/stab.h	34;"	d
+N_LCSYM	inc/stab.h	19;"	d
+N_LENG	inc/stab.h	40;"	d
+N_LSYM	inc/stab.h	28;"	d
+N_MAIN	inc/stab.h	20;"	d
+N_PC	inc/stab.h	21;"	d
+N_PSYM	inc/stab.h	31;"	d
+N_RBRAC	inc/stab.h	36;"	d
+N_RSYM	inc/stab.h	22;"	d
+N_SLINE	inc/stab.h	23;"	d
+N_SO	inc/stab.h	27;"	d
+N_SOL	inc/stab.h	30;"	d
+N_SSYM	inc/stab.h	26;"	d
+N_STSYM	inc/stab.h	18;"	d
+OBJCOPY	GNUmakefile	/^OBJCOPY	:= $(GCCPREFIX)objcopy$/;"	m
+OBJDIR	GNUmakefile	/^OBJDIR := obj$/;"	m
+OBJDIRS	GNUmakefile	/^OBJDIRS :=$/;"	m
+OBJDUMP	GNUmakefile	/^OBJDUMP	:= $(GCCPREFIX)objdump$/;"	m
+OFFSET_CORRECT	kern/elf_rw.c	12;"	d	file:
+O_ACCMODE	inc/lib.h	49;"	d
+O_CREAT	inc/lib.h	51;"	d
+O_EXCL	inc/lib.h	53;"	d
+O_MKDIR	inc/lib.h	54;"	d
+O_RDONLY	inc/lib.h	46;"	d
+O_RDWR	inc/lib.h	48;"	d
+O_TRUNC	inc/lib.h	52;"	d
+O_WRONLY	inc/lib.h	47;"	d
+PACKAGEDATE	conf/lab.mk	/^PACKAGEDATE=Mon Aug 25 23:22:32 EDT 2014$/;"	m
+PADDR	kern/pmap.h	26;"	d
+PDPE	inc/mmu.h	44;"	d
+PDPESHIFT	inc/mmu.h	67;"	d
+PDX	inc/mmu.h	35;"	d
+PDXSHIFT	inc/mmu.h	66;"	d
+PERL	GNUmakefile	/^PERL	:= perl$/;"	m
+PFTEMP	inc/memlayout.h	143;"	d
+PGADDR	inc/mmu.h	51;"	d
+PGNUM	inc/mmu.h	32;"	d
+PGOFF	inc/mmu.h	48;"	d
+PGSHIFT	inc/mmu.h	60;"	d
+PGSIZE	inc/mmu.h	59;"	d
+PML4	inc/mmu.h	40;"	d
+PML4SHIFT	inc/mmu.h	68;"	d
+POPA	kern/macro.h	19;"	d
+POPA_	kern/macro.h	37;"	d
+PPN	inc/mmu.h	30;"	d
+PTE_A	inc/mmu.h	76;"	d
+PTE_ADDR	inc/mmu.h	92;"	d
+PTE_AVAIL	inc/mmu.h	83;"	d
+PTE_D	inc/mmu.h	77;"	d
+PTE_MBZ	inc/mmu.h	79;"	d
+PTE_P	inc/mmu.h	71;"	d
+PTE_PCD	inc/mmu.h	75;"	d
+PTE_PS	inc/mmu.h	78;"	d
+PTE_PWT	inc/mmu.h	74;"	d
+PTE_SYSCALL	inc/mmu.h	86;"	d
+PTE_U	inc/mmu.h	73;"	d
+PTE_USER	inc/mmu.h	89;"	d
+PTE_W	inc/mmu.h	72;"	d
+PTSHIFT	inc/mmu.h	63;"	d
+PTSIZE	inc/mmu.h	62;"	d
+PTX	inc/mmu.h	43;"	d
+PTXSHIFT	inc/mmu.h	65;"	d
+PUSHA	kern/macro.h	1;"	d
+PageInfo	inc/memlayout.h	/^struct PageInfo {$/;"	s
+Page_LIST_entry_t	inc/memlayout.h	/^typedef LIST_ENTRY(Page) Page_LIST_entry_t;$/;"	t
+Proghdr	inc/elf.h	/^struct Proghdr {$/;"	s
+Proghdr	kern/dwarf_elf.h	/^typedef struct Proghdr {$/;"	s
+Proghdr	kern/dwarf_elf.h	114;"	d
+Proghdr	kern/dwarf_elf.h	67;"	d
+Proghdr32	kern/dwarf_elf.h	/^}Proghdr32;$/;"	t	typeref:struct:Proghdr
+Proghdr64	kern/dwarf_elf.h	/^}Proghdr64;$/;"	t	typeref:struct:_Proghdr64
+Pseudodesc	inc/mmu.h	/^struct Pseudodesc {$/;"	s
+PushRegs	inc/trap.h	/^struct PushRegs {$/;"	s
+QEMU	GNUmakefile	/^QEMU := $(shell if which qemu-system-x86_64 > \/dev\/null; \\$/;"	m
+QEMU	gradelib.py	/^class QEMU(object):$/;"	c
+QEMUOPTS	GNUmakefile	/^QEMUOPTS = -m 256 -hda $(OBJDIR)\/kern\/kernel.img -serial mon:stdio -gdb tcp::$(GDBPORT)$/;"	m
+RELOC	kern/bootstrap.S	/^#define	RELOC(x) ((x) - KERNBASE)$/;"	d
+RELOC	kern/entry.S	/^#define	RELOC(x) ((x) - KERNBASE)$/;"	d
+RESET_REGISTERS	kern/libdwarf_lineno.c	211;"	d	file:
+RESET_REGISTERS	kern/libdwarf_lineno.c	65;"	d	file:
+RL	kern/libdwarf_frame.c	147;"	d	file:
+RL	kern/libdwarf_frame.c	497;"	d	file:
+ROUNDDOWN	inc/types.h	58;"	d
+ROUNDUP	inc/types.h	64;"	d
+Ripdebuginfo	kern/kdebug.h	/^struct Ripdebuginfo {$/;"	s
+Runner	gradelib.py	/^class Runner():$/;"	c
+SCROLLLOCK	kern/console.c	222;"	d	file:
+SECTSIZE	boot/main.c	32;"	d	file:
+SECTSIZE	kern/elf_rw.c	11;"	d	file:
+SEG	inc/mmu.h	163;"	d
+SEG	inc/mmu.h	220;"	d
+SEG16	inc/mmu.h	229;"	d
+SEG64	inc/mmu.h	168;"	d
+SEG64	inc/mmu.h	224;"	d
+SEG64USER	inc/mmu.h	173;"	d
+SEG_FAULT	inc/mmu.h	218;"	d
+SEG_NULL	inc/mmu.h	160;"	d
+SEG_NULL	inc/mmu.h	216;"	d
+SETCALLGATE	inc/mmu.h	350;"	d
+SETGATE	inc/mmu.h	334;"	d
+SETTSS	inc/mmu.h	301;"	d
+SHIFT	kern/console.c	216;"	d	file:
+SRL	kern/entry.S	/^#define SRL(val, shamt)		(((val) >> (shamt)) & ~(-1 << (32 - (shamt))))$/;"	d
+STA_A	inc/mmu.h	242;"	d
+STA_C	inc/mmu.h	239;"	d
+STA_E	inc/mmu.h	238;"	d
+STA_R	inc/mmu.h	241;"	d
+STA_W	inc/mmu.h	240;"	d
+STA_X	inc/mmu.h	237;"	d
+STS_CG64	inc/mmu.h	254;"	d
+STS_IG64	inc/mmu.h	255;"	d
+STS_LDT	inc/mmu.h	246;"	d
+STS_T64A	inc/mmu.h	252;"	d
+STS_T64B	inc/mmu.h	253;"	d
+STS_TG64	inc/mmu.h	256;"	d
+SYS_cgetc	inc/syscall.h	/^	SYS_cgetc,$/;"	e	enum:__anon19
+SYS_cputs	inc/syscall.h	/^	SYS_cputs = 0,$/;"	e	enum:__anon19
+SYS_env_destroy	inc/syscall.h	/^	SYS_env_destroy,$/;"	e	enum:__anon19
+SYS_getenvid	inc/syscall.h	/^	SYS_getenvid,$/;"	e	enum:__anon19
+Secthdr	inc/elf.h	/^struct Secthdr {$/;"	s
+Secthdr	kern/dwarf_elf.h	/^typedef struct Secthdr {$/;"	s
+Secthdr	kern/dwarf_elf.h	115;"	d
+Secthdr	kern/dwarf_elf.h	68;"	d
+Secthdr32	kern/dwarf_elf.h	/^}Secthdr32;$/;"	t	typeref:struct:Secthdr
+Secthdr64	kern/dwarf_elf.h	/^} Secthdr64;$/;"	t	typeref:struct:__anon12
+Segdesc	inc/mmu.h	/^struct Segdesc {$/;"	s
+Stab	inc/stab.h	/^struct Stab {$/;"	s
+SystemSegdesc64	inc/mmu.h	/^struct SystemSegdesc64{$/;"	s
+TAR	GNUmakefile	/^TAR	:= gtar$/;"	m
+TEMP_ADDR	user/sendpage.c	9;"	d	file:
+TEMP_ADDR_CHILD	user/sendpage.c	10;"	d	file:
+TESTS	gradelib.py	/^TESTS = []$/;"	v
+TOP	GNUmakefile	/^TOP = .$/;"	m
+TRAPHANDLER	kern/trapentry.S	/^#define TRAPHANDLER(name, num)						\\$/;"	d
+TRAPHANDLER_NOEC	kern/trapentry.S	/^#define TRAPHANDLER_NOEC(name, num)					\\$/;"	d
+T_ALIGN	inc/trap.h	23;"	d
+T_BOUND	inc/trap.h	11;"	d
+T_BRKPT	inc/trap.h	9;"	d
+T_DBLFLT	inc/trap.h	14;"	d
+T_DEBUG	inc/trap.h	7;"	d
+T_DEFAULT	inc/trap.h	30;"	d
+T_DEVICE	inc/trap.h	13;"	d
+T_DIVIDE	inc/trap.h	6;"	d
+T_FPERR	inc/trap.h	22;"	d
+T_GPFLT	inc/trap.h	19;"	d
+T_ILLOP	inc/trap.h	12;"	d
+T_MCHK	inc/trap.h	24;"	d
+T_NMI	inc/trap.h	8;"	d
+T_OFLOW	inc/trap.h	10;"	d
+T_PGFLT	inc/trap.h	20;"	d
+T_SEGNP	inc/trap.h	17;"	d
+T_SIMDERR	inc/trap.h	25;"	d
+T_STACK	inc/trap.h	18;"	d
+T_SYSCALL	inc/trap.h	29;"	d
+T_TSS	inc/trap.h	16;"	d
+Taskstate	inc/mmu.h	/^struct Taskstate {$/;"	s
+TerminateTest	gradelib.py	/^class TerminateTest(Exception):$/;"	c
+Trapframe	inc/trap.h	/^struct Trapframe {$/;"	s
+UENVS	inc/memlayout.h	120;"	d
+ULDFLAGS	GNUmakefile	/^ULDFLAGS := -T user\/user.ld$/;"	m
+ULIM	inc/memlayout.h	107;"	d
+UPAGES	inc/memlayout.h	118;"	d
+USED	inc/lib.h	20;"	d
+USER_CFLAGS	GNUmakefile	/^USER_CFLAGS := $(CFLAGS) -DJOS_USER -gdwarf-2 -mcmodel=large -m64$/;"	m
+USTABDATA	inc/memlayout.h	145;"	d
+USTACKTOP	inc/memlayout.h	133;"	d
+UTEMP	inc/memlayout.h	140;"	d
+UTEXT	inc/memlayout.h	136;"	d
+UTOP	inc/memlayout.h	127;"	d
+UVPT	inc/memlayout.h	116;"	d
+UXSTACKTOP	inc/memlayout.h	130;"	d
+UserStabData	kern/kdebug.c	/^struct UserStabData {$/;"	s	file:
+V	conf/env.mk	/^V = @$/;"	m
+VPD	inc/mmu.h	36;"	d
+VPDPE	inc/mmu.h	37;"	d
+VPML4E	inc/mmu.h	38;"	d
+VPN	inc/mmu.h	31;"	d
+WHITESPACE	kern/monitor.c	161;"	d	file:
+WHITESPACE	obj/kern/kernel.asm	/^#define WHITESPACE "\\t\\r\\n "$/;"	d
+X86_64	kern/dwarf_elf.h	19;"	d
+_CONSOLE_H_	kern/console.h	4;"	d
+_DWARF_DEFINE_H_	kern/dwarf_define.h	30;"	d
+_Dwarf_Abbrev	kern/dwarf.h	/^typedef struct _Dwarf_Abbrev {$/;"	s
+_Dwarf_AttrDef	kern/dwarf.h	/^typedef struct _Dwarf_AttrDef {$/;"	s
+_Dwarf_Attribute	kern/dwarf.h	/^typedef struct _Dwarf_Attribute {$/;"	s
+_Dwarf_CU	kern/dwarf.h	/^typedef struct _Dwarf_CU$/;"	s
+_Dwarf_Cie	kern/dwarf.h	/^struct _Dwarf_Cie {$/;"	s
+_Dwarf_Debug	kern/dwarf.h	/^struct _Dwarf_Debug$/;"	s
+_Dwarf_Die	kern/dwarf.h	/^typedef struct _Dwarf_Die { $/;"	s
+_Dwarf_Error	kern/dwarf.h	/^typedef struct _Dwarf_Error {$/;"	s
+_Dwarf_Fde	kern/dwarf.h	/^struct _Dwarf_Fde {$/;"	s
+_Dwarf_Line	kern/dwarf.h	/^}_Dwarf_Line;$/;"	t	typeref:struct:_Dwarf_Line_
+_Dwarf_LineInfo	kern/dwarf.h	/^}_Dwarf_LineInfo;$/;"	t	typeref:struct:_Dwarf_LineInfo_
+_Dwarf_LineInfo_	kern/dwarf.h	/^typedef struct _Dwarf_LineInfo_ {$/;"	s
+_Dwarf_Line_	kern/dwarf.h	/^typedef struct _Dwarf_Line_ {$/;"	s
+_Dwarf_Section	kern/dwarf.h	/^typedef struct _Dwarf_Section {$/;"	s
+_Elf32	kern/dwarf_elf.h	/^typedef struct _Elf32 {$/;"	s
+_Elf64	kern/dwarf_elf.h	/^typedef struct _Elf64 {$/;"	s
+_GDBPORT	gradelib.py	/^    _GDBPORT = None$/;"	v	class:QEMU
+_Proghdr64	kern/dwarf_elf.h	/^typedef struct _Proghdr64 {$/;"	s
+__all__	gradelib.py	/^__all__ = []$/;"	v
+__init__	gradelib.py	/^    def __init__(self, *default_monitors):$/;"	m	class:Runner
+__init__	gradelib.py	/^    def __init__(self, *make_args):$/;"	m	class:QEMU
+__init__	gradelib.py	/^    def __init__(self, port, timeout=15):$/;"	m	class:GDBClient
+__monitor_start	gradelib.py	/^    def __monitor_start(self, output):$/;"	m	class:Runner	file:
+__react	gradelib.py	/^    def __react(self, reactors, timeout):$/;"	m	class:Runner	file:
+__send	gradelib.py	/^    def __send(self, cmd):$/;"	m	class:GDBClient	file:
+__send_break	gradelib.py	/^    def __send_break(self):$/;"	m	class:GDBClient	file:
+_dwarf_abbrev_find	kern/libdwarf_rw.c	/^_dwarf_abbrev_find(Dwarf_Debug dbg, Dwarf_CU cu, uint64_t entry, Dwarf_Abbrev *abp)$/;"	f
+_dwarf_abbrev_parse	kern/libdwarf_rw.c	/^_dwarf_abbrev_parse(Dwarf_Debug dbg, Dwarf_CU cu, Dwarf_Unsigned *offset,$/;"	f
+_dwarf_attr_find	kern/libdwarf_rw.c	/^_dwarf_attr_find(Dwarf_Die *die, uint16_t attr)$/;"	f
+_dwarf_attr_init	kern/libdwarf_rw.c	/^_dwarf_attr_init(Dwarf_Debug dbg, uint64_t *offsetp, Dwarf_CU *cu, Dwarf_Die *ret_die, Dwarf_AttrDef *ad,$/;"	f
+_dwarf_decode_lsb	kern/libdwarf_rw.c	/^_dwarf_decode_lsb(uint8_t **data, int bytes_to_read)$/;"	f
+_dwarf_decode_msb	kern/libdwarf_rw.c	/^_dwarf_decode_msb(uint8_t **data, int bytes_to_read)$/;"	f
+_dwarf_decode_sleb128	kern/libdwarf_rw.c	/^_dwarf_decode_sleb128(uint8_t **dp)$/;"	f
+_dwarf_decode_uleb128	kern/libdwarf_rw.c	/^_dwarf_decode_uleb128(uint8_t **dp)$/;"	f
+_dwarf_elf_get_byte_order	kern/libdwarf_rw.c	/^_dwarf_elf_get_byte_order(void *obj)$/;"	f
+_dwarf_elf_get_pointer_size	kern/libdwarf_rw.c	/^_dwarf_elf_get_pointer_size(void *obj)$/;"	f
+_dwarf_find_section	kern/elf_rw.c	/^_dwarf_find_section(const char *name)$/;"	f
+_dwarf_find_section_enhanced	kern/libdwarf_rw.c	/^int  _dwarf_find_section_enhanced(Dwarf_Section *ds)$/;"	f
+_dwarf_frame_get_internal_table	kern/libdwarf_frame.c	/^_dwarf_frame_get_internal_table(Dwarf_Fde fde, Dwarf_Addr pc_req,$/;"	f
+_dwarf_frame_interal_table_init	kern/libdwarf_frame.c	/^_dwarf_frame_interal_table_init(Dwarf_Debug dbg, Dwarf_Error *error)$/;"	f
+_dwarf_frame_params_init	kern/libdwarf_frame.c	/^_dwarf_frame_params_init(Dwarf_Debug dbg)$/;"	f
+_dwarf_frame_parse_lsb_cie_augment	kern/libdwarf_frame.c	/^_dwarf_frame_parse_lsb_cie_augment(Dwarf_Debug dbg, Dwarf_Cie cie,$/;"	f	file:
+_dwarf_frame_read_lsb_encoded	kern/libdwarf_frame.c	/^_dwarf_frame_read_lsb_encoded(Dwarf_Debug dbg, uint64_t *val, uint8_t *data,$/;"	f	file:
+_dwarf_frame_regtable_copy	kern/libdwarf_frame.c	/^_dwarf_frame_regtable_copy(Dwarf_Debug dbg, Dwarf_Regtable3 **dest,$/;"	f
+_dwarf_frame_run_inst	kern/libdwarf_frame.c	/^_dwarf_frame_run_inst(Dwarf_Debug dbg, Dwarf_Regtable3 *rt, uint8_t *insts,$/;"	f	file:
+_dwarf_frame_section_load_eh	kern/libdwarf_frame.c	/^_dwarf_frame_section_load_eh(Dwarf_Debug dbg, Dwarf_Error *error)$/;"	f
+_dwarf_frame_set_cie	kern/libdwarf_frame.c	/^_dwarf_frame_set_cie(Dwarf_Debug dbg, Dwarf_Section *ds,$/;"	f	file:
+_dwarf_frame_set_fde	kern/libdwarf_frame.c	/^_dwarf_frame_set_fde(Dwarf_Debug dbg, Dwarf_Fde retfde, Dwarf_Section *ds,$/;"	f	file:
+_dwarf_get_next_fde	kern/libdwarf_frame.c	/^_dwarf_get_next_fde(Dwarf_Debug dbg,$/;"	f	file:
+_dwarf_init	kern/libdwarf_rw.c	/^int _dwarf_init(Dwarf_Debug dbg, void *obj)$/;"	f
+_dwarf_lineno_add_file	kern/libdwarf_lineno.c	/^_dwarf_lineno_add_file(Dwarf_LineInfo li, uint8_t **p, const char *compdir,$/;"	f	file:
+_dwarf_lineno_init	kern/libdwarf_lineno.c	/^_dwarf_lineno_init(Dwarf_Die *die, uint64_t offset, Dwarf_LineInfo linfo, Dwarf_Addr pc, Dwarf_Error *error)$/;"	f
+_dwarf_lineno_run_program	kern/libdwarf_lineno.c	/^_dwarf_lineno_run_program(Dwarf_CU *cu, Dwarf_LineInfo li, uint8_t *p,$/;"	f	file:
+_dwarf_read_block	kern/libdwarf_rw.c	/^_dwarf_read_block(void *data, uint64_t *offsetp, uint64_t length)$/;"	f
+_dwarf_read_lsb	kern/libdwarf_rw.c	/^_dwarf_read_lsb(uint8_t *data, uint64_t *offsetp, int bytes_to_read)$/;"	f
+_dwarf_read_msb	kern/libdwarf_rw.c	/^_dwarf_read_msb(uint8_t *data, uint64_t *offsetp, int bytes_to_read)$/;"	f
+_dwarf_read_sleb128	kern/libdwarf_rw.c	/^_dwarf_read_sleb128(uint8_t *data, uint64_t *offsetp)$/;"	f
+_dwarf_read_string	kern/libdwarf_rw.c	/^_dwarf_read_string(void *data, Dwarf_Unsigned size, uint64_t *offsetp)$/;"	f
+_dwarf_read_uleb128	kern/libdwarf_rw.c	/^_dwarf_read_uleb128(uint8_t *data, uint64_t *offsetp)$/;"	f
+_get_next_cu	kern/libdwarf_rw.c	/^int _get_next_cu(Dwarf_Debug dbg, Dwarf_CU *cu)$/;"	f
+_head64	kern/bootstrap.S	/^_head64:$/;"	l
+_head64	obj/kern/kernel.asm	/^_head64:$/;"	l
+_panic	kern/init.c	/^_panic(const char *file, int line, const char *fmt,...)$/;"	f
+_panic	lib/panic.c	/^_panic(const char *file, int line, const char *fmt, ...)$/;"	f
+_start	kern/entry.S	/^_start = RELOC(entry)$/;"	d
+_start	lib/entry.S	/^_start:$/;"	l
+_start	obj/user/badsegment.asm	/^_start:$/;"	l
+_start	obj/user/breakpoint.asm	/^_start:$/;"	l
+_start	obj/user/buggyhello.asm	/^_start:$/;"	l
+_start	obj/user/buggyhello2.asm	/^_start:$/;"	l
+_start	obj/user/divzero.asm	/^_start:$/;"	l
+_start	obj/user/evilhello.asm	/^_start:$/;"	l
+_start	obj/user/faultread.asm	/^_start:$/;"	l
+_start	obj/user/faultreadkernel.asm	/^_start:$/;"	l
+_start	obj/user/faultwrite.asm	/^_start:$/;"	l
+_start	obj/user/faultwritekernel.asm	/^_start:$/;"	l
+_start	obj/user/hello.asm	/^_start:$/;"	l
+_start	obj/user/softint.asm	/^_start:$/;"	l
+_start	obj/user/testbss.asm	/^_start:$/;"	l
+_warn	kern/init.c	/^_warn(const char *file, int line, const char *fmt,...)$/;"	f
+ab_atnum	kern/dwarf.h	/^    uint64_t  ab_atnum;   \/* Number of attribute defines. *\/$/;"	m	struct:_Dwarf_Abbrev
+ab_attrdef	kern/dwarf.h	/^	Dwarf_AttrDef ab_attrdef[NATTRDEF];$/;"	m	struct:_Dwarf_Abbrev
+ab_children	kern/dwarf.h	/^    uint8_t   ab_children;    \/* DW_CHILDREN_no or DW_CHILDREN_yes *\/$/;"	m	struct:_Dwarf_Abbrev
+ab_entry	kern/dwarf.h	/^    uint64_t  ab_entry;   \/* Abbrev entry. *\/$/;"	m	struct:_Dwarf_Abbrev
+ab_length	kern/dwarf.h	/^    uint64_t  ab_length;  \/* Length of this abbrev entry. *\/$/;"	m	struct:_Dwarf_Abbrev
+ab_offset	kern/dwarf.h	/^    uint64_t  ab_offset;  \/* Offset in abbrev section. *\/$/;"	m	struct:_Dwarf_Abbrev
+ab_tag	kern/dwarf.h	/^    uint64_t  ab_tag;     \/* Tag: DW_TAG_ *\/$/;"	m	struct:_Dwarf_Abbrev
+abbr_addr	obj/kern/kernel.asm	/^    abbr_addr = (uint64_t)ds->ds_data; \/\/(uint64_t)((uint8_t *)elf_base_ptr + ds->sh_offset);$/;"	d
+abnum	obj/kern/kernel.asm	/^        abnum = _dwarf_read_uleb128((uint8_t *)dbg->dbg_info_offset_elf, &offset);$/;"	d
+aboff	obj/kern/kernel.asm	/^    aboff = *offset;$/;"	d
+ad_attrib	kern/dwarf.h	/^    uint64_t    ad_attrib;      \/* DW_AT_XXX *\/$/;"	m	struct:_Dwarf_AttrDef
+ad_form	kern/dwarf.h	/^    uint64_t    ad_form;        \/* DW_FORM_XXX *\/$/;"	m	struct:_Dwarf_AttrDef
+ad_offset	kern/dwarf.h	/^    uint64_t    ad_offset;      \/* Offset in abbrev section. *\/$/;"	m	struct:_Dwarf_AttrDef
+addr	kern/multiboot.h	/^   uint32_t addr;$/;"	m	struct:aout_symbol_table
+addr	kern/multiboot.h	/^   uint32_t addr;$/;"	m	struct:elf_section_header_table
+addr_6845	kern/console.c	/^static unsigned addr_6845;$/;"	v	file:
+addr_6845	obj/kern/kernel.asm	/^		addr_6845 = CGA_BASE;$/;"	d
+addr_6845	obj/kern/kernel.asm	/^		addr_6845 = MONO_BASE;$/;"	d
+addr_size	kern/dwarf.h	/^    uint8_t  addr_size;				\/\/4bytes (32bit) or 8bytes(64bit) address$/;"	m	struct:_Dwarf_CU
+address	obj/kern/kernel.asm	/^                address = dbg->decode(&p, cu->addr_size);$/;"	d
+adoff	obj/kern/kernel.asm	/^        adoff = *offset;$/;"	d
+altflag	obj/kern/kernel.asm	/^			altflag = 1;$/;"	d
+altflag	obj/kern/kernel.asm	/^		altflag = 0;$/;"	d
+altflag	obj/user/badsegment.asm	/^			altflag = 1;$/;"	d
+altflag	obj/user/badsegment.asm	/^		altflag = 0;$/;"	d
+altflag	obj/user/breakpoint.asm	/^			altflag = 1;$/;"	d
+altflag	obj/user/breakpoint.asm	/^		altflag = 0;$/;"	d
+altflag	obj/user/buggyhello.asm	/^			altflag = 1;$/;"	d
+altflag	obj/user/buggyhello.asm	/^		altflag = 0;$/;"	d
+altflag	obj/user/buggyhello2.asm	/^			altflag = 1;$/;"	d
+altflag	obj/user/buggyhello2.asm	/^		altflag = 0;$/;"	d
+altflag	obj/user/divzero.asm	/^			altflag = 1;$/;"	d
+altflag	obj/user/divzero.asm	/^		altflag = 0;$/;"	d
+altflag	obj/user/evilhello.asm	/^			altflag = 1;$/;"	d
+altflag	obj/user/evilhello.asm	/^		altflag = 0;$/;"	d
+altflag	obj/user/faultread.asm	/^			altflag = 1;$/;"	d
+altflag	obj/user/faultread.asm	/^		altflag = 0;$/;"	d
+altflag	obj/user/faultreadkernel.asm	/^			altflag = 1;$/;"	d
+altflag	obj/user/faultreadkernel.asm	/^		altflag = 0;$/;"	d
+altflag	obj/user/faultwrite.asm	/^			altflag = 1;$/;"	d
+altflag	obj/user/faultwrite.asm	/^		altflag = 0;$/;"	d
+altflag	obj/user/faultwritekernel.asm	/^			altflag = 1;$/;"	d
+altflag	obj/user/faultwritekernel.asm	/^		altflag = 0;$/;"	d
+altflag	obj/user/hello.asm	/^			altflag = 1;$/;"	d
+altflag	obj/user/hello.asm	/^		altflag = 0;$/;"	d
+altflag	obj/user/softint.asm	/^			altflag = 1;$/;"	d
+altflag	obj/user/softint.asm	/^		altflag = 0;$/;"	d
+altflag	obj/user/testbss.asm	/^			altflag = 1;$/;"	d
+altflag	obj/user/testbss.asm	/^		altflag = 0;$/;"	d
+aout_sym	kern/multiboot.h	/^     aout_symbol_table_t aout_sym;$/;"	m	union:multiboot_info::__anon1
+aout_symbol_table	kern/multiboot.h	/^ typedef struct aout_symbol_table$/;"	s
+aout_symbol_table_t	kern/multiboot.h	/^ } aout_symbol_table_t;$/;"	t	typeref:struct:aout_symbol_table
+application	obj/kern/kernel.asm	/^	application = encode & 0xf0;$/;"	d
+argc	obj/kern/kernel.asm	/^	argc = 0;$/;"	d
+args_exist	lib/entry.S	/^args_exist:$/;"	l
+args_exist	obj/user/badsegment.asm	/^args_exist:$/;"	l
+args_exist	obj/user/breakpoint.asm	/^args_exist:$/;"	l
+args_exist	obj/user/buggyhello.asm	/^args_exist:$/;"	l
+args_exist	obj/user/buggyhello2.asm	/^args_exist:$/;"	l
+args_exist	obj/user/divzero.asm	/^args_exist:$/;"	l
+args_exist	obj/user/evilhello.asm	/^args_exist:$/;"	l
+args_exist	obj/user/faultread.asm	/^args_exist:$/;"	l
+args_exist	obj/user/faultreadkernel.asm	/^args_exist:$/;"	l
+args_exist	obj/user/faultwrite.asm	/^args_exist:$/;"	l
+args_exist	obj/user/faultwritekernel.asm	/^args_exist:$/;"	l
+args_exist	obj/user/hello.asm	/^args_exist:$/;"	l
+args_exist	obj/user/softint.asm	/^args_exist:$/;"	l
+args_exist	obj/user/testbss.asm	/^args_exist:$/;"	l
+asm	obj/kern/kernel.asm	/^asm volatile("movw %%ax,%%ds" :: "a" (GD_KD));$/;"	l
+asm	obj/kern/kernel.asm	/^asm volatile("movw %%ax,%%es" :: "a" (GD_KD));$/;"	l
+asm	obj/kern/kernel.asm	/^asm volatile("movw %%ax,%%fs" :: "a" (GD_UD|3));$/;"	l
+asm	obj/kern/kernel.asm	/^asm volatile("movw %%ax,%%gs" :: "a" (GD_UD|3));$/;"	l
+asm	obj/kern/kernel.asm	/^asm volatile("movw %%ax,%%ss" :: "a" (GD_KD));$/;"	l
+asm	obj/kern/kernel.asm	/^asm volatile("pushq %%rbx \\n \\t movabs $1f,%%rax \\n \\t pushq %%rax \\n\\t lretq \\n 1:\\n" :: "b" (GD_KT):"cc","memory");$/;"	l
+assert	inc/assert.h	14;"	d
+assert_equal	gradelib.py	/^def assert_equal(got, expect, msg=""):$/;"	f
+assert_lines_match	gradelib.py	/^def assert_lines_match(text, *regexps, **kw):$/;"	f
+assert_lines_match_kw	gradelib.py	/^    def assert_lines_match_kw(no=[]):$/;"	f	function:assert_lines_match
+at_attrib	kern/dwarf.h	/^    uint64_t        at_attrib;  \/* DW_AT_XXX *\/$/;"	m	struct:_Dwarf_Attribute
+at_block	kern/dwarf.h	/^    Dwarf_Block     at_block;   \/* Block. *\/$/;"	m	struct:_Dwarf_Attribute
+at_die	kern/dwarf.h	/^    struct _Dwarf_Die  *at_die;     \/* Ptr to containing DIE. *\/$/;"	m	struct:_Dwarf_Attribute	typeref:struct:_Dwarf_Attribute::_Dwarf_Die
+at_form	kern/dwarf.h	/^    uint64_t        at_form;    \/* DW_FORM_XXX *\/$/;"	m	struct:_Dwarf_Attribute
+at_indirect	kern/dwarf.h	/^    int         at_indirect;    \/* Has indirect form. *\/$/;"	m	struct:_Dwarf_Attribute
+at_ld	kern/dwarf.h	/^    Dwarf_Locdesc       *at_ld;     \/* at value is locdesc. *\/$/;"	m	struct:_Dwarf_Attribute
+at_offset	kern/dwarf.h	/^    uint64_t        at_offset;  \/* Offset in info section. *\/$/;"	m	struct:_Dwarf_Attribute
+at_relsec	kern/dwarf.h	/^    const char      *at_relsec; \/* Rel. to dwarf section. *\/$/;"	m	struct:_Dwarf_Attribute
+at_relsym	kern/dwarf.h	/^    uint64_t        at_relsym;  \/* Relocation symbol index. *\/$/;"	m	struct:_Dwarf_Attribute
+attr	obj/kern/kernel.asm	/^					attr = _dwarf_attr_find(&sib, DW_AT_type);$/;"	d
+attr	obj/kern/kernel.asm	/^				attr = _dwarf_attr_find(&ret, DW_AT_type);$/;"	d
+attr	obj/kern/kernel.asm	/^				attr = _dwarf_attr_find(&sib, DW_AT_byte_size);$/;"	d
+attr	obj/kern/kernel.asm	/^			attr = _dwarf_attr_find(&ret, DW_AT_type);$/;"	d
+attr	obj/kern/kernel.asm	/^                	attr = _dwarf_attr_find(&sib, DW_AT_byte_size);$/;"	d
+attr	obj/kern/kernel.asm	/^        attr = _dwarf_read_uleb128((uint8_t *)abbr_addr, offset);$/;"	d
+aug_p	obj/kern/kernel.asm	/^	aug_p = &cie->cie_augment[1];$/;"	d
+augdata_p	obj/kern/kernel.asm	/^	augdata_p = cie->cie_augdata;$/;"	d
+b	obj/kern/kernel.asm	/^		b = *src++;$/;"	d
+base	obj/kern/kernel.asm	/^			base = 10;$/;"	d
+base	obj/kern/kernel.asm	/^			base = 16;$/;"	d
+base	obj/kern/kernel.asm	/^			base = 8;$/;"	d
+base	obj/kern/kernel.asm	/^		base = 10;$/;"	d
+base	obj/user/badsegment.asm	/^			base = 10;$/;"	d
+base	obj/user/badsegment.asm	/^			base = 16;$/;"	d
+base	obj/user/badsegment.asm	/^			base = 8;$/;"	d
+base	obj/user/badsegment.asm	/^		base = 10;$/;"	d
+base	obj/user/breakpoint.asm	/^			base = 10;$/;"	d
+base	obj/user/breakpoint.asm	/^			base = 16;$/;"	d
+base	obj/user/breakpoint.asm	/^			base = 8;$/;"	d
+base	obj/user/breakpoint.asm	/^		base = 10;$/;"	d
+base	obj/user/buggyhello.asm	/^			base = 10;$/;"	d
+base	obj/user/buggyhello.asm	/^			base = 16;$/;"	d
+base	obj/user/buggyhello.asm	/^			base = 8;$/;"	d
+base	obj/user/buggyhello.asm	/^		base = 10;$/;"	d
+base	obj/user/buggyhello2.asm	/^			base = 10;$/;"	d
+base	obj/user/buggyhello2.asm	/^			base = 16;$/;"	d
+base	obj/user/buggyhello2.asm	/^			base = 8;$/;"	d
+base	obj/user/buggyhello2.asm	/^		base = 10;$/;"	d
+base	obj/user/divzero.asm	/^			base = 10;$/;"	d
+base	obj/user/divzero.asm	/^			base = 16;$/;"	d
+base	obj/user/divzero.asm	/^			base = 8;$/;"	d
+base	obj/user/divzero.asm	/^		base = 10;$/;"	d
+base	obj/user/evilhello.asm	/^			base = 10;$/;"	d
+base	obj/user/evilhello.asm	/^			base = 16;$/;"	d
+base	obj/user/evilhello.asm	/^			base = 8;$/;"	d
+base	obj/user/evilhello.asm	/^		base = 10;$/;"	d
+base	obj/user/faultread.asm	/^			base = 10;$/;"	d
+base	obj/user/faultread.asm	/^			base = 16;$/;"	d
+base	obj/user/faultread.asm	/^			base = 8;$/;"	d
+base	obj/user/faultread.asm	/^		base = 10;$/;"	d
+base	obj/user/faultreadkernel.asm	/^			base = 10;$/;"	d
+base	obj/user/faultreadkernel.asm	/^			base = 16;$/;"	d
+base	obj/user/faultreadkernel.asm	/^			base = 8;$/;"	d
+base	obj/user/faultreadkernel.asm	/^		base = 10;$/;"	d
+base	obj/user/faultwrite.asm	/^			base = 10;$/;"	d
+base	obj/user/faultwrite.asm	/^			base = 16;$/;"	d
+base	obj/user/faultwrite.asm	/^			base = 8;$/;"	d
+base	obj/user/faultwrite.asm	/^		base = 10;$/;"	d
+base	obj/user/faultwritekernel.asm	/^			base = 10;$/;"	d
+base	obj/user/faultwritekernel.asm	/^			base = 16;$/;"	d
+base	obj/user/faultwritekernel.asm	/^			base = 8;$/;"	d
+base	obj/user/faultwritekernel.asm	/^		base = 10;$/;"	d
+base	obj/user/hello.asm	/^			base = 10;$/;"	d
+base	obj/user/hello.asm	/^			base = 16;$/;"	d
+base	obj/user/hello.asm	/^			base = 8;$/;"	d
+base	obj/user/hello.asm	/^		base = 10;$/;"	d
+base	obj/user/softint.asm	/^			base = 10;$/;"	d
+base	obj/user/softint.asm	/^			base = 16;$/;"	d
+base	obj/user/softint.asm	/^			base = 8;$/;"	d
+base	obj/user/softint.asm	/^		base = 10;$/;"	d
+base	obj/user/testbss.asm	/^			base = 10;$/;"	d
+base	obj/user/testbss.asm	/^			base = 16;$/;"	d
+base	obj/user/testbss.asm	/^			base = 8;$/;"	d
+base	obj/user/testbss.asm	/^		base = 10;$/;"	d
+base_addr_high	kern/multiboot.h	/^   uint32_t base_addr_high;$/;"	m	struct:memory_map
+base_addr_low	kern/multiboot.h	/^   uint32_t base_addr_low;$/;"	m	struct:memory_map
+basemem	obj/kern/kernel.asm	/^		basemem = (nvram_read(NVRAM_BASELO) * 1024);$/;"	d
+basic_block	obj/kern/kernel.asm	/^                basic_block = 0;$/;"	d
+basic_block	obj/kern/kernel.asm	/^                basic_block = 1;$/;"	d
+basic_block	obj/kern/kernel.asm	/^            basic_block = 0;$/;"	d
+bigarray	user/testbss.c	/^uint32_t bigarray[ARRAYSIZE];$/;"	v
+binaryname	lib/libmain.c	/^const char *binaryname = "<unknown>";$/;"	v
+binaryname	obj/user/badsegment.asm	/^		binaryname = argv[0];$/;"	d
+binaryname	obj/user/breakpoint.asm	/^		binaryname = argv[0];$/;"	d
+binaryname	obj/user/buggyhello.asm	/^		binaryname = argv[0];$/;"	d
+binaryname	obj/user/buggyhello2.asm	/^		binaryname = argv[0];$/;"	d
+binaryname	obj/user/divzero.asm	/^		binaryname = argv[0];$/;"	d
+binaryname	obj/user/evilhello.asm	/^		binaryname = argv[0];$/;"	d
+binaryname	obj/user/faultread.asm	/^		binaryname = argv[0];$/;"	d
+binaryname	obj/user/faultreadkernel.asm	/^		binaryname = argv[0];$/;"	d
+binaryname	obj/user/faultwrite.asm	/^		binaryname = argv[0];$/;"	d
+binaryname	obj/user/faultwritekernel.asm	/^		binaryname = argv[0];$/;"	d
+binaryname	obj/user/hello.asm	/^		binaryname = argv[0];$/;"	d
+binaryname	obj/user/softint.asm	/^		binaryname = argv[0];$/;"	d
+binaryname	obj/user/testbss.asm	/^		binaryname = argv[0];$/;"	d
+bl_data	kern/dwarf.h	/^    void      *bl_data;$/;"	m	struct:__anon6
+bl_len	kern/dwarf.h	/^    uint64_t   bl_len;$/;"	m	struct:__anon6
+bool	inc/types.h	/^typedef _Bool bool;$/;"	t
+boot_alloc	kern/pmap.c	/^boot_alloc(uint32_t n)$/;"	f	file:
+boot_cr3	kern/pmap.c	/^physaddr_t boot_cr3;            \/\/ Physical address of boot time page directory$/;"	v
+boot_cr3	obj/kern/kernel.asm	/^	boot_cr3 = PADDR(pml4e);$/;"	d
+boot_device	kern/multiboot.h	/^   uint32_t boot_device;$/;"	m	struct:multiboot_info
+boot_map_region	kern/pmap.c	/^boot_map_region(pml4e_t *pml4e, uintptr_t la, size_t size, physaddr_t pa, int perm)$/;"	f	file:
+boot_pml4e	kern/pmap.c	/^pml4e_t *boot_pml4e;		\/\/ Kernel's initial page directory$/;"	v
+boot_pml4e	obj/kern/kernel.asm	/^	boot_pml4e = pml4e;$/;"	d
+bootmain	boot/main.c	/^bootmain(void)$/;"	f
+bootstack	kern/entry.S	/^bootstack:$/;"	l
+bootstacktop	kern/entry.S	/^bootstacktop:$/;"	l
+breakpoint	gradelib.py	/^    def breakpoint(self, addr):$/;"	m	class:GDBClient
+breakpoint	inc/x86.h	/^breakpoint(void)$/;"	f
+bss_end_addr	kern/multiboot.h	/^   uint32_t bss_end_addr;$/;"	m	struct:multiboot_header
+buf	kern/console.c	/^	uint8_t buf[CONSBUFSIZE];$/;"	m	struct:__anon14	file:
+buf	lib/printf.c	/^	char buf[256];$/;"	m	struct:printbuf	file:
+buf	lib/printfmt.c	/^	char *buf;$/;"	m	struct:sprintbuf	file:
+buf	lib/readline.c	/^static char buf[BUFLEN];$/;"	v	file:
+buf	obj/kern/kernel.asm	/^		buf = readline("K> ");$/;"	d
+c	obj/kern/kernel.asm	/^		c = (c<<24)|(c<<16)|(c<<8)|c;$/;"	d
+c	obj/kern/kernel.asm	/^		c = cons.buf[cons.rpos++];$/;"	d
+c	obj/kern/kernel.asm	/^		c = getchar();$/;"	d
+c	obj/kern/kernel.asm	/^	c = charcode[shift & (CTL | SHIFT)][data];$/;"	d
+c	obj/kern/kernel.asm	/^	c = page2kva(pp);$/;"	d
+c	obj/kern/kernel.asm	/^    c = *str++;$/;"	d
+c	obj/user/badsegment.asm	/^		c = (c<<24)|(c<<16)|(c<<8)|c;$/;"	d
+c	obj/user/badsegment.asm	/^    c = *str++;$/;"	d
+c	obj/user/breakpoint.asm	/^		c = (c<<24)|(c<<16)|(c<<8)|c;$/;"	d
+c	obj/user/breakpoint.asm	/^    c = *str++;$/;"	d
+c	obj/user/buggyhello.asm	/^		c = (c<<24)|(c<<16)|(c<<8)|c;$/;"	d
+c	obj/user/buggyhello.asm	/^    c = *str++;$/;"	d
+c	obj/user/buggyhello2.asm	/^		c = (c<<24)|(c<<16)|(c<<8)|c;$/;"	d
+c	obj/user/buggyhello2.asm	/^    c = *str++;$/;"	d
+c	obj/user/divzero.asm	/^		c = (c<<24)|(c<<16)|(c<<8)|c;$/;"	d
+c	obj/user/divzero.asm	/^    c = *str++;$/;"	d
+c	obj/user/evilhello.asm	/^		c = (c<<24)|(c<<16)|(c<<8)|c;$/;"	d
+c	obj/user/evilhello.asm	/^    c = *str++;$/;"	d
+c	obj/user/faultread.asm	/^		c = (c<<24)|(c<<16)|(c<<8)|c;$/;"	d
+c	obj/user/faultread.asm	/^    c = *str++;$/;"	d
+c	obj/user/faultreadkernel.asm	/^		c = (c<<24)|(c<<16)|(c<<8)|c;$/;"	d
+c	obj/user/faultreadkernel.asm	/^    c = *str++;$/;"	d
+c	obj/user/faultwrite.asm	/^		c = (c<<24)|(c<<16)|(c<<8)|c;$/;"	d
+c	obj/user/faultwrite.asm	/^    c = *str++;$/;"	d
+c	obj/user/faultwritekernel.asm	/^		c = (c<<24)|(c<<16)|(c<<8)|c;$/;"	d
+c	obj/user/faultwritekernel.asm	/^    c = *str++;$/;"	d
+c	obj/user/hello.asm	/^		c = (c<<24)|(c<<16)|(c<<8)|c;$/;"	d
+c	obj/user/hello.asm	/^    c = *str++;$/;"	d
+c	obj/user/softint.asm	/^		c = (c<<24)|(c<<16)|(c<<8)|c;$/;"	d
+c	obj/user/softint.asm	/^    c = *str++;$/;"	d
+c	obj/user/testbss.asm	/^		c = (c<<24)|(c<<16)|(c<<8)|c;$/;"	d
+c	obj/user/testbss.asm	/^    c = *str++;$/;"	d
+call_on_line	gradelib.py	/^def call_on_line(regexp, callback):$/;"	f
+cfa	obj/kern/kernel.asm	/^        cfa = dbg->dbg_frame_cfa_value;$/;"	d
+cga_init	kern/console.c	/^cga_init(void)$/;"	f	file:
+cga_putc	kern/console.c	/^cga_putc(int c)$/;"	f	file:
+ch	obj/kern/kernel.asm	/^				ch = *fmt;$/;"	d
+ch	obj/user/badsegment.asm	/^				ch = *fmt;$/;"	d
+ch	obj/user/breakpoint.asm	/^				ch = *fmt;$/;"	d
+ch	obj/user/buggyhello.asm	/^				ch = *fmt;$/;"	d
+ch	obj/user/buggyhello2.asm	/^				ch = *fmt;$/;"	d
+ch	obj/user/divzero.asm	/^				ch = *fmt;$/;"	d
+ch	obj/user/evilhello.asm	/^				ch = *fmt;$/;"	d
+ch	obj/user/faultread.asm	/^				ch = *fmt;$/;"	d
+ch	obj/user/faultreadkernel.asm	/^				ch = *fmt;$/;"	d
+ch	obj/user/faultwrite.asm	/^				ch = *fmt;$/;"	d
+ch	obj/user/faultwritekernel.asm	/^				ch = *fmt;$/;"	d
+ch	obj/user/hello.asm	/^				ch = *fmt;$/;"	d
+ch	obj/user/softint.asm	/^				ch = *fmt;$/;"	d
+ch	obj/user/testbss.asm	/^				ch = *fmt;$/;"	d
+char	obj/kern/kernel.asm	/^char * strstr(const char *in, const char *str)$/;"	l
+char	obj/kern/kernel.asm	/^char *$/;"	l
+char	obj/user/badsegment.asm	/^char * strstr(const char *in, const char *str)$/;"	l
+char	obj/user/badsegment.asm	/^char *$/;"	l
+char	obj/user/breakpoint.asm	/^char * strstr(const char *in, const char *str)$/;"	l
+char	obj/user/breakpoint.asm	/^char *$/;"	l
+char	obj/user/buggyhello.asm	/^char * strstr(const char *in, const char *str)$/;"	l
+char	obj/user/buggyhello.asm	/^char *$/;"	l
+char	obj/user/buggyhello2.asm	/^char * strstr(const char *in, const char *str)$/;"	l
+char	obj/user/buggyhello2.asm	/^char *$/;"	l
+char	obj/user/divzero.asm	/^char * strstr(const char *in, const char *str)$/;"	l
+char	obj/user/divzero.asm	/^char *$/;"	l
+char	obj/user/evilhello.asm	/^char * strstr(const char *in, const char *str)$/;"	l
+char	obj/user/evilhello.asm	/^char *$/;"	l
+char	obj/user/faultread.asm	/^char * strstr(const char *in, const char *str)$/;"	l
+char	obj/user/faultread.asm	/^char *$/;"	l
+char	obj/user/faultreadkernel.asm	/^char * strstr(const char *in, const char *str)$/;"	l
+char	obj/user/faultreadkernel.asm	/^char *$/;"	l
+char	obj/user/faultwrite.asm	/^char * strstr(const char *in, const char *str)$/;"	l
+char	obj/user/faultwrite.asm	/^char *$/;"	l
+char	obj/user/faultwritekernel.asm	/^char * strstr(const char *in, const char *str)$/;"	l
+char	obj/user/faultwritekernel.asm	/^char *$/;"	l
+char	obj/user/hello.asm	/^char * strstr(const char *in, const char *str)$/;"	l
+char	obj/user/hello.asm	/^char *$/;"	l
+char	obj/user/softint.asm	/^char * strstr(const char *in, const char *str)$/;"	l
+char	obj/user/softint.asm	/^char *$/;"	l
+char	obj/user/testbss.asm	/^char * strstr(const char *in, const char *str)$/;"	l
+char	obj/user/testbss.asm	/^char *$/;"	l
+charcode	kern/console.c	/^static uint8_t *charcode[4] = {$/;"	v	file:
+check_boot_pml4e	kern/pmap.c	/^check_boot_pml4e(pml4e_t *pml4e)$/;"	f	file:
+check_page_alloc	kern/pmap.c	/^check_page_alloc(void)$/;"	f	file:
+check_page_free_list	kern/pmap.c	/^check_page_free_list(bool only_low_memory)$/;"	f	file:
+check_va2pa	kern/pmap.c	/^check_va2pa(pml4e_t *pml4e, uintptr_t va)$/;"	f	file:
+checksum	kern/multiboot.h	/^   uint32_t checksum;$/;"	m	struct:multiboot_header
+children	obj/kern/kernel.asm	/^    children = dbg->read((uint8_t *)abbr_addr, offset, 1);$/;"	d
+cie	obj/kern/kernel.asm	/^	cie = ret_cie;$/;"	d
+cie	obj/kern/kernel.asm	/^        cie = fde->fde_cie;$/;"	d
+cie_augdata	kern/dwarf.h	/^        uint8_t         *cie_augdata;   \/* Augmentation data; *\/$/;"	m	struct:_Dwarf_Cie
+cie_auglen	kern/dwarf.h	/^        Dwarf_Unsigned  cie_auglen;     \/* Augmentation length. *\/$/;"	m	struct:_Dwarf_Cie
+cie_augment	kern/dwarf.h	/^        uint8_t         *cie_augment;   \/* CIE augmentation (UTF-8). *\/$/;"	m	struct:_Dwarf_Cie
+cie_caf	kern/dwarf.h	/^        Dwarf_Unsigned  cie_caf;        \/* Code alignment factor. *\/$/;"	m	struct:_Dwarf_Cie
+cie_daf	kern/dwarf.h	/^        Dwarf_Signed    cie_daf;        \/* Data alignment factor. *\/$/;"	m	struct:_Dwarf_Cie
+cie_dbg	kern/dwarf.h	/^        Dwarf_Debug     cie_dbg;        \/* Ptr to containing dbg. *\/$/;"	m	struct:_Dwarf_Cie
+cie_ehdata	kern/dwarf.h	/^        Dwarf_Unsigned  cie_ehdata;     \/* Optional EH Data. *\/$/;"	m	struct:_Dwarf_Cie
+cie_fde_encode	kern/dwarf.h	/^        uint8_t         cie_fde_encode; \/* FDE PC start\/range encode. *\/$/;"	m	struct:_Dwarf_Cie
+cie_id	obj/kern/kernel.asm	/^		cie_id = dbg->read(ds->ds_data, &offset, dwarf_size);$/;"	d
+cie_index	kern/dwarf.h	/^        Dwarf_Unsigned  cie_index;      \/* Index of the CIE. *\/$/;"	m	struct:_Dwarf_Cie
+cie_initinst	kern/dwarf.h	/^        Dwarf_Ptr       cie_initinst;   \/* Initial instructions. *\/$/;"	m	struct:_Dwarf_Cie
+cie_instlen	kern/dwarf.h	/^        Dwarf_Unsigned  cie_instlen;    \/* Length of init instructions. *\/$/;"	m	struct:_Dwarf_Cie
+cie_length	kern/dwarf.h	/^        Dwarf_Unsigned  cie_length;     \/* Length of the CIE. *\/$/;"	m	struct:_Dwarf_Cie
+cie_offset	kern/dwarf.h	/^        Dwarf_Unsigned  cie_offset;     \/* Offset of the CIE. *\/$/;"	m	struct:_Dwarf_Cie
+cie_ra	kern/dwarf.h	/^        Dwarf_Unsigned  cie_ra;         \/* Return address register. *\/$/;"	m	struct:_Dwarf_Cie
+cie_version	kern/dwarf.h	/^        Dwarf_Half      cie_version;    \/* CIE version. *\/$/;"	m	struct:_Dwarf_Cie
+cieoff	obj/kern/kernel.asm	/^		cieoff = *off - (4 + fde->fde_cieoff);$/;"	d
+cieoff	obj/kern/kernel.asm	/^		cieoff = fde->fde_cieoff;$/;"	d
+close	gradelib.py	/^    def close(self):$/;"	m	class:GDBClient
+cmdline	kern/multiboot.h	/^   uint32_t cmdline;$/;"	m	struct:multiboot_info
+cnt	lib/printf.c	/^	int cnt;	\/\/ total bytes printed so far$/;"	m	struct:printbuf	file:
+cnt	lib/printfmt.c	/^	int cnt;$/;"	m	struct:sprintbuf	file:
+cnt	obj/kern/kernel.asm	/^	cnt = vcprintf(fmt, aq);$/;"	d
+cnt	obj/user/badsegment.asm	/^	cnt = vcprintf(fmt, aq);$/;"	d
+cnt	obj/user/breakpoint.asm	/^	cnt = vcprintf(fmt, aq);$/;"	d
+cnt	obj/user/buggyhello.asm	/^	cnt = vcprintf(fmt, aq);$/;"	d
+cnt	obj/user/buggyhello2.asm	/^	cnt = vcprintf(fmt, aq);$/;"	d
+cnt	obj/user/divzero.asm	/^	cnt = vcprintf(fmt, aq);$/;"	d
+cnt	obj/user/evilhello.asm	/^	cnt = vcprintf(fmt, aq);$/;"	d
+cnt	obj/user/faultread.asm	/^	cnt = vcprintf(fmt, aq);$/;"	d
+cnt	obj/user/faultreadkernel.asm	/^	cnt = vcprintf(fmt, aq);$/;"	d
+cnt	obj/user/faultwrite.asm	/^	cnt = vcprintf(fmt, aq);$/;"	d
+cnt	obj/user/faultwritekernel.asm	/^	cnt = vcprintf(fmt, aq);$/;"	d
+cnt	obj/user/hello.asm	/^	cnt = vcprintf(fmt, aq);$/;"	d
+cnt	obj/user/softint.asm	/^	cnt = vcprintf(fmt, aq);$/;"	d
+cnt	obj/user/testbss.asm	/^	cnt = vcprintf(fmt, aq);$/;"	d
+color	gradelib.py	/^def color(name, text):$/;"	f
+column	obj/kern/kernel.asm	/^                column = _dwarf_decode_uleb128(&p);$/;"	d
+commands	kern/monitor.c	/^static struct Command commands[] = {$/;"	v	typeref:struct:Command	file:
+cons	kern/console.c	/^} cons;$/;"	v	typeref:struct:__anon14	file:
+cons_getc	kern/console.c	/^cons_getc(void)$/;"	f
+cons_init	kern/console.c	/^cons_init(void)$/;"	f
+cons_intr	kern/console.c	/^cons_intr(int (*proc)(void))$/;"	f	file:
+cons_putc	kern/console.c	/^cons_putc(int c)$/;"	f	file:
+const	obj/user/badsegment.asm	/^const char *binaryname = "<unknown>";$/;"	l
+const	obj/user/badsegment.asm	/^const volatile struct Env *thisenv;$/;"	l
+const	obj/user/breakpoint.asm	/^const char *binaryname = "<unknown>";$/;"	l
+const	obj/user/breakpoint.asm	/^const volatile struct Env *thisenv;$/;"	l
+const	obj/user/buggyhello.asm	/^const char *binaryname = "<unknown>";$/;"	l
+const	obj/user/buggyhello.asm	/^const volatile struct Env *thisenv;$/;"	l
+const	obj/user/buggyhello2.asm	/^const char *binaryname = "<unknown>";$/;"	l
+const	obj/user/buggyhello2.asm	/^const char *hello = "hello, world\\n";$/;"	l
+const	obj/user/buggyhello2.asm	/^const volatile struct Env *thisenv;$/;"	l
+const	obj/user/divzero.asm	/^const char *binaryname = "<unknown>";$/;"	l
+const	obj/user/divzero.asm	/^const volatile struct Env *thisenv;$/;"	l
+const	obj/user/evilhello.asm	/^const char *binaryname = "<unknown>";$/;"	l
+const	obj/user/evilhello.asm	/^const volatile struct Env *thisenv;$/;"	l
+const	obj/user/faultread.asm	/^const char *binaryname = "<unknown>";$/;"	l
+const	obj/user/faultread.asm	/^const volatile struct Env *thisenv;$/;"	l
+const	obj/user/faultreadkernel.asm	/^const char *binaryname = "<unknown>";$/;"	l
+const	obj/user/faultreadkernel.asm	/^const volatile struct Env *thisenv;$/;"	l
+const	obj/user/faultwrite.asm	/^const char *binaryname = "<unknown>";$/;"	l
+const	obj/user/faultwrite.asm	/^const volatile struct Env *thisenv;$/;"	l
+const	obj/user/faultwritekernel.asm	/^const char *binaryname = "<unknown>";$/;"	l
+const	obj/user/faultwritekernel.asm	/^const volatile struct Env *thisenv;$/;"	l
+const	obj/user/hello.asm	/^const char *binaryname = "<unknown>";$/;"	l
+const	obj/user/hello.asm	/^const volatile struct Env *thisenv;$/;"	l
+const	obj/user/softint.asm	/^const char *binaryname = "<unknown>";$/;"	l
+const	obj/user/softint.asm	/^const volatile struct Env *thisenv;$/;"	l
+const	obj/user/testbss.asm	/^const char *binaryname = "<unknown>";$/;"	l
+const	obj/user/testbss.asm	/^const volatile struct Env *thisenv;$/;"	l
+cont	gradelib.py	/^    def cont(self):$/;"	m	class:GDBClient
+cp	obj/kern/kernel.asm	/^		cp = (uint16_t*) (KERNBASE + MONO_BUF);$/;"	d
+cp	obj/kern/kernel.asm	/^	cp = (uint16_t*) (KERNBASE + CGA_BUF);$/;"	d
+cprintf	kern/printf.c	/^cprintf(const char *fmt, ...)$/;"	f
+cprintf	lib/printf.c	/^cprintf(const char *fmt, ...)$/;"	f
+cpuid	inc/x86.h	/^cpuid(uint32_t info, uint32_t *eaxp, uint32_t *ebxp, uint32_t *ecxp, uint32_t *edxp)$/;"	f
+cputchar	kern/console.c	/^cputchar(int c)$/;"	f
+cputchar	lib/console.c	/^cputchar(int ch)$/;"	f
+crt_buf	kern/console.c	/^static uint16_t *crt_buf;$/;"	v	file:
+crt_buf	obj/kern/kernel.asm	/^	crt_buf = (uint16_t*) cp;$/;"	d
+crt_pos	kern/console.c	/^static uint16_t crt_pos;$/;"	v	file:
+crt_pos	obj/kern/kernel.asm	/^	crt_pos = pos;$/;"	d
+ctlmap	kern/console.c	/^static uint8_t ctlmap[256] =$/;"	v	file:
+cu	obj/kern/kernel.asm	/^    cu = die->cu_header;$/;"	d
+cu_die	kern/dwarf.h	/^	struct _Dwarf_Die *cu_die;$/;"	m	struct:_Dwarf_Die	typeref:struct:_Dwarf_Die::_Dwarf_Die
+cu_die_offset	kern/dwarf.h	/^    uint64_t cu_die_offset;  \/* First DIE offset. *\/$/;"	m	struct:_Dwarf_CU
+cu_dwarf_size	kern/dwarf.h	/^	uint8_t  cu_dwarf_size;  \/* CU section dwarf size. *\/$/;"	m	struct:_Dwarf_CU
+cu_header	kern/dwarf.h	/^	Dwarf_CU *cu_header;		\/*Ptr to the CU header containing die*\/$/;"	m	struct:_Dwarf_Die
+cu_length	kern/dwarf.h	/^	uint64_t cu_length;				\/\/Length of CU (not including header)$/;"	m	struct:_Dwarf_CU
+cu_length_size	kern/dwarf.h	/^    uint8_t  cu_length_size; \/* Size in bytes of the length field. *\/$/;"	m	struct:_Dwarf_CU
+cu_next_offset	kern/dwarf.h	/^	uint64_t cu_next_offset; \/* Offset to the next CU. Note this offset could be 32bit, just typecast while assigning*\/$/;"	m	struct:_Dwarf_CU
+cu_offset	kern/dwarf.h	/^	uint64_t cu_offset;		\/* Offset of this CU*\/$/;"	m	struct:_Dwarf_CU
+curenv	kern/env.c	/^struct Env *curenv = NULL;		\/\/ The current env$/;"	v	typeref:struct:Env
+curenv	obj/kern/kernel.asm	/^	curenv = e;$/;"	d
+curr_off_dbginfo	kern/dwarf.h	/^    uint64_t  curr_off_dbginfo;		 	 \/\/Offset inside .debug_info currently using it for reading CU's$/;"	m	struct:_Dwarf_Debug
+d	obj/kern/kernel.asm	/^	d = dst;$/;"	d
+d	obj/user/badsegment.asm	/^	d = dst;$/;"	d
+d	obj/user/breakpoint.asm	/^	d = dst;$/;"	d
+d	obj/user/buggyhello.asm	/^	d = dst;$/;"	d
+d	obj/user/buggyhello2.asm	/^	d = dst;$/;"	d
+d	obj/user/divzero.asm	/^	d = dst;$/;"	d
+d	obj/user/evilhello.asm	/^	d = dst;$/;"	d
+d	obj/user/faultread.asm	/^	d = dst;$/;"	d
+d	obj/user/faultreadkernel.asm	/^	d = dst;$/;"	d
+d	obj/user/faultwrite.asm	/^	d = dst;$/;"	d
+d	obj/user/faultwritekernel.asm	/^	d = dst;$/;"	d
+d	obj/user/hello.asm	/^	d = dst;$/;"	d
+d	obj/user/softint.asm	/^	d = dst;$/;"	d
+d	obj/user/testbss.asm	/^	d = dst;$/;"	d
+data	obj/kern/kernel.asm	/^		data = (shift & E0ESC ? data : data & 0x7F);$/;"	d
+data	obj/kern/kernel.asm	/^	data = inb(KBDATAP);$/;"	d
+dbg	kern/kdebug.c	/^Dwarf_Debug dbg = &mydebug;$/;"	v
+dbg_eh_offset	kern/dwarf.h	/^    uint64_t   dbg_eh_offset; 	 $/;"	m	struct:_Dwarf_Debug
+dbg_eh_size	kern/dwarf.h	/^    uint64_t   dbg_eh_size;			$/;"	m	struct:_Dwarf_Debug
+dbg_frame_cfa_value	kern/dwarf.h	/^    Dwarf_Half      dbg_frame_cfa_value;$/;"	m	struct:_Dwarf_Debug
+dbg_frame_rule_initial_value	kern/dwarf.h	/^    Dwarf_Half      dbg_frame_rule_initial_value;$/;"	m	struct:_Dwarf_Debug
+dbg_frame_rule_table_size	kern/dwarf.h	/^    Dwarf_Half      dbg_frame_rule_table_size;$/;"	m	struct:_Dwarf_Debug
+dbg_frame_same_value	kern/dwarf.h	/^    Dwarf_Half      dbg_frame_same_value;$/;"	m	struct:_Dwarf_Debug
+dbg_frame_undefined_value	kern/dwarf.h	/^    Dwarf_Half      dbg_frame_undefined_value;$/;"	m	struct:_Dwarf_Debug
+dbg_info_offset_elf	kern/dwarf.h	/^    uint64_t  dbg_info_offset_elf;  $/;"	m	struct:_Dwarf_Debug
+dbg_info_size	kern/dwarf.h	/^    uint64_t  dbg_info_size;$/;"	m	struct:_Dwarf_Debug
+dbg_internal_reg_table	kern/dwarf.h	/^    Dwarf_Regtable3 *dbg_internal_reg_table;$/;"	m	struct:_Dwarf_Debug
+dbg_pointer_size	kern/dwarf.h	/^    int       dbg_pointer_size; \/* Object address size. *\/$/;"	m	struct:_Dwarf_Debug
+dead	obj/kern/kernel.asm	/^dead:$/;"	l
+debug_abbrev_offset	kern/dwarf.h	/^	uint64_t debug_abbrev_offset;	\/\/Offset in .debug_abbrev for this CU$/;"	m	struct:_Dwarf_CU
+debug_frame_sec	kern/libdwarf_frame.c	/^Dwarf_Section debug_frame_sec = {".eh_frame", 0, 0, 0};$/;"	v
+debuginfo_rip	kern/kdebug.c	/^debuginfo_rip(uintptr_t addr, struct Ripdebuginfo *info)$/;"	f
+decode	kern/dwarf.h	/^    uint64_t  (*decode)(uint8_t **, int);$/;"	m	struct:_Dwarf_Debug
+default	obj/kern/kernel.asm	/^			default:$/;"	l
+default	obj/kern/kernel.asm	/^		default:$/;"	l
+default	obj/kern/kernel.asm	/^	default:$/;"	l
+default	obj/kern/kernel.asm	/^                        default:$/;"	l
+default	obj/kern/kernel.asm	/^                default:$/;"	l
+default	obj/kern/kernel.asm	/^            default:$/;"	l
+default	obj/kern/kernel.asm	/^    default:$/;"	l
+default	obj/user/badsegment.asm	/^		default:$/;"	l
+default	obj/user/breakpoint.asm	/^		default:$/;"	l
+default	obj/user/buggyhello.asm	/^		default:$/;"	l
+default	obj/user/buggyhello2.asm	/^		default:$/;"	l
+default	obj/user/divzero.asm	/^		default:$/;"	l
+default	obj/user/evilhello.asm	/^		default:$/;"	l
+default	obj/user/faultread.asm	/^		default:$/;"	l
+default	obj/user/faultreadkernel.asm	/^		default:$/;"	l
+default	obj/user/faultwrite.asm	/^		default:$/;"	l
+default	obj/user/faultwritekernel.asm	/^		default:$/;"	l
+default	obj/user/hello.asm	/^		default:$/;"	l
+default	obj/user/softint.asm	/^		default:$/;"	l
+default	obj/user/testbss.asm	/^		default:$/;"	l
+delay	kern/console.c	/^delay(void)$/;"	f	file:
+desc	kern/monitor.c	/^	const char *desc;$/;"	m	struct:Command	file:
+die	obj/kern/kernel.asm	/^		    die = die2;$/;"	d
+die_ab	kern/dwarf.h	/^    Dwarf_Abbrev    die_ab;     \/* Abbrev pointer. *\/$/;"	m	struct:_Dwarf_Die
+die_abnum	kern/dwarf.h	/^    uint64_t   die_abnum;  \/* Abbrev number. *\/$/;"	m	struct:_Dwarf_Die
+die_attr	kern/dwarf.h	/^    Dwarf_Attribute die_attr[NATTRVAL]; \/* Array of attributes. *\/$/;"	m	struct:_Dwarf_Die
+die_attr_count	kern/dwarf.h	/^	uint8_t die_attr_count;$/;"	m	struct:_Dwarf_Die
+die_name	kern/dwarf.h	/^    char        *die_name;  \/* Ptr to the name string. *\/$/;"	m	struct:_Dwarf_Die
+die_next_off	kern/dwarf.h	/^    uint64_t   die_next_off;   \/* Next DIE offset in section. *\/$/;"	m	struct:_Dwarf_Die
+die_offset	kern/dwarf.h	/^    uint64_t   die_offset; \/* DIE offset in section. *\/$/;"	m	struct:_Dwarf_Die
+die_offset	obj/kern/kernel.asm	/^        die_offset = offset;$/;"	d
+die_tag	kern/dwarf.h	/^    uint64_t   die_tag;    \/* DW_TAG_ *\/$/;"	m	struct:_Dwarf_Die
+dig	obj/kern/kernel.asm	/^			dig = *s - '0';$/;"	d
+dig	obj/kern/kernel.asm	/^			dig = *s - 'A' + 10;$/;"	d
+dig	obj/kern/kernel.asm	/^			dig = *s - 'a' + 10;$/;"	d
+dig	obj/user/badsegment.asm	/^			dig = *s - '0';$/;"	d
+dig	obj/user/badsegment.asm	/^			dig = *s - 'A' + 10;$/;"	d
+dig	obj/user/badsegment.asm	/^			dig = *s - 'a' + 10;$/;"	d
+dig	obj/user/breakpoint.asm	/^			dig = *s - '0';$/;"	d
+dig	obj/user/breakpoint.asm	/^			dig = *s - 'A' + 10;$/;"	d
+dig	obj/user/breakpoint.asm	/^			dig = *s - 'a' + 10;$/;"	d
+dig	obj/user/buggyhello.asm	/^			dig = *s - '0';$/;"	d
+dig	obj/user/buggyhello.asm	/^			dig = *s - 'A' + 10;$/;"	d
+dig	obj/user/buggyhello.asm	/^			dig = *s - 'a' + 10;$/;"	d
+dig	obj/user/buggyhello2.asm	/^			dig = *s - '0';$/;"	d
+dig	obj/user/buggyhello2.asm	/^			dig = *s - 'A' + 10;$/;"	d
+dig	obj/user/buggyhello2.asm	/^			dig = *s - 'a' + 10;$/;"	d
+dig	obj/user/divzero.asm	/^			dig = *s - '0';$/;"	d
+dig	obj/user/divzero.asm	/^			dig = *s - 'A' + 10;$/;"	d
+dig	obj/user/divzero.asm	/^			dig = *s - 'a' + 10;$/;"	d
+dig	obj/user/evilhello.asm	/^			dig = *s - '0';$/;"	d
+dig	obj/user/evilhello.asm	/^			dig = *s - 'A' + 10;$/;"	d
+dig	obj/user/evilhello.asm	/^			dig = *s - 'a' + 10;$/;"	d
+dig	obj/user/faultread.asm	/^			dig = *s - '0';$/;"	d
+dig	obj/user/faultread.asm	/^			dig = *s - 'A' + 10;$/;"	d
+dig	obj/user/faultread.asm	/^			dig = *s - 'a' + 10;$/;"	d
+dig	obj/user/faultreadkernel.asm	/^			dig = *s - '0';$/;"	d
+dig	obj/user/faultreadkernel.asm	/^			dig = *s - 'A' + 10;$/;"	d
+dig	obj/user/faultreadkernel.asm	/^			dig = *s - 'a' + 10;$/;"	d
+dig	obj/user/faultwrite.asm	/^			dig = *s - '0';$/;"	d
+dig	obj/user/faultwrite.asm	/^			dig = *s - 'A' + 10;$/;"	d
+dig	obj/user/faultwrite.asm	/^			dig = *s - 'a' + 10;$/;"	d
+dig	obj/user/faultwritekernel.asm	/^			dig = *s - '0';$/;"	d
+dig	obj/user/faultwritekernel.asm	/^			dig = *s - 'A' + 10;$/;"	d
+dig	obj/user/faultwritekernel.asm	/^			dig = *s - 'a' + 10;$/;"	d
+dig	obj/user/hello.asm	/^			dig = *s - '0';$/;"	d
+dig	obj/user/hello.asm	/^			dig = *s - 'A' + 10;$/;"	d
+dig	obj/user/hello.asm	/^			dig = *s - 'a' + 10;$/;"	d
+dig	obj/user/softint.asm	/^			dig = *s - '0';$/;"	d
+dig	obj/user/softint.asm	/^			dig = *s - 'A' + 10;$/;"	d
+dig	obj/user/softint.asm	/^			dig = *s - 'a' + 10;$/;"	d
+dig	obj/user/testbss.asm	/^			dig = *s - '0';$/;"	d
+dig	obj/user/testbss.asm	/^			dig = *s - 'A' + 10;$/;"	d
+dig	obj/user/testbss.asm	/^			dig = *s - 'a' + 10;$/;"	d
+do_e820	boot/boot.S	/^do_e820:$/;"	l
+do_e820	obj/boot/boot.asm	/^do_e820:$/;"	l
+done	boot/boot.S	/^done:$/;"	l
+done	obj/boot/boot.asm	/^done:$/;"	l
+ds	obj/kern/kernel.asm	/^    ds = _dwarf_find_section(".debug_abbrev");$/;"	d
+ds_addr	kern/dwarf.h	/^        Dwarf_Unsigned  ds_addr;        \/* Section virtual addr. *\/$/;"	m	struct:_Dwarf_Section
+ds_data	kern/dwarf.h	/^        Dwarf_Small     *ds_data;       \/* Section data. *\/$/;"	m	struct:_Dwarf_Section
+ds_name	kern/dwarf.h	/^        const char      *ds_name;       \/* Section name. *\/$/;"	m	struct:_Dwarf_Section
+ds_size	kern/dwarf.h	/^        Dwarf_Unsigned  ds_size;        \/* Section size. *\/$/;"	m	struct:_Dwarf_Section
+dst_in	obj/kern/kernel.asm	/^	dst_in = dst;$/;"	d
+dst_in	obj/user/badsegment.asm	/^	dst_in = dst;$/;"	d
+dst_in	obj/user/breakpoint.asm	/^	dst_in = dst;$/;"	d
+dst_in	obj/user/buggyhello.asm	/^	dst_in = dst;$/;"	d
+dst_in	obj/user/buggyhello2.asm	/^	dst_in = dst;$/;"	d
+dst_in	obj/user/divzero.asm	/^	dst_in = dst;$/;"	d
+dst_in	obj/user/evilhello.asm	/^	dst_in = dst;$/;"	d
+dst_in	obj/user/faultread.asm	/^	dst_in = dst;$/;"	d
+dst_in	obj/user/faultreadkernel.asm	/^	dst_in = dst;$/;"	d
+dst_in	obj/user/faultwrite.asm	/^	dst_in = dst;$/;"	d
+dst_in	obj/user/faultwritekernel.asm	/^	dst_in = dst;$/;"	d
+dst_in	obj/user/hello.asm	/^	dst_in = dst;$/;"	d
+dst_in	obj/user/softint.asm	/^	dst_in = dst;$/;"	d
+dst_in	obj/user/testbss.asm	/^	dst_in = dst;$/;"	d
+dw_block_ptr	kern/dwarf.h	/^        Dwarf_Ptr       dw_block_ptr;$/;"	m	struct:__anon2
+dw_offset	kern/dwarf.h	/^                Dwarf_Addr      dw_offset;$/;"	m	struct:__anon9::__anon10
+dw_offset_or_block_len	kern/dwarf.h	/^        Dwarf_Unsigned  dw_offset_or_block_len;$/;"	m	struct:__anon2
+dw_offset_relevant	kern/dwarf.h	/^                Dwarf_Small     dw_offset_relevant;$/;"	m	struct:__anon9::__anon10
+dw_offset_relevant	kern/dwarf.h	/^        Dwarf_Small     dw_offset_relevant;$/;"	m	struct:__anon2
+dw_regnum	kern/dwarf.h	/^                Dwarf_Half      dw_regnum;$/;"	m	struct:__anon9::__anon10
+dw_regnum	kern/dwarf.h	/^        Dwarf_Half      dw_regnum;$/;"	m	struct:__anon2
+dw_value_type	kern/dwarf.h	/^        Dwarf_Small     dw_value_type;$/;"	m	struct:__anon2
+dwarf_child	kern/libdwarf_rw.c	/^dwarf_child(Dwarf_Debug dbg, Dwarf_CU *cu, Dwarf_Die *die, Dwarf_Die *ret_die)$/;"	f
+dwarf_get_fde_at_pc	kern/libdwarf_frame.c	/^dwarf_get_fde_at_pc(Dwarf_Addr pc,$/;"	f
+dwarf_get_fde_info_for_all_regs	kern/libdwarf_frame.c	/^dwarf_get_fde_info_for_all_regs(Dwarf_Fde fde, Dwarf_Addr pc_requested,$/;"	f
+dwarf_init_eh_section	kern/libdwarf_frame.c	/^dwarf_init_eh_section(Dwarf_Debug dbg,$/;"	f
+dwarf_offdie	kern/libdwarf_rw.c	/^dwarf_offdie(Dwarf_Debug dbg, uint64_t offset, Dwarf_Die *ret_die, Dwarf_CU cu)$/;"	f
+dwarf_regnames_i386	kern/kdebug.c	/^static const char *const dwarf_regnames_i386[] =$/;"	v	file:
+dwarf_regnames_x86_64	kern/kdebug.c	/^static const char *const dwarf_regnames_x86_64[] =$/;"	v	file:
+dwarf_search_die_within_cu	kern/libdwarf_rw.c	/^dwarf_search_die_within_cu(Dwarf_Debug dbg, Dwarf_CU cu, uint64_t offset, Dwarf_Die *ret_die, int search_sibling)$/;"	f
+dwarf_set_frame_cfa_value	kern/libdwarf_frame.c	/^dwarf_set_frame_cfa_value(Dwarf_Debug dbg, Dwarf_Half value)$/;"	f
+dwarf_siblingof	kern/libdwarf_rw.c	/^dwarf_siblingof(Dwarf_Debug dbg, Dwarf_Die *die, Dwarf_Die *ret_die,$/;"	f
+dwarf_size	obj/kern/kernel.asm	/^			dwarf_size = 4;$/;"	d
+dwarf_size	obj/kern/kernel.asm	/^			dwarf_size = 8;$/;"	d
+dwarf_size	obj/kern/kernel.asm	/^		dwarf_size = 4;$/;"	d
+dwarf_size	obj/kern/kernel.asm	/^		dwarf_size = 8;$/;"	d
+dwarf_size	obj/kern/kernel.asm	/^        dwarf_size = 4;$/;"	d
+dwarf_size	obj/kern/kernel.asm	/^        dwarf_size = 8;$/;"	d
+dwarf_srclines	kern/libdwarf_lineno.c	/^dwarf_srclines(Dwarf_Die *die, Dwarf_Line linebuf, Dwarf_Addr pc, Dwarf_Error *error)$/;"	f
+e	obj/kern/kernel.asm	/^	e = &envs[ENVX(envid)];$/;"	d
+e	obj/kern/kernel.asm	/^    e = (Elf *) obj;$/;"	d
+e	obj/kern/kernel.asm	/^    e = (Elf *)obj;$/;"	d
+e_ehsize	inc/elf.h	/^	uint16_t e_ehsize;$/;"	m	struct:Elf
+e_ehsize	kern/dwarf_elf.h	/^    uint16_t e_ehsize;$/;"	m	struct:_Elf32
+e_ehsize	kern/dwarf_elf.h	/^    uint16_t e_ehsize;$/;"	m	struct:_Elf64
+e_elf	inc/elf.h	/^	uint8_t e_elf[12];$/;"	m	struct:Elf
+e_entry	inc/elf.h	/^	uint64_t e_entry;$/;"	m	struct:Elf
+e_entry	kern/dwarf_elf.h	/^    uint32_t e_entry;$/;"	m	struct:_Elf32
+e_entry	kern/dwarf_elf.h	/^    uint64_t e_entry;$/;"	m	struct:_Elf64
+e_flags	inc/elf.h	/^	uint32_t e_flags;$/;"	m	struct:Elf
+e_flags	kern/dwarf_elf.h	/^    uint32_t e_flags;$/;"	m	struct:_Elf32
+e_flags	kern/dwarf_elf.h	/^    uint32_t e_flags;$/;"	m	struct:_Elf64
+e_ident	kern/dwarf_elf.h	/^    unsigned char e_ident[16];$/;"	m	struct:_Elf32
+e_ident	kern/dwarf_elf.h	/^    unsigned char e_ident[16];$/;"	m	struct:_Elf64
+e_machine	inc/elf.h	/^	uint16_t e_machine;$/;"	m	struct:Elf
+e_machine	kern/dwarf_elf.h	/^    uint16_t e_machine;$/;"	m	struct:_Elf32
+e_machine	kern/dwarf_elf.h	/^    uint16_t e_machine;$/;"	m	struct:_Elf64
+e_magic	inc/elf.h	/^	uint32_t e_magic;	\/\/ must equal ELF_MAGIC$/;"	m	struct:Elf
+e_phentsize	inc/elf.h	/^	uint16_t e_phentsize;$/;"	m	struct:Elf
+e_phentsize	kern/dwarf_elf.h	/^    uint16_t e_phentsize;$/;"	m	struct:_Elf32
+e_phentsize	kern/dwarf_elf.h	/^    uint16_t e_phentsize;$/;"	m	struct:_Elf64
+e_phnum	inc/elf.h	/^	uint16_t e_phnum;$/;"	m	struct:Elf
+e_phnum	kern/dwarf_elf.h	/^    uint16_t e_phnum;$/;"	m	struct:_Elf32
+e_phnum	kern/dwarf_elf.h	/^    uint16_t e_phnum;$/;"	m	struct:_Elf64
+e_phoff	inc/elf.h	/^	uint64_t e_phoff;$/;"	m	struct:Elf
+e_phoff	kern/dwarf_elf.h	/^    uint32_t e_phoff;$/;"	m	struct:_Elf32
+e_phoff	kern/dwarf_elf.h	/^    uint64_t e_phoff;$/;"	m	struct:_Elf64
+e_shentsize	inc/elf.h	/^	uint16_t e_shentsize;$/;"	m	struct:Elf
+e_shentsize	kern/dwarf_elf.h	/^    uint16_t e_shentsize;$/;"	m	struct:_Elf32
+e_shentsize	kern/dwarf_elf.h	/^    uint16_t e_shentsize;$/;"	m	struct:_Elf64
+e_shnum	inc/elf.h	/^	uint16_t e_shnum;$/;"	m	struct:Elf
+e_shnum	kern/dwarf_elf.h	/^    uint16_t e_shnum;$/;"	m	struct:_Elf32
+e_shnum	kern/dwarf_elf.h	/^    uint16_t e_shnum;$/;"	m	struct:_Elf64
+e_shoff	inc/elf.h	/^	uint64_t e_shoff;$/;"	m	struct:Elf
+e_shoff	kern/dwarf_elf.h	/^    uint32_t e_shoff;$/;"	m	struct:_Elf32
+e_shoff	kern/dwarf_elf.h	/^    uint64_t e_shoff;$/;"	m	struct:_Elf64
+e_shstrndx	inc/elf.h	/^	uint16_t e_shstrndx;$/;"	m	struct:Elf
+e_shstrndx	kern/dwarf_elf.h	/^    uint16_t e_shstrndx;$/;"	m	struct:_Elf32
+e_shstrndx	kern/dwarf_elf.h	/^    uint16_t e_shstrndx;$/;"	m	struct:_Elf64
+e_type	inc/elf.h	/^	uint16_t e_type;$/;"	m	struct:Elf
+e_type	kern/dwarf_elf.h	/^    uint16_t e_type;$/;"	m	struct:_Elf32
+e_type	kern/dwarf_elf.h	/^    uint16_t e_type;$/;"	m	struct:_Elf64
+e_version	inc/elf.h	/^	uint32_t e_version;$/;"	m	struct:Elf
+e_version	kern/dwarf_elf.h	/^    uint32_t e_version;$/;"	m	struct:_Elf32
+e_version	kern/dwarf_elf.h	/^    uint32_t e_version;$/;"	m	struct:_Elf64
+ebuf	lib/printfmt.c	/^	char *ebuf;$/;"	m	struct:sprintbuf	file:
+echoing	obj/kern/kernel.asm	/^	echoing = iscons(0);$/;"	d
+elf	inc/env.h	/^    uint8_t *elf;$/;"	m	struct:Env
+elf	obj/kern/kernel.asm	/^	    elf = (void *)0x10000 + KERNBASE;$/;"	d
+elf	obj/kern/kernel.asm	/^	    elf = curenv->elf;$/;"	d
+elf_sec	kern/multiboot.h	/^     elf_section_header_table_t elf_sec;$/;"	m	union:multiboot_info::__anon1
+elf_section_header_table	kern/multiboot.h	/^ typedef struct elf_section_header_table$/;"	s
+elf_section_header_table_t	kern/multiboot.h	/^ } elf_section_header_table_t;$/;"	t	typeref:struct:elf_section_header_table
+elfhdr	obj/kern/kernel.asm	/^	elfhdr = (struct Elf *)(binary);$/;"	d
+encode	obj/kern/kernel.asm	/^			encode = *augdata_p++;$/;"	d
+end_debug	kern/init.c	/^uint64_t end_debug;$/;"	v
+end_debug	obj/kern/kernel.asm	/^    end_debug = read_section_headers((0x10000+KERNBASE), (uintptr_t)end); $/;"	d
+end_pa	obj/boot/boot.asm	/^	end_pa = pa + count;$/;"	d
+end_pa	obj/kern/kernel.asm	/^	end_pa = pa + count;$/;"	d
+end_part	gradelib.py	/^def end_part(name):$/;"	f
+end_sequence	obj/kern/kernel.asm	/^                end_sequence = 1;$/;"	d
+endoff	obj/kern/kernel.asm	/^    endoff = offset + length;$/;"	d
+entry	kern/entry.S	/^entry:$/;"	l
+entry	obj/kern/kernel.asm	/^    entry = _dwarf_read_uleb128((uint8_t *)abbr_addr, offset);$/;"	d
+entry	obj/kern/kernel.asm	/^entry:$/;"	l
+entry_addr	kern/multiboot.h	/^   uint32_t entry_addr;$/;"	m	struct:multiboot_header
+entry_off	obj/kern/kernel.asm	/^		entry_off = offset;$/;"	d
+env_alloc	kern/env.c	/^env_alloc(struct Env **newenv_store, envid_t parent_id)$/;"	f
+env_cr3	inc/env.h	/^    physaddr_t env_cr3;$/;"	m	struct:Env
+env_create	kern/env.c	/^env_create(uint8_t *binary, enum EnvType type)$/;"	f
+env_destroy	kern/env.c	/^env_destroy(struct Env *e)$/;"	f
+env_free	kern/env.c	/^env_free(struct Env *e)$/;"	f
+env_free_list	kern/env.c	/^static struct Env *env_free_list;	\/\/ Free environment list$/;"	v	typeref:struct:Env	file:
+env_free_list	obj/kern/kernel.asm	/^		env_free_list = &envs[i];$/;"	d
+env_free_list	obj/kern/kernel.asm	/^	env_free_list = &envs[0];$/;"	d
+env_free_list	obj/kern/kernel.asm	/^	env_free_list = e->env_link;$/;"	d
+env_free_list	obj/kern/kernel.asm	/^	env_free_list = e;$/;"	d
+env_id	inc/env.h	/^	envid_t env_id;			\/\/ Unique environment identifier$/;"	m	struct:Env
+env_init	kern/env.c	/^env_init(void)$/;"	f
+env_init_percpu	kern/env.c	/^env_init_percpu(void)$/;"	f
+env_link	inc/env.h	/^	struct Env *env_link;   \/\/ Free list link pointers$/;"	m	struct:Env	typeref:struct:Env::Env
+env_parent_id	inc/env.h	/^	envid_t env_parent_id;		\/\/ env_id of this env's parent$/;"	m	struct:Env
+env_pml4e	inc/env.h	/^	pml4e_t *env_pml4e;		\/\/ Kernel virtual address of page dir$/;"	m	struct:Env
+env_pop_tf	kern/env.c	/^env_pop_tf(struct Trapframe *tf)$/;"	f
+env_run	kern/env.c	/^env_run(struct Env *e)$/;"	f
+env_runs	inc/env.h	/^	uint32_t env_runs;		\/\/ Number of times environment has run$/;"	m	struct:Env
+env_setup_vm	kern/env.c	/^env_setup_vm(struct Env *e)$/;"	f	file:
+env_status	inc/env.h	/^	unsigned env_status;		\/\/ Status of the environment$/;"	m	struct:Env
+env_tf	inc/env.h	/^	struct Trapframe env_tf;	\/\/ Saved registers$/;"	m	struct:Env	typeref:struct:Env::Trapframe
+env_type	inc/env.h	/^	enum EnvType env_type;		\/\/ Indicates special system environments$/;"	m	struct:Env	typeref:enum:Env::EnvType
+envid2env	kern/env.c	/^envid2env(envid_t envid, struct Env **env_store, bool checkperm)$/;"	f
+envid_t	inc/env.h	/^typedef int32_t envid_t;$/;"	t
+envid_t	obj/user/badsegment.asm	/^envid_t$/;"	l
+envid_t	obj/user/breakpoint.asm	/^envid_t$/;"	l
+envid_t	obj/user/buggyhello.asm	/^envid_t$/;"	l
+envid_t	obj/user/buggyhello2.asm	/^envid_t$/;"	l
+envid_t	obj/user/divzero.asm	/^envid_t$/;"	l
+envid_t	obj/user/evilhello.asm	/^envid_t$/;"	l
+envid_t	obj/user/faultread.asm	/^envid_t$/;"	l
+envid_t	obj/user/faultreadkernel.asm	/^envid_t$/;"	l
+envid_t	obj/user/faultwrite.asm	/^envid_t$/;"	l
+envid_t	obj/user/faultwritekernel.asm	/^envid_t$/;"	l
+envid_t	obj/user/hello.asm	/^envid_t$/;"	l
+envid_t	obj/user/softint.asm	/^envid_t$/;"	l
+envid_t	obj/user/testbss.asm	/^envid_t$/;"	l
+envs	kern/env.c	/^struct Env *envs = NULL;		\/\/ All environments$/;"	v	typeref:struct:Env
+eph	obj/boot/boot.asm	/^	eph = ph + ELFHDR->e_phnum;$/;"	d
+eph	obj/kern/kernel.asm	/^	eph = ph + elfhdr->e_phnum;$/;"	d
+epilogue_begin	obj/kern/kernel.asm	/^                epilogue_begin = 0;$/;"	d
+epilogue_begin	obj/kern/kernel.asm	/^                epilogue_begin = 1;$/;"	d
+epilogue_begin	obj/kern/kernel.asm	/^            epilogue_begin = 0;$/;"	d
+err	obj/kern/kernel.asm	/^				err = -err;$/;"	d
+err	obj/kern/kernel.asm	/^			err = va_arg(aq, int);$/;"	d
+err	obj/user/badsegment.asm	/^				err = -err;$/;"	d
+err	obj/user/badsegment.asm	/^			err = va_arg(aq, int);$/;"	d
+err	obj/user/breakpoint.asm	/^				err = -err;$/;"	d
+err	obj/user/breakpoint.asm	/^			err = va_arg(aq, int);$/;"	d
+err	obj/user/buggyhello.asm	/^				err = -err;$/;"	d
+err	obj/user/buggyhello.asm	/^			err = va_arg(aq, int);$/;"	d
+err	obj/user/buggyhello2.asm	/^				err = -err;$/;"	d
+err	obj/user/buggyhello2.asm	/^			err = va_arg(aq, int);$/;"	d
+err	obj/user/divzero.asm	/^				err = -err;$/;"	d
+err	obj/user/divzero.asm	/^			err = va_arg(aq, int);$/;"	d
+err	obj/user/evilhello.asm	/^				err = -err;$/;"	d
+err	obj/user/evilhello.asm	/^			err = va_arg(aq, int);$/;"	d
+err	obj/user/faultread.asm	/^				err = -err;$/;"	d
+err	obj/user/faultread.asm	/^			err = va_arg(aq, int);$/;"	d
+err	obj/user/faultreadkernel.asm	/^				err = -err;$/;"	d
+err	obj/user/faultreadkernel.asm	/^			err = va_arg(aq, int);$/;"	d
+err	obj/user/faultwrite.asm	/^				err = -err;$/;"	d
+err	obj/user/faultwrite.asm	/^			err = va_arg(aq, int);$/;"	d
+err	obj/user/faultwritekernel.asm	/^				err = -err;$/;"	d
+err	obj/user/faultwritekernel.asm	/^			err = va_arg(aq, int);$/;"	d
+err	obj/user/hello.asm	/^				err = -err;$/;"	d
+err	obj/user/hello.asm	/^			err = va_arg(aq, int);$/;"	d
+err	obj/user/softint.asm	/^				err = -err;$/;"	d
+err	obj/user/softint.asm	/^			err = va_arg(aq, int);$/;"	d
+err	obj/user/testbss.asm	/^				err = -err;$/;"	d
+err	obj/user/testbss.asm	/^			err = va_arg(aq, int);$/;"	d
+err_elferror	kern/dwarf.h	/^        int             err_elferror;   \/* ELF error. *\/$/;"	m	struct:_Dwarf_Error
+err_error	kern/dwarf.h	/^        int             err_error;      \/* DWARF error. *\/$/;"	m	struct:_Dwarf_Error
+err_func	kern/dwarf.h	/^        const char      *err_func;      \/* Function name where error occurred. *\/$/;"	m	struct:_Dwarf_Error
+err_line	kern/dwarf.h	/^        int             err_line;       \/* Line number where error occurred. *\/$/;"	m	struct:_Dwarf_Error
+err_msg	kern/dwarf.h	/^        char            err_msg[1024];  \/* Formatted error message. *\/$/;"	m	struct:_Dwarf_Error
+error_string	lib/printfmt.c	/^static const char * const error_string[MAXERROR] =$/;"	v	file:
+exit	lib/exit.c	/^exit(void)$/;"	f
+extern	obj/kern/kernel.asm	/^	extern struct Segdesc gdt[];$/;"	t
+extmem	obj/kern/kernel.asm	/^		extmem = (nvram_read(NVRAM_EXTLO) * 1024);$/;"	d
+fail_cleanup	obj/kern/kernel.asm	/^fail_cleanup:$/;"	l
+failed	boot/boot.S	/^failed:$/;"	l
+false	inc/types.h	/^enum { false, true };$/;"	e	enum:__anon16
+fault_va	obj/kern/kernel.asm	/^	fault_va = rcr2();$/;"	d
+fde	obj/kern/kernel.asm	/^	fde = retfde;$/;"	d
+fde_addr	kern/dwarf.h	/^        Dwarf_Ptr       fde_addr;       \/* Ptr to start of the FDE. *\/$/;"	m	struct:_Dwarf_Fde
+fde_adrange	kern/dwarf.h	/^        Dwarf_Unsigned  fde_adrange;    \/* Address range. *\/$/;"	m	struct:_Dwarf_Fde
+fde_augdata	kern/dwarf.h	/^        uint8_t         *fde_augdata;   \/* Augmentation data. *\/$/;"	m	struct:_Dwarf_Fde
+fde_auglen	kern/dwarf.h	/^        Dwarf_Unsigned  fde_auglen;     \/* Augmentation length. *\/$/;"	m	struct:_Dwarf_Fde
+fde_cie	kern/dwarf.h	/^        Dwarf_Cie       fde_cie;        \/* Ptr to associated CIE. *\/$/;"	m	struct:_Dwarf_Fde
+fde_cieoff	kern/dwarf.h	/^        Dwarf_Unsigned  fde_cieoff;     \/* Offset of associated CIE. *\/$/;"	m	struct:_Dwarf_Fde
+fde_dbg	kern/dwarf.h	/^        Dwarf_Debug     fde_dbg;        \/* Ptr to containing dbg. *\/$/;"	m	struct:_Dwarf_Fde
+fde_eoff	kern/dwarf.h	/^        Dwarf_Addr      fde_eoff;       \/* Offset from the end symbol. *\/$/;"	m	struct:_Dwarf_Fde
+fde_esymndx	kern/dwarf.h	/^        Dwarf_Unsigned  fde_esymndx;    \/* End symbol index for relocation. *\/$/;"	m	struct:_Dwarf_Fde
+fde_initloc	kern/dwarf.h	/^        Dwarf_Unsigned  fde_initloc;    \/* Initial location. *\/$/;"	m	struct:_Dwarf_Fde
+fde_inst	kern/dwarf.h	/^        uint8_t         *fde_inst;      \/* Instructions. *\/$/;"	m	struct:_Dwarf_Fde
+fde_instcap	kern/dwarf.h	/^        Dwarf_Unsigned  fde_instcap;    \/* Capacity of inst buffer. *\/$/;"	m	struct:_Dwarf_Fde
+fde_instlen	kern/dwarf.h	/^        Dwarf_Unsigned  fde_instlen;    \/* Length of instructions. *\/$/;"	m	struct:_Dwarf_Fde
+fde_length	kern/dwarf.h	/^        Dwarf_Unsigned  fde_length;     \/* Length of the FDE. *\/$/;"	m	struct:_Dwarf_Fde
+fde_offset	kern/dwarf.h	/^        Dwarf_Unsigned  fde_offset;     \/* Offset of the FDE. *\/$/;"	m	struct:_Dwarf_Fde
+fde_symndx	kern/dwarf.h	/^        Dwarf_Unsigned  fde_symndx;     \/* Symbol index for relocation. *\/$/;"	m	struct:_Dwarf_Fde
+file	obj/kern/kernel.asm	/^                file = _dwarf_decode_uleb128(&p);$/;"	d
+fileno	gradelib.py	/^    def fileno(self):$/;"	f
+fileno	gradelib.py	/^    def fileno(self):$/;"	m	class:GDBClient
+find_debug_sections	kern/elf_rw.c	/^void find_debug_sections(uintptr_t elf) $/;"	f
+find_done	obj/kern/kernel.asm	/^find_done:$/;"	l
+first_free_page	obj/kern/kernel.asm	/^	first_free_page = (char *) boot_alloc(0);$/;"	d
+fl	obj/kern/kernel.asm	/^	fl = page_free_list;$/;"	d
+flags	kern/multiboot.h	/^   uint32_t flags;$/;"	m	struct:multiboot_header
+flags	kern/multiboot.h	/^   uint32_t flags;$/;"	m	struct:multiboot_info
+fname	obj/kern/kernel.asm	/^    fname = (char *) src;$/;"	d
+form	obj/kern/kernel.asm	/^        form = _dwarf_read_uleb128((uint8_t *)abbr_addr, offset);$/;"	d
+form	obj/kern/kernel.asm	/^        form = _dwarf_read_uleb128(ds_data, offsetp);$/;"	d
+func	kern/monitor.c	/^	int (*func)(int argc, char** argv, struct Trapframe* tf);$/;"	m	struct:Command	file:
+gd_dpl	inc/mmu.h	/^	unsigned gd_dpl : 2;         \/\/ descriptor(meaning new) privilege level$/;"	m	struct:Gatedesc
+gd_ist	inc/mmu.h	/^	unsigned gd_ist : 3;        \/\/ # args, 0 for interrupt\/trap gates$/;"	m	struct:Gatedesc
+gd_off_15_0	inc/mmu.h	/^	unsigned gd_off_15_0 : 16;   \/\/ low 16 bits of offset in segment$/;"	m	struct:Gatedesc
+gd_off_31_16	inc/mmu.h	/^	unsigned gd_off_31_16 : 16;  \/\/ high bits of offset in segment$/;"	m	struct:Gatedesc
+gd_off_32_63	inc/mmu.h	/^    uint32_t gd_off_32_63;       $/;"	m	struct:Gatedesc
+gd_p	inc/mmu.h	/^	unsigned gd_p : 1;           \/\/ Present$/;"	m	struct:Gatedesc
+gd_rsv1	inc/mmu.h	/^	unsigned gd_rsv1 : 5;        \/\/ reserved(should be zero I guess)$/;"	m	struct:Gatedesc
+gd_rsv2	inc/mmu.h	/^    uint32_t gd_rsv2;                   $/;"	m	struct:Gatedesc
+gd_s	inc/mmu.h	/^	unsigned gd_s : 1;           \/\/ must be 0 (system)$/;"	m	struct:Gatedesc
+gd_ss	inc/mmu.h	/^	unsigned gd_ss : 16;         \/\/ segment selector$/;"	m	struct:Gatedesc
+gd_type	inc/mmu.h	/^	unsigned gd_type : 4;        \/\/ type(STS_{TG,IG32,TG32})$/;"	m	struct:Gatedesc
+gdt	boot/boot.S	/^gdt:$/;"	l
+gdt	kern/env.c	/^struct Segdesc gdt[] =$/;"	v	typeref:struct:Segdesc
+gdt_64	kern/bootstrap.S	/^gdt_64:$/;"	l
+gdt_pd	kern/env.c	/^struct Pseudodesc gdt_pd = {$/;"	v	typeref:struct:Pseudodesc
+gdtdesc	boot/boot.S	/^gdtdesc:$/;"	l
+gdtdesc_64	kern/bootstrap.S	/^gdtdesc_64:$/;"	l
+gdtdesc_64	kern/entry.S	/^gdtdesc_64:$/;"	l
+generation	obj/kern/kernel.asm	/^		generation = 1 << ENVGENSHIFT;$/;"	d
+generation	obj/kern/kernel.asm	/^	generation = (e->env_id + (1 << ENVGENSHIFT)) & ~(NENV - 1);$/;"	d
+get_current_test	gradelib.py	/^def get_current_test():$/;"	f
+get_gdb_port	gradelib.py	/^    def get_gdb_port():$/;"	f
+getchar	kern/console.c	/^getchar(void)$/;"	f
+getchar	lib/console.c	/^getchar(void)$/;"	f
+getint	lib/printfmt.c	/^getint(va_list *ap, int lflag)$/;"	f	file:
+getuint	lib/printfmt.c	/^getuint(va_list *ap, int lflag)$/;"	f	file:
+global_rt_table	kern/libdwarf_frame.c	/^Dwarf_Regtable3 global_rt_table = {{0}};$/;"	v
+global_rt_table_shadow	kern/libdwarf_frame.c	/^Dwarf_Regtable3 global_rt_table_shadow = {{0}};$/;"	v
+global_rules	kern/libdwarf_frame.c	/^Dwarf_Regtable_Entry3 global_rules[DW_FRAME_LAST_REG_NUM];$/;"	v
+global_rules_shadow	kern/libdwarf_frame.c	/^Dwarf_Regtable_Entry3 global_rules_shadow[DW_FRAME_LAST_REG_NUM];$/;"	v
+global_std_op	kern/libdwarf_lineno.c	/^Dwarf_Small global_std_op[512];$/;"	v
+handle_output	gradelib.py	/^        def handle_output(output):$/;"	f	function:call_on_line.setup_call_on_line
+handle_read	gradelib.py	/^    def handle_read(self):$/;"	f
+handle_read	gradelib.py	/^    def handle_read(self):$/;"	m	class:GDBClient
+hdroff	obj/kern/kernel.asm	/^    hdroff = offset;$/;"	d
+header_addr	kern/multiboot.h	/^   uint32_t header_addr;$/;"	m	struct:multiboot_header
+hello	user/buggyhello2.c	/^const char *hello = "hello, world\\n";$/;"	v
+high	obj/kern/kernel.asm	/^	high = _dwarf_attr_find(die, DW_AT_high_pc);$/;"	d
+high2	obj/kern/kernel.asm	/^                high2 = *p & 0xc0;$/;"	d
+i	obj/kern/kernel.asm	/^	i = 0;$/;"	d
+i386_detect_memory	kern/pmap.c	/^i386_detect_memory(void)$/;"	f	file:
+i386_init	kern/init.c	/^i386_init(void)$/;"	f
+idt	kern/trap.c	/^struct Gatedesc idt[256] = { { 0 } };$/;"	v	typeref:struct:Gatedesc
+idt_pd	kern/trap.c	/^struct Pseudodesc idt_pd = {0,0};$/;"	v	typeref:struct:Pseudodesc
+idx	lib/printf.c	/^	int idx;	\/\/ current buffer index$/;"	m	struct:printbuf	file:
+inb	inc/x86.h	/^inb(int port)$/;"	f
+init_rt	obj/kern/kernel.asm	/^        init_rt = saved_rt = NULL;$/;"	d
+inl	inc/x86.h	/^inl(int port)$/;"	f
+ins_error	obj/kern/kernel.asm	/^	ins_error = page_insert(e->env_pml4e, page_var, (void *)USTACKTOP - PGSIZE, PTE_U | PTE_W);$/;"	d
+insb	inc/x86.h	/^insb(int port, void *addr, int cnt)$/;"	f
+insl	inc/x86.h	/^insl(int port, void *addr, int cnt)$/;"	f
+insw	inc/x86.h	/^insw(int port, void *addr, int cnt)$/;"	f
+int	obj/kern/kernel.asm	/^int	user_mem_check(struct Env *env, const void *va, size_t len, int perm);$/;"	l
+int	obj/kern/kernel.asm	/^int     $/;"	l
+int	obj/kern/kernel.asm	/^int  _dwarf_find_section_enhanced(Dwarf_Section *ds)$/;"	l
+int	obj/kern/kernel.asm	/^int  _dwarf_find_section_enhanced(Dwarf_Section *ds);$/;"	l
+int	obj/kern/kernel.asm	/^int _dwarf_init(Dwarf_Debug dbg, void *obj)$/;"	l
+int	obj/kern/kernel.asm	/^int _get_next_cu(Dwarf_Debug dbg, Dwarf_CU *cu)$/;"	l
+int	obj/kern/kernel.asm	/^int list_func_die(struct Ripdebuginfo *info, Dwarf_Die *die, uint64_t addr)$/;"	l
+int	obj/kern/kernel.asm	/^int$/;"	l
+int	obj/user/badsegment.asm	/^int$/;"	l
+int	obj/user/breakpoint.asm	/^int$/;"	l
+int	obj/user/buggyhello.asm	/^int$/;"	l
+int	obj/user/buggyhello2.asm	/^int$/;"	l
+int	obj/user/divzero.asm	/^int zero;$/;"	l
+int	obj/user/divzero.asm	/^int$/;"	l
+int	obj/user/evilhello.asm	/^int$/;"	l
+int	obj/user/faultread.asm	/^int$/;"	l
+int	obj/user/faultreadkernel.asm	/^int$/;"	l
+int	obj/user/faultwrite.asm	/^int$/;"	l
+int	obj/user/faultwritekernel.asm	/^int$/;"	l
+int	obj/user/hello.asm	/^int$/;"	l
+int	obj/user/softint.asm	/^int$/;"	l
+int	obj/user/testbss.asm	/^int$/;"	l
+int16_t	inc/types.h	/^typedef short int16_t;$/;"	t
+int32_t	inc/types.h	/^typedef int int32_t;$/;"	t
+int64_t	inc/types.h	/^typedef long long int64_t;$/;"	t
+int64_t	obj/kern/kernel.asm	/^int64_t$/;"	l
+int8_t	inc/types.h	/^typedef __signed char int8_t;$/;"	t
+intptr_t	inc/types.h	/^typedef int32_t intptr_t;$/;"	t
+invlpg	inc/x86.h	/^invlpg(void *addr)$/;"	f
+inw	inc/x86.h	/^inw(int port)$/;"	f
+is_eh_frame	kern/libdwarf_frame.c	/^int is_eh_frame = 1;$/;"	v
+is_stmt	obj/kern/kernel.asm	/^                is_stmt = !is_stmt;$/;"	d
+isa	obj/kern/kernel.asm	/^                isa = _dwarf_decode_uleb128(&p);$/;"	d
+iscons	kern/console.c	/^iscons(int fdnum)$/;"	f
+jumpto_longmode	kern/bootstrap.S	/^jumpto_longmode:$/;"	l
+jumpto_longmode	obj/kern/kernel.asm	/^jumpto_longmode:$/;"	l
+kbd_init	kern/console.c	/^kbd_init(void)$/;"	f	file:
+kbd_intr	kern/console.c	/^kbd_intr(void)$/;"	f
+kbd_proc_data	kern/console.c	/^kbd_proc_data(void)$/;"	f	file:
+kernel_64	kern/entry.S	/^kernel_64:$/;"	l
+kill	gradelib.py	/^    def kill(self):$/;"	f
+last	obj/kern/kernel.asm	/^		last = &pages[i];$/;"	d
+last	obj/kern/kernel.asm	/^last:	$/;"	l
+last_tf	kern/trap.c	/^static struct Trapframe *last_tf;$/;"	v	typeref:struct:Trapframe	file:
+last_tf	obj/kern/kernel.asm	/^	last_tf = tf;$/;"	d
+lastenv	obj/kern/kernel.asm	/^		    lastenv = curenv;$/;"	d
+lcr0	inc/x86.h	/^lcr0(uint64_t val)$/;"	f
+lcr3	inc/x86.h	/^lcr3(uint64_t val)$/;"	f
+lcr4	inc/x86.h	/^lcr4(uint64_t val)$/;"	f
+ld_cents	kern/dwarf.h	/^    uint16_t      ld_cents;   $/;"	m	struct:__anon5
+ld_hipc	kern/dwarf.h	/^    uint64_t      ld_hipc;    $/;"	m	struct:__anon5
+ld_lopc	kern/dwarf.h	/^    uint64_t      ld_lopc;    $/;"	m	struct:__anon5
+ld_s	kern/dwarf.h	/^    Dwarf_Loc     ld_s;      $/;"	m	struct:__anon5
+len	obj/kern/kernel.asm	/^	len = ROUNDUP(len + PGOFF(va), PGSIZE);$/;"	d
+len	obj/kern/kernel.asm	/^    len = strlen(str);$/;"	d
+len	obj/user/badsegment.asm	/^    len = strlen(str);$/;"	d
+len	obj/user/breakpoint.asm	/^    len = strlen(str);$/;"	d
+len	obj/user/buggyhello.asm	/^    len = strlen(str);$/;"	d
+len	obj/user/buggyhello2.asm	/^    len = strlen(str);$/;"	d
+len	obj/user/divzero.asm	/^    len = strlen(str);$/;"	d
+len	obj/user/evilhello.asm	/^    len = strlen(str);$/;"	d
+len	obj/user/faultread.asm	/^    len = strlen(str);$/;"	d
+len	obj/user/faultreadkernel.asm	/^    len = strlen(str);$/;"	d
+len	obj/user/faultwrite.asm	/^    len = strlen(str);$/;"	d
+len	obj/user/faultwritekernel.asm	/^    len = strlen(str);$/;"	d
+len	obj/user/hello.asm	/^    len = strlen(str);$/;"	d
+len	obj/user/softint.asm	/^    len = strlen(str);$/;"	d
+len	obj/user/testbss.asm	/^    len = strlen(str);$/;"	d
+length	obj/kern/kernel.asm	/^			length = dbg->read(ds->ds_data, &offset, 8);$/;"	d
+length	obj/kern/kernel.asm	/^		length = dbg->read(ds->ds_data, &offset, 4);$/;"	d
+length	obj/kern/kernel.asm	/^		length = dbg->read(ds->ds_data, off, 8);$/;"	d
+length	obj/kern/kernel.asm	/^	length = dbg->read(ds->ds_data, off, 4);$/;"	d
+length	obj/kern/kernel.asm	/^        length = dbg->read((uint8_t *)dbg->dbg_info_offset_elf, &offset, 8);$/;"	d
+length	obj/kern/kernel.asm	/^        length = dbg->read(ds->ds_data, &offset, 8);$/;"	d
+length	obj/kern/kernel.asm	/^    length = 0;$/;"	d
+length	obj/kern/kernel.asm	/^    length = dbg->read((uint8_t *)dbg->dbg_info_offset_elf, &offset,4);$/;"	d
+length	obj/kern/kernel.asm	/^    length = dbg->read(ds->ds_data, &offset, 4);$/;"	d
+length_high	kern/multiboot.h	/^   uint32_t length_high;$/;"	m	struct:memory_map
+length_low	kern/multiboot.h	/^   uint32_t length_low;$/;"	m	struct:memory_map
+level	obj/kern/kernel.asm	/^    level = 1;$/;"	d
+lflag	obj/kern/kernel.asm	/^		lflag = 0;$/;"	d
+lflag	obj/user/badsegment.asm	/^		lflag = 0;$/;"	d
+lflag	obj/user/breakpoint.asm	/^		lflag = 0;$/;"	d
+lflag	obj/user/buggyhello.asm	/^		lflag = 0;$/;"	d
+lflag	obj/user/buggyhello2.asm	/^		lflag = 0;$/;"	d
+lflag	obj/user/divzero.asm	/^		lflag = 0;$/;"	d
+lflag	obj/user/evilhello.asm	/^		lflag = 0;$/;"	d
+lflag	obj/user/faultread.asm	/^		lflag = 0;$/;"	d
+lflag	obj/user/faultreadkernel.asm	/^		lflag = 0;$/;"	d
+lflag	obj/user/faultwrite.asm	/^		lflag = 0;$/;"	d
+lflag	obj/user/faultwritekernel.asm	/^		lflag = 0;$/;"	d
+lflag	obj/user/hello.asm	/^		lflag = 0;$/;"	d
+lflag	obj/user/softint.asm	/^		lflag = 0;$/;"	d
+lflag	obj/user/testbss.asm	/^		lflag = 0;$/;"	d
+lgdt	inc/x86.h	/^lgdt(void *p)$/;"	f
+li	obj/kern/kernel.asm	/^	li = linfo;$/;"	d
+li_defstmt	kern/dwarf.h	/^    Dwarf_Small li_defstmt; \/* Default value of is_stmt. *\/$/;"	m	struct:_Dwarf_LineInfo_
+li_hdrlen	kern/dwarf.h	/^    Dwarf_Unsigned  li_hdrlen;  \/* Length of line info header. *\/$/;"	m	struct:_Dwarf_LineInfo_
+li_incdirs	kern/dwarf.h	/^    char        **li_incdirs;   \/* Array of include dirs. *\/$/;"	m	struct:_Dwarf_LineInfo_
+li_inclen	kern/dwarf.h	/^    Dwarf_Unsigned  li_inclen;  \/* Length of inc dir array. *\/$/;"	m	struct:_Dwarf_LineInfo_
+li_lbase	kern/dwarf.h	/^    int8_t      li_lbase;       \/* Line base for special opcode. *\/$/;"	m	struct:_Dwarf_LineInfo_
+li_length	kern/dwarf.h	/^    Dwarf_Unsigned  li_length;  \/* Length of line info data. *\/$/;"	m	struct:_Dwarf_LineInfo_
+li_lflen	kern/dwarf.h	/^    Dwarf_Unsigned  li_lflen;   \/* Length of filename array. *\/$/;"	m	struct:_Dwarf_LineInfo_
+li_lfnarray	kern/dwarf.h	/^    char        **li_lfnarray;  \/* Array of file names. *\/$/;"	m	struct:_Dwarf_LineInfo_
+li_line	kern/dwarf.h	/^    _Dwarf_Line  li_line;    \/* Array of lines. *\/$/;"	m	struct:_Dwarf_LineInfo_
+li_lnlen	kern/dwarf.h	/^    Dwarf_Unsigned  li_lnlen;   \/* Length of the line array. *\/$/;"	m	struct:_Dwarf_LineInfo_
+li_lrange	kern/dwarf.h	/^    Dwarf_Small li_lrange;      \/* Line range for special opcode. *\/$/;"	m	struct:_Dwarf_LineInfo_
+li_minlen	kern/dwarf.h	/^    Dwarf_Small li_minlen;  \/* Minimum instrutction length. *\/$/;"	m	struct:_Dwarf_LineInfo_
+li_opbase	kern/dwarf.h	/^    Dwarf_Small li_opbase;  \/* Fisrt std opcode number. *\/$/;"	m	struct:_Dwarf_LineInfo_
+li_oplen	kern/dwarf.h	/^    Dwarf_Small *li_oplen;  \/* Array of std opcode len. *\/$/;"	m	struct:_Dwarf_LineInfo_
+li_version	kern/dwarf.h	/^    Dwarf_Half  li_version; \/* Version of line info. *\/$/;"	m	struct:_Dwarf_LineInfo_
+libmain	lib/libmain.c	/^libmain(int argc, char **argv)$/;"	f
+lidt	inc/x86.h	/^lidt(void *p)$/;"	f
+list_func_die	kern/kdebug.c	/^int list_func_die(struct Ripdebuginfo *info, Dwarf_Die *die, uint64_t addr)$/;"	f
+lldt	inc/x86.h	/^lldt(uint16_t sel)$/;"	f
+ln	obj/kern/kernel.asm	/^	ln = &li->li_line;$/;"	d
+ln_addr	kern/dwarf.h	/^    Dwarf_Addr  ln_addr;    \/* Line address. *\/$/;"	m	struct:_Dwarf_Line_
+ln_bblock	kern/dwarf.h	/^    Dwarf_Bool  ln_bblock;  \/* Basic block flag. *\/$/;"	m	struct:_Dwarf_Line_
+ln_column	kern/dwarf.h	/^    Dwarf_Signed    ln_column;  \/* Column number. *\/$/;"	m	struct:_Dwarf_Line_
+ln_endseq	kern/dwarf.h	/^    Dwarf_Bool  ln_endseq;  \/* End sequence flag. *\/$/;"	m	struct:_Dwarf_Line_
+ln_fileno	kern/dwarf.h	/^    Dwarf_Unsigned  ln_fileno;  \/* File number. *\/$/;"	m	struct:_Dwarf_Line_
+ln_lineno	kern/dwarf.h	/^    Dwarf_Unsigned  ln_lineno;  \/* Line number. *\/$/;"	m	struct:_Dwarf_Line_
+ln_stmt	kern/dwarf.h	/^    Dwarf_Bool  ln_stmt;    \/* Begin statement flag. *\/$/;"	m	struct:_Dwarf_Line_
+ln_symndx	kern/dwarf.h	/^    Dwarf_Unsigned  ln_symndx;  \/* Symbol index for relocation. *\/$/;"	m	struct:_Dwarf_Line_
+load_addr	kern/multiboot.h	/^   uint32_t load_addr;$/;"	m	struct:multiboot_header
+load_end_addr	kern/multiboot.h	/^   uint32_t load_end_addr;$/;"	m	struct:multiboot_header
+load_icode	kern/env.c	/^load_icode(struct Env *e, uint8_t *binary)$/;"	f
+long	obj/kern/kernel.asm	/^long$/;"	l
+long	obj/user/badsegment.asm	/^long$/;"	l
+long	obj/user/breakpoint.asm	/^long$/;"	l
+long	obj/user/buggyhello.asm	/^long$/;"	l
+long	obj/user/buggyhello2.asm	/^long$/;"	l
+long	obj/user/divzero.asm	/^long$/;"	l
+long	obj/user/evilhello.asm	/^long$/;"	l
+long	obj/user/faultread.asm	/^long$/;"	l
+long	obj/user/faultreadkernel.asm	/^long$/;"	l
+long	obj/user/faultwrite.asm	/^long$/;"	l
+long	obj/user/faultwritekernel.asm	/^long$/;"	l
+long	obj/user/hello.asm	/^long$/;"	l
+long	obj/user/softint.asm	/^long$/;"	l
+long	obj/user/testbss.asm	/^long$/;"	l
+low	obj/kern/kernel.asm	/^	low  = _dwarf_attr_find(die, DW_AT_low_pc);$/;"	d
+low6	obj/kern/kernel.asm	/^                low6 = *p & 0x3f;$/;"	d
+lpt_putc	kern/console.c	/^lpt_putc(int c)$/;"	f	file:
+lr_atom	kern/dwarf.h	/^    uint8_t   lr_atom;$/;"	m	struct:__anon4
+lr_number	kern/dwarf.h	/^    uint64_t  lr_number;$/;"	m	struct:__anon4
+lr_number2	kern/dwarf.h	/^    uint64_t  lr_number2;$/;"	m	struct:__anon4
+lr_offset	kern/dwarf.h	/^    uint64_t  lr_offset;$/;"	m	struct:__anon4
+ltr	inc/x86.h	/^ltr(uint16_t sel)$/;"	f
+magic	kern/multiboot.h	/^   uint32_t magic;$/;"	m	struct:multiboot_header
+main	ex1.c	/^int main(int argc, char **argv)$/;"	f
+make	gradelib.py	/^def make(*target):$/;"	f
+match	gradelib.py	/^    def match(self, *args, **kwargs):$/;"	m	class:Runner
+maybe_unlink	gradelib.py	/^def maybe_unlink(*paths):$/;"	f
+mc146818_read	kern/kclock.c	/^mc146818_read(unsigned reg)$/;"	f
+mc146818_write	kern/kclock.c	/^mc146818_write(unsigned reg, unsigned datum)$/;"	f
+mem_lower	kern/multiboot.h	/^   uint32_t mem_lower;$/;"	m	struct:multiboot_info
+mem_upper	kern/multiboot.h	/^   uint32_t mem_upper;$/;"	m	struct:multiboot_info
+memcmp	lib/string.c	/^memcmp(const void *v1, const void *v2, size_t n)$/;"	f
+memcpy	lib/string.c	/^memcpy(void *dst, const void *src, size_t n)$/;"	f
+memfind	lib/string.c	/^memfind(const void *s, int c, size_t n)$/;"	f
+memmove	lib/string.c	/^memmove(void *dst, const void *src, size_t n)$/;"	f
+memory_map	kern/multiboot.h	/^ typedef struct memory_map$/;"	s
+memory_map_t	kern/multiboot.h	/^ } memory_map_t;$/;"	t	typeref:struct:memory_map
+memset	lib/string.c	/^memset(void *v, int c, size_t n)$/;"	f
+mmap_addr	kern/multiboot.h	/^   uint32_t mmap_addr;$/;"	m	struct:multiboot_info
+mmap_length	kern/multiboot.h	/^   uint32_t mmap_length;$/;"	m	struct:multiboot_info
+mod_end	kern/multiboot.h	/^   uint32_t mod_end;$/;"	m	struct:module
+mod_start	kern/multiboot.h	/^   uint32_t mod_start;$/;"	m	struct:module
+mods_addr	kern/multiboot.h	/^   uint32_t mods_addr;$/;"	m	struct:multiboot_info
+mods_count	kern/multiboot.h	/^   uint32_t mods_count;$/;"	m	struct:multiboot_info
+module	kern/multiboot.h	/^ typedef struct module$/;"	s
+module_t	kern/multiboot.h	/^ } module_t;$/;"	t	typeref:struct:module
+mon_backtrace	kern/monitor.c	/^mon_backtrace(int argc, char **argv, struct Trapframe *tf)$/;"	f
+mon_help	kern/monitor.c	/^mon_help(int argc, char **argv, struct Trapframe *tf)$/;"	f
+mon_kerninfo	kern/monitor.c	/^mon_kerninfo(int argc, char **argv, struct Trapframe *tf)$/;"	f
+monitor	kern/monitor.c	/^monitor(struct Trapframe *tf)$/;"	f
+multiboot_header	kern/multiboot.h	/^ typedef struct multiboot_header$/;"	s
+multiboot_header_t	kern/multiboot.h	/^ } multiboot_header_t;$/;"	t	typeref:struct:multiboot_header
+multiboot_info	kern/bootstrap.S	/^multiboot_info:$/;"	l
+multiboot_info	kern/multiboot.h	/^ typedef struct multiboot_info$/;"	s
+multiboot_info_t	kern/multiboot.h	/^ } multiboot_info_t;$/;"	t	typeref:struct:multiboot_info
+multiboot_read	kern/pmap.c	/^multiboot_read(multiboot_info_t* mbinfo, size_t* basemem, size_t* extmem) {$/;"	f	file:
+myat	obj/kern/kernel.asm	/^            myat = &(die->die_attr[i]);$/;"	d
+mydebug	kern/kdebug.c	/^struct _Dwarf_Debug mydebug;$/;"	v	typeref:struct:_Dwarf_Debug
+n	obj/kern/kernel.asm	/^	n = ROUNDUP(NENV*sizeof(struct Env), PGSIZE);$/;"	d
+n	obj/kern/kernel.asm	/^	n = ROUNDUP(npages*sizeof(struct PageInfo), PGSIZE);$/;"	d
+n_desc	inc/stab.h	/^	uint16_t n_desc;        \/\/ description field$/;"	m	struct:Stab
+n_other	inc/stab.h	/^	uint8_t n_other;        \/\/ misc info (usually empty)$/;"	m	struct:Stab
+n_strx	inc/stab.h	/^	uint32_t n_strx;	\/\/ index into string table of name$/;"	m	struct:Stab
+n_type	inc/stab.h	/^	uint8_t n_type;         \/\/ type of symbol$/;"	m	struct:Stab
+n_value	inc/stab.h	/^	uint32_t n_value;	\/\/ value of symbol$/;"	m	struct:Stab
+name	kern/monitor.c	/^	const char *name;$/;"	m	struct:Command	file:
+name	kern/trapentry.S	/^	name:								\\$/;"	l
+name	kern/trapentry.S	/^	name:			\/* function starts here *\/		\\$/;"	l
+name	obj/kern/kernel.asm	/^		name = (char *)(nametab + secthdr_ptr[i]->sh_name);$/;"	d
+nametab	obj/kern/kernel.asm	/^	nametab = (char *)((char *)kvbase + temp) + OFFSET_CORRECT(sec_name->sh_offset);	$/;"	d
+next_entry	boot/boot.S	/^next_entry:$/;"	l
+next_entry	obj/boot/boot.asm	/^next_entry:$/;"	l
+nextfree	obj/kern/kernel.asm	/^		nextfree = ROUNDUP((char *) end_debug, PGSIZE);$/;"	d
+normalmap	kern/console.c	/^static uint8_t normalmap[256] =$/;"	v	file:
+npages	kern/pmap.c	/^size_t npages;			\/\/ Amount of physical memory (in pages)$/;"	v
+npages	obj/kern/kernel.asm	/^		npages = (255 * 1024 * 1024) \/ PGSIZE;$/;"	d
+npages	obj/kern/kernel.asm	/^		npages = (EXTPHYSMEM \/ PGSIZE) + npages_extmem;$/;"	d
+npages	obj/kern/kernel.asm	/^		npages = npages_basemem;$/;"	d
+npages_basemem	kern/pmap.c	/^static size_t npages_basemem;	\/\/ Amount of base memory (in pages)$/;"	v	file:
+npages_basemem	obj/kern/kernel.asm	/^	npages_basemem = basemem \/ PGSIZE;$/;"	d
+npages_extmem	obj/kern/kernel.asm	/^		npages_extmem = ((16 * 1024 * 1024) + pextmem - (1 * 1024 * 1024)) \/ PGSIZE;$/;"	d
+npages_extmem	obj/kern/kernel.asm	/^	npages_extmem = extmem \/ PGSIZE;$/;"	d
+num	kern/multiboot.h	/^   uint32_t num;$/;"	m	struct:elf_section_header_table
+num	obj/kern/kernel.asm	/^				num = -(long long) num;$/;"	d
+num	obj/kern/kernel.asm	/^			num = (unsigned long long)$/;"	d
+num	obj/kern/kernel.asm	/^			num = getint(&aq, 3);$/;"	d
+num	obj/kern/kernel.asm	/^			num = getuint(&aq, 3);$/;"	d
+num	obj/user/badsegment.asm	/^				num = -(long long) num;$/;"	d
+num	obj/user/badsegment.asm	/^			num = (unsigned long long)$/;"	d
+num	obj/user/badsegment.asm	/^			num = getint(&aq, 3);$/;"	d
+num	obj/user/badsegment.asm	/^			num = getuint(&aq, 3);$/;"	d
+num	obj/user/breakpoint.asm	/^				num = -(long long) num;$/;"	d
+num	obj/user/breakpoint.asm	/^			num = (unsigned long long)$/;"	d
+num	obj/user/breakpoint.asm	/^			num = getint(&aq, 3);$/;"	d
+num	obj/user/breakpoint.asm	/^			num = getuint(&aq, 3);$/;"	d
+num	obj/user/buggyhello.asm	/^				num = -(long long) num;$/;"	d
+num	obj/user/buggyhello.asm	/^			num = (unsigned long long)$/;"	d
+num	obj/user/buggyhello.asm	/^			num = getint(&aq, 3);$/;"	d
+num	obj/user/buggyhello.asm	/^			num = getuint(&aq, 3);$/;"	d
+num	obj/user/buggyhello2.asm	/^				num = -(long long) num;$/;"	d
+num	obj/user/buggyhello2.asm	/^			num = (unsigned long long)$/;"	d
+num	obj/user/buggyhello2.asm	/^			num = getint(&aq, 3);$/;"	d
+num	obj/user/buggyhello2.asm	/^			num = getuint(&aq, 3);$/;"	d
+num	obj/user/divzero.asm	/^				num = -(long long) num;$/;"	d
+num	obj/user/divzero.asm	/^			num = (unsigned long long)$/;"	d
+num	obj/user/divzero.asm	/^			num = getint(&aq, 3);$/;"	d
+num	obj/user/divzero.asm	/^			num = getuint(&aq, 3);$/;"	d
+num	obj/user/evilhello.asm	/^				num = -(long long) num;$/;"	d
+num	obj/user/evilhello.asm	/^			num = (unsigned long long)$/;"	d
+num	obj/user/evilhello.asm	/^			num = getint(&aq, 3);$/;"	d
+num	obj/user/evilhello.asm	/^			num = getuint(&aq, 3);$/;"	d
+num	obj/user/faultread.asm	/^				num = -(long long) num;$/;"	d
+num	obj/user/faultread.asm	/^			num = (unsigned long long)$/;"	d
+num	obj/user/faultread.asm	/^			num = getint(&aq, 3);$/;"	d
+num	obj/user/faultread.asm	/^			num = getuint(&aq, 3);$/;"	d
+num	obj/user/faultreadkernel.asm	/^				num = -(long long) num;$/;"	d
+num	obj/user/faultreadkernel.asm	/^			num = (unsigned long long)$/;"	d
+num	obj/user/faultreadkernel.asm	/^			num = getint(&aq, 3);$/;"	d
+num	obj/user/faultreadkernel.asm	/^			num = getuint(&aq, 3);$/;"	d
+num	obj/user/faultwrite.asm	/^				num = -(long long) num;$/;"	d
+num	obj/user/faultwrite.asm	/^			num = (unsigned long long)$/;"	d
+num	obj/user/faultwrite.asm	/^			num = getint(&aq, 3);$/;"	d
+num	obj/user/faultwrite.asm	/^			num = getuint(&aq, 3);$/;"	d
+num	obj/user/faultwritekernel.asm	/^				num = -(long long) num;$/;"	d
+num	obj/user/faultwritekernel.asm	/^			num = (unsigned long long)$/;"	d
+num	obj/user/faultwritekernel.asm	/^			num = getint(&aq, 3);$/;"	d
+num	obj/user/faultwritekernel.asm	/^			num = getuint(&aq, 3);$/;"	d
+num	obj/user/hello.asm	/^				num = -(long long) num;$/;"	d
+num	obj/user/hello.asm	/^			num = (unsigned long long)$/;"	d
+num	obj/user/hello.asm	/^			num = getint(&aq, 3);$/;"	d
+num	obj/user/hello.asm	/^			num = getuint(&aq, 3);$/;"	d
+num	obj/user/softint.asm	/^				num = -(long long) num;$/;"	d
+num	obj/user/softint.asm	/^			num = (unsigned long long)$/;"	d
+num	obj/user/softint.asm	/^			num = getint(&aq, 3);$/;"	d
+num	obj/user/softint.asm	/^			num = getuint(&aq, 3);$/;"	d
+num	obj/user/testbss.asm	/^				num = -(long long) num;$/;"	d
+num	obj/user/testbss.asm	/^			num = (unsigned long long)$/;"	d
+num	obj/user/testbss.asm	/^			num = getint(&aq, 3);$/;"	d
+num	obj/user/testbss.asm	/^			num = getuint(&aq, 3);$/;"	d
+number	obj/kern/kernel.asm	/^		number = 1;$/;"	d
+number	obj/kern/kernel.asm	/^		number:$/;"	l
+number	obj/user/badsegment.asm	/^		number:$/;"	l
+number	obj/user/breakpoint.asm	/^		number:$/;"	l
+number	obj/user/buggyhello.asm	/^		number:$/;"	l
+number	obj/user/buggyhello2.asm	/^		number:$/;"	l
+number	obj/user/divzero.asm	/^		number:$/;"	l
+number	obj/user/evilhello.asm	/^		number:$/;"	l
+number	obj/user/faultread.asm	/^		number:$/;"	l
+number	obj/user/faultreadkernel.asm	/^		number:$/;"	l
+number	obj/user/faultwrite.asm	/^		number:$/;"	l
+number	obj/user/faultwritekernel.asm	/^		number:$/;"	l
+number	obj/user/hello.asm	/^		number:$/;"	l
+number	obj/user/softint.asm	/^		number:$/;"	l
+number	obj/user/testbss.asm	/^		number:$/;"	l
+nvram_read	kern/pmap.c	/^nvram_read(int r)$/;"	f	file:
+occupied_memory	obj/kern/kernel.asm	/^			occupied_memory = ph->p_va + ph->p_filesz;$/;"	d
+off_t	inc/types.h	/^typedef int32_t off_t;$/;"	t
+offset	obj/boot/boot.asm	/^	offset = (offset \/ SECTSIZE) + 1;$/;"	d
+offset	obj/kern/kernel.asm	/^				offset = (uint64_t)cu->cu_offset + attr->u[0].u64;$/;"	d
+offset	obj/kern/kernel.asm	/^			offset = 0;$/;"	d
+offset	obj/kern/kernel.asm	/^		offset = entry_off;$/;"	d
+offset	obj/kern/kernel.asm	/^	offset = (offset \/ SECTSIZE) + 1;$/;"	d
+offset	obj/kern/kernel.asm	/^	offset = dbg->dbg_eh_offset;$/;"	d
+offset	obj/kern/kernel.asm	/^                	offset = (uint64_t)cu->cu_offset + attr->u[0].u64;$/;"	d
+offset	obj/kern/kernel.asm	/^                offset = at->u[0].u64 + cu->cu_offset;$/;"	d
+offset	obj/kern/kernel.asm	/^                offset = at->u[0].u64;$/;"	d
+offset	obj/kern/kernel.asm	/^            offset = die->die_next_off;$/;"	d
+offset	obj/kern/kernel.asm	/^        offset = ((Elf*)elfhdr)->e_shoff + (elfhdr - KERNBASE);$/;"	d
+offset	obj/kern/kernel.asm	/^        offset = ((Elf*)elfhdr)->e_shoff;$/;"	d
+offset	obj/kern/kernel.asm	/^        offset = die->die_next_off;$/;"	d
+offset	obj/kern/kernel.asm	/^    offset = cu.debug_abbrev_offset; \/\/cu->cu_abbrev_offset_cur;$/;"	d
+offset	obj/kern/kernel.asm	/^    offset = dbg->curr_off_dbginfo;$/;"	d
+offsetof	inc/types.h	71;"	d
+old_value	obj/kern/kernel.asm	/^        old_value = dbg->dbg_frame_cfa_value;$/;"	d
+opsize	obj/kern/kernel.asm	/^            opsize = _dwarf_decode_uleb128(&p);$/;"	d
+outb	inc/x86.h	/^outb(int port, uint8_t data)$/;"	f
+outl	inc/x86.h	/^outl(int port, uint32_t data)$/;"	f
+outsb	inc/x86.h	/^outsb(int port, const void *addr, int cnt)$/;"	f
+outsl	inc/x86.h	/^outsl(int port, const void *addr, int cnt)$/;"	f
+outsw	inc/x86.h	/^outsw(int port, const void *addr, int cnt)$/;"	f
+outw	inc/x86.h	/^outw(int port, uint16_t data)$/;"	f
+p	obj/kern/kernel.asm	/^				p = "(null)";$/;"	d
+p	obj/kern/kernel.asm	/^	p = (char *) ds->ds_data;$/;"	d
+p	obj/kern/kernel.asm	/^        p = insts;$/;"	d
+p	obj/kern/kernel.asm	/^    p = ds->ds_data + offset;$/;"	d
+p	obj/user/badsegment.asm	/^				p = "(null)";$/;"	d
+p	obj/user/breakpoint.asm	/^				p = "(null)";$/;"	d
+p	obj/user/buggyhello.asm	/^				p = "(null)";$/;"	d
+p	obj/user/buggyhello2.asm	/^				p = "(null)";$/;"	d
+p	obj/user/divzero.asm	/^				p = "(null)";$/;"	d
+p	obj/user/evilhello.asm	/^				p = "(null)";$/;"	d
+p	obj/user/faultread.asm	/^				p = "(null)";$/;"	d
+p	obj/user/faultreadkernel.asm	/^				p = "(null)";$/;"	d
+p	obj/user/faultwrite.asm	/^				p = "(null)";$/;"	d
+p	obj/user/faultwritekernel.asm	/^				p = "(null)";$/;"	d
+p	obj/user/hello.asm	/^				p = "(null)";$/;"	d
+p	obj/user/softint.asm	/^				p = "(null)";$/;"	d
+p	obj/user/testbss.asm	/^				p = "(null)";$/;"	d
+p_align	inc/elf.h	/^	uint64_t p_align;$/;"	m	struct:Proghdr
+p_align	kern/dwarf_elf.h	/^    uint32_t p_align;$/;"	m	struct:Proghdr
+p_align	kern/dwarf_elf.h	/^    uint64_t p_align;$/;"	m	struct:_Proghdr64
+p_filesz	inc/elf.h	/^	uint64_t p_filesz;$/;"	m	struct:Proghdr
+p_filesz	kern/dwarf_elf.h	/^    uint32_t p_filesz;$/;"	m	struct:Proghdr
+p_filesz	kern/dwarf_elf.h	/^    uint64_t p_filesz;$/;"	m	struct:_Proghdr64
+p_flags	inc/elf.h	/^    uint32_t p_flags;$/;"	m	struct:Proghdr
+p_flags	kern/dwarf_elf.h	/^    uint32_t p_flags;$/;"	m	struct:Proghdr
+p_flags	kern/dwarf_elf.h	/^    uint32_t p_flags;$/;"	m	struct:_Proghdr64
+p_memsz	inc/elf.h	/^	uint64_t p_memsz;$/;"	m	struct:Proghdr
+p_memsz	kern/dwarf_elf.h	/^    uint32_t p_memsz;$/;"	m	struct:Proghdr
+p_memsz	kern/dwarf_elf.h	/^    uint64_t p_memsz;$/;"	m	struct:_Proghdr64
+p_offset	inc/elf.h	/^	uint64_t p_offset;$/;"	m	struct:Proghdr
+p_offset	kern/dwarf_elf.h	/^    uint32_t p_offset;$/;"	m	struct:Proghdr
+p_offset	kern/dwarf_elf.h	/^    uint64_t p_offset;$/;"	m	struct:_Proghdr64
+p_pa	inc/elf.h	/^	uint64_t p_pa;$/;"	m	struct:Proghdr
+p_pa	kern/dwarf_elf.h	/^    uint32_t p_pa;$/;"	m	struct:Proghdr
+p_pa	kern/dwarf_elf.h	/^    uint64_t p_pa;$/;"	m	struct:_Proghdr64
+p_type	inc/elf.h	/^	uint32_t p_type;$/;"	m	struct:Proghdr
+p_type	kern/dwarf_elf.h	/^    uint32_t p_type;$/;"	m	struct:Proghdr
+p_type	kern/dwarf_elf.h	/^    uint32_t p_type;$/;"	m	struct:_Proghdr64
+p_va	inc/elf.h	/^	uint64_t p_va;$/;"	m	struct:Proghdr
+p_va	kern/dwarf_elf.h	/^    uint32_t p_va;$/;"	m	struct:Proghdr
+p_va	kern/dwarf_elf.h	/^    uint64_t p_va;$/;"	m	struct:_Proghdr64
+pa	obj/kern/kernel.asm	/^			pa = PTE_ADDR(env_pgdir[pdeno]);$/;"	d
+pa	obj/kern/kernel.asm	/^		pa = PTE_ADDR(env_pdpe[pdpe_index]);$/;"	d
+pa	obj/kern/kernel.asm	/^	pa = e->env_cr3;$/;"	d
+pa2page	kern/pmap.h	/^pa2page(physaddr_t pa)$/;"	f
+padc	obj/kern/kernel.asm	/^			padc = '-';$/;"	d
+padc	obj/kern/kernel.asm	/^			padc = '0';$/;"	d
+padc	obj/kern/kernel.asm	/^		padc = ' ';$/;"	d
+padc	obj/user/badsegment.asm	/^			padc = '-';$/;"	d
+padc	obj/user/badsegment.asm	/^			padc = '0';$/;"	d
+padc	obj/user/badsegment.asm	/^		padc = ' ';$/;"	d
+padc	obj/user/breakpoint.asm	/^			padc = '-';$/;"	d
+padc	obj/user/breakpoint.asm	/^			padc = '0';$/;"	d
+padc	obj/user/breakpoint.asm	/^		padc = ' ';$/;"	d
+padc	obj/user/buggyhello.asm	/^			padc = '-';$/;"	d
+padc	obj/user/buggyhello.asm	/^			padc = '0';$/;"	d
+padc	obj/user/buggyhello.asm	/^		padc = ' ';$/;"	d
+padc	obj/user/buggyhello2.asm	/^			padc = '-';$/;"	d
+padc	obj/user/buggyhello2.asm	/^			padc = '0';$/;"	d
+padc	obj/user/buggyhello2.asm	/^		padc = ' ';$/;"	d
+padc	obj/user/divzero.asm	/^			padc = '-';$/;"	d
+padc	obj/user/divzero.asm	/^			padc = '0';$/;"	d
+padc	obj/user/divzero.asm	/^		padc = ' ';$/;"	d
+padc	obj/user/evilhello.asm	/^			padc = '-';$/;"	d
+padc	obj/user/evilhello.asm	/^			padc = '0';$/;"	d
+padc	obj/user/evilhello.asm	/^		padc = ' ';$/;"	d
+padc	obj/user/faultread.asm	/^			padc = '-';$/;"	d
+padc	obj/user/faultread.asm	/^			padc = '0';$/;"	d
+padc	obj/user/faultread.asm	/^		padc = ' ';$/;"	d
+padc	obj/user/faultreadkernel.asm	/^			padc = '-';$/;"	d
+padc	obj/user/faultreadkernel.asm	/^			padc = '0';$/;"	d
+padc	obj/user/faultreadkernel.asm	/^		padc = ' ';$/;"	d
+padc	obj/user/faultwrite.asm	/^			padc = '-';$/;"	d
+padc	obj/user/faultwrite.asm	/^			padc = '0';$/;"	d
+padc	obj/user/faultwrite.asm	/^		padc = ' ';$/;"	d
+padc	obj/user/faultwritekernel.asm	/^			padc = '-';$/;"	d
+padc	obj/user/faultwritekernel.asm	/^			padc = '0';$/;"	d
+padc	obj/user/faultwritekernel.asm	/^		padc = ' ';$/;"	d
+padc	obj/user/hello.asm	/^			padc = '-';$/;"	d
+padc	obj/user/hello.asm	/^			padc = '0';$/;"	d
+padc	obj/user/hello.asm	/^		padc = ' ';$/;"	d
+padc	obj/user/softint.asm	/^			padc = '-';$/;"	d
+padc	obj/user/softint.asm	/^			padc = '0';$/;"	d
+padc	obj/user/softint.asm	/^		padc = ' ';$/;"	d
+padc	obj/user/testbss.asm	/^			padc = '-';$/;"	d
+padc	obj/user/testbss.asm	/^			padc = '0';$/;"	d
+padc	obj/user/testbss.asm	/^		padc = ' ';$/;"	d
+page2kva	kern/pmap.h	/^page2kva(struct PageInfo *pp)$/;"	f
+page2pa	kern/pmap.h	/^page2pa(struct PageInfo *pp)$/;"	f
+page2ppn	kern/pmap.h	/^page2ppn(struct PageInfo *pp)$/;"	f
+page_alloc	kern/pmap.c	/^page_alloc(int alloc_flags)$/;"	f
+page_check	kern/pmap.c	/^page_check(void)$/;"	f	file:
+page_decref	kern/pmap.c	/^page_decref(struct PageInfo* pp)$/;"	f
+page_fault_handler	kern/trap.c	/^page_fault_handler(struct Trapframe *tf)$/;"	f
+page_free	kern/pmap.c	/^page_free(struct PageInfo *pp)$/;"	f
+page_free_list	kern/pmap.c	/^static struct PageInfo *page_free_list; \/\/ Free list of physical pages$/;"	v	typeref:struct:PageInfo	file:
+page_free_list	obj/kern/kernel.asm	/^			page_free_list = &pages[i];$/;"	d
+page_free_list	obj/kern/kernel.asm	/^		page_free_list = pg->pp_link;$/;"	d
+page_free_list	obj/kern/kernel.asm	/^		page_free_list = pp1;$/;"	d
+page_free_list	obj/kern/kernel.asm	/^		page_free_list = pp;$/;"	d
+page_free_list	obj/kern/kernel.asm	/^	page_free_list = 0;$/;"	d
+page_free_list	obj/kern/kernel.asm	/^	page_free_list = NULL;$/;"	d
+page_free_list	obj/kern/kernel.asm	/^	page_free_list = fl;$/;"	d
+page_free_list	obj/kern/kernel.asm	/^                page_free_list = &pages[i];$/;"	d
+page_free_list	obj/kern/kernel.asm	/^            page_free_list = &pages[i];$/;"	d
+page_init	kern/pmap.c	/^page_init(void)$/;"	f
+page_initpp	kern/pmap.c	/^page_initpp(struct PageInfo *pp)$/;"	f	file:
+page_insert	kern/pmap.c	/^page_insert(pml4e_t *pml4e, struct PageInfo *pp, void *va, int perm)$/;"	f
+page_lookup	kern/pmap.c	/^page_lookup(pml4e_t *pml4e, void *va, pte_t **pte_store)$/;"	f
+page_remove	kern/pmap.c	/^page_remove(pml4e_t *pml4e, void *va)$/;"	f
+page_var	obj/kern/kernel.asm	/^	page_var = page_alloc(0);$/;"	d
+pages	kern/pmap.c	/^struct PageInfo *pages;         \/\/ Physical page state array$/;"	v	typeref:struct:PageInfo
+panic	inc/assert.h	12;"	d
+panicstr	kern/init.c	/^const char *panicstr;$/;"	v
+panicstr	obj/kern/kernel.asm	/^	panicstr = fmt;$/;"	d
+pc	obj/kern/kernel.asm	/^                        pc = dbg->decode(&p, dbg->dbg_pointer_size);$/;"	d
+pd_base	inc/mmu.h	/^	uint64_t pd_base;		\/\/ Base address$/;"	m	struct:Pseudodesc
+pd_lim	inc/mmu.h	/^	uint16_t pd_lim;		\/\/ Limit$/;"	m	struct:Pseudodesc
+pde	obj/kern/kernel.asm	/^	pde  = KADDR(PTE_ADDR(pdpe[PDPE(va)]));$/;"	d
+pde	obj/kern/kernel.asm	/^	pde = &pde[PDX(va)];$/;"	d
+pde	obj/kern/kernel.asm	/^	pde = &pgdir[PDX(va)];$/;"	d
+pde	obj/kern/kernel.asm	/^	pde = (pde_t *) KADDR(PTE_ADDR(pdpe[PDPE(va)]));$/;"	d
+pde	obj/kern/kernel.asm	/^	pde = KADDR(PTE_ADDR(pdpe[PDPE(PGSIZE)]));$/;"	d
+pde	obj/kern/kernel.asm	/^                pde = (pde_t *) KADDR(PTE_ADDR(*pdpe2));$/;"	d
+pde	obj/kern/kernel.asm	/^    pde  = KADDR(PTE_ADDR(pdpe[0]));$/;"	d
+pde_t	inc/memlayout.h	/^typedef uint64_t pde_t;$/;"	t
+pdeno_limit	obj/kern/kernel.asm	/^		pdeno_limit  = pdpe_index==3?PDX(UTOP):PDX(0xFFFFFFFF);$/;"	d
+pdpe	obj/kern/kernel.asm	/^		pdpe = (pdpe_t *) KADDR(PTE_ADDR(*pml2));$/;"	d
+pdpe	obj/kern/kernel.asm	/^	pdpe = (pdpe_t *) KADDR(PTE_ADDR(*pml4e));$/;"	d
+pdpe	obj/kern/kernel.asm	/^	pdpe = KADDR(PTE_ADDR(boot_pml4e[0]));$/;"	d
+pdpe	obj/kern/kernel.asm	/^	pdpe = KADDR(PTE_ADDR(boot_pml4e[PML4(PGSIZE)]));$/;"	d
+pdpe	obj/kern/kernel.asm	/^	pdpe = KADDR(PTE_ADDR(boot_pml4e[PML4(va)]));$/;"	d
+pdpe_t	inc/memlayout.h	/^typedef uint64_t pdpe_t;$/;"	t
+pdpe_walk	kern/pmap.c	/^pdpe_walk(pdpe_t *pdpe,const void *va,int create){$/;"	f
+pe	obj/kern/kernel.asm	/^        pe = p + len;$/;"	d
+pg	obj/kern/kernel.asm	/^		pg = page_alloc(0);$/;"	d
+pg	obj/kern/kernel.asm	/^	pg = page_lookup(pml4e, va, &pte); \/\/mark the use of &pte as last arg$/;"	d
+pg	obj/kern/kernel.asm	/^                pg = page_alloc(ALLOC_ZERO);$/;"	d
+pgdir_walk	kern/pmap.c	/^pgdir_walk(pde_t *pgdir, const void *va, int create)$/;"	f
+ph	obj/boot/boot.asm	/^	ph = (struct Proghdr *) ((uint8_t *) ELFHDR + ELFHDR->e_phoff);$/;"	d
+ph	obj/kern/kernel.asm	/^	ph = (struct Proghdr *)((uint8_t *)elfhdr + elfhdr->e_phoff);$/;"	d
+physaddr_t	inc/types.h	/^typedef uint64_t physaddr_t;$/;"	t
+pml4e	obj/kern/kernel.asm	/^	pml4e = &pml4e[PML4(va)];$/;"	d
+pml4e	obj/kern/kernel.asm	/^	pml4e = boot_alloc(PGSIZE);$/;"	d
+pml4e	obj/kern/kernel.asm	/^	pml4e = boot_pml4e;$/;"	d
+pml4e_t	inc/memlayout.h	/^typedef uint64_t pml4e_t;$/;"	t
+pml4e_walk	kern/pmap.c	/^pml4e_walk(pml4e_t *pml4e, const void *va, int create)$/;"	f
+pml4phys	kern/bootstrap.S	/^pml4phys:$/;"	l
+pos	obj/kern/kernel.asm	/^	pos = inb(addr_6845 + 1) << 8;$/;"	d
+post_make	gradelib.py	/^def post_make():$/;"	f
+pp0	obj/kern/kernel.asm	/^	pp0 = pp1 = pp2 = 0;$/;"	d
+pp0	obj/kern/kernel.asm	/^	pp0 = pp1 = pp2 = pp3 = pp4 = pp5 =0;$/;"	d
+pp_link	inc/memlayout.h	/^        struct PageInfo *pp_link;$/;"	m	struct:PageInfo	typeref:struct:PageInfo::PageInfo
+pp_ref	inc/memlayout.h	/^	uint16_t pp_ref;$/;"	m	struct:PageInfo
+ppn_t	inc/types.h	/^typedef uint64_t ppn_t;$/;"	t
+pre_make	gradelib.py	/^def pre_make():$/;"	f
+precision	obj/kern/kernel.asm	/^				precision = precision * 10 + ch - '0';$/;"	d
+precision	obj/kern/kernel.asm	/^			precision = va_arg(aq, int);$/;"	d
+precision	obj/kern/kernel.asm	/^		precision = -1;$/;"	d
+precision	obj/user/badsegment.asm	/^				precision = precision * 10 + ch - '0';$/;"	d
+precision	obj/user/badsegment.asm	/^			precision = va_arg(aq, int);$/;"	d
+precision	obj/user/badsegment.asm	/^		precision = -1;$/;"	d
+precision	obj/user/breakpoint.asm	/^				precision = precision * 10 + ch - '0';$/;"	d
+precision	obj/user/breakpoint.asm	/^			precision = va_arg(aq, int);$/;"	d
+precision	obj/user/breakpoint.asm	/^		precision = -1;$/;"	d
+precision	obj/user/buggyhello.asm	/^				precision = precision * 10 + ch - '0';$/;"	d
+precision	obj/user/buggyhello.asm	/^			precision = va_arg(aq, int);$/;"	d
+precision	obj/user/buggyhello.asm	/^		precision = -1;$/;"	d
+precision	obj/user/buggyhello2.asm	/^				precision = precision * 10 + ch - '0';$/;"	d
+precision	obj/user/buggyhello2.asm	/^			precision = va_arg(aq, int);$/;"	d
+precision	obj/user/buggyhello2.asm	/^		precision = -1;$/;"	d
+precision	obj/user/divzero.asm	/^				precision = precision * 10 + ch - '0';$/;"	d
+precision	obj/user/divzero.asm	/^			precision = va_arg(aq, int);$/;"	d
+precision	obj/user/divzero.asm	/^		precision = -1;$/;"	d
+precision	obj/user/evilhello.asm	/^				precision = precision * 10 + ch - '0';$/;"	d
+precision	obj/user/evilhello.asm	/^			precision = va_arg(aq, int);$/;"	d
+precision	obj/user/evilhello.asm	/^		precision = -1;$/;"	d
+precision	obj/user/faultread.asm	/^				precision = precision * 10 + ch - '0';$/;"	d
+precision	obj/user/faultread.asm	/^			precision = va_arg(aq, int);$/;"	d
+precision	obj/user/faultread.asm	/^		precision = -1;$/;"	d
+precision	obj/user/faultreadkernel.asm	/^				precision = precision * 10 + ch - '0';$/;"	d
+precision	obj/user/faultreadkernel.asm	/^			precision = va_arg(aq, int);$/;"	d
+precision	obj/user/faultreadkernel.asm	/^		precision = -1;$/;"	d
+precision	obj/user/faultwrite.asm	/^				precision = precision * 10 + ch - '0';$/;"	d
+precision	obj/user/faultwrite.asm	/^			precision = va_arg(aq, int);$/;"	d
+precision	obj/user/faultwrite.asm	/^		precision = -1;$/;"	d
+precision	obj/user/faultwritekernel.asm	/^				precision = precision * 10 + ch - '0';$/;"	d
+precision	obj/user/faultwritekernel.asm	/^			precision = va_arg(aq, int);$/;"	d
+precision	obj/user/faultwritekernel.asm	/^		precision = -1;$/;"	d
+precision	obj/user/hello.asm	/^				precision = precision * 10 + ch - '0';$/;"	d
+precision	obj/user/hello.asm	/^			precision = va_arg(aq, int);$/;"	d
+precision	obj/user/hello.asm	/^		precision = -1;$/;"	d
+precision	obj/user/softint.asm	/^				precision = precision * 10 + ch - '0';$/;"	d
+precision	obj/user/softint.asm	/^			precision = va_arg(aq, int);$/;"	d
+precision	obj/user/softint.asm	/^		precision = -1;$/;"	d
+precision	obj/user/testbss.asm	/^				precision = precision * 10 + ch - '0';$/;"	d
+precision	obj/user/testbss.asm	/^			precision = va_arg(aq, int);$/;"	d
+precision	obj/user/testbss.asm	/^		precision = -1;$/;"	d
+print_cu	kern/libdwarf_rw.c	/^void print_cu(Dwarf_CU cu)$/;"	f
+print_regs	kern/trap.c	/^print_regs(struct PushRegs *regs)$/;"	f
+print_trapframe	kern/trap.c	/^print_trapframe(struct Trapframe *tf)$/;"	f
+printbuf	lib/printf.c	/^struct printbuf {$/;"	s	file:
+printf	kern/libdwarf_frame.c	9;"	d	file:
+printfmt	lib/printfmt.c	/^printfmt(void (*putch)(int, void*), void *putdat, const char *fmt, ...)$/;"	f
+printnum	lib/printfmt.c	/^printnum(void (*putch)(int, void*), void *putdat,$/;"	f	file:
+process_precision	obj/kern/kernel.asm	/^		process_precision:$/;"	l
+process_precision	obj/user/badsegment.asm	/^		process_precision:$/;"	l
+process_precision	obj/user/breakpoint.asm	/^		process_precision:$/;"	l
+process_precision	obj/user/buggyhello.asm	/^		process_precision:$/;"	l
+process_precision	obj/user/buggyhello2.asm	/^		process_precision:$/;"	l
+process_precision	obj/user/divzero.asm	/^		process_precision:$/;"	l
+process_precision	obj/user/evilhello.asm	/^		process_precision:$/;"	l
+process_precision	obj/user/faultread.asm	/^		process_precision:$/;"	l
+process_precision	obj/user/faultreadkernel.asm	/^		process_precision:$/;"	l
+process_precision	obj/user/faultwrite.asm	/^		process_precision:$/;"	l
+process_precision	obj/user/faultwritekernel.asm	/^		process_precision:$/;"	l
+process_precision	obj/user/hello.asm	/^		process_precision:$/;"	l
+process_precision	obj/user/softint.asm	/^		process_precision:$/;"	l
+process_precision	obj/user/testbss.asm	/^		process_precision:$/;"	l
+prog_fail	obj/kern/kernel.asm	/^prog_fail:$/;"	l
+prologue_end	obj/kern/kernel.asm	/^                prologue_end = 0;$/;"	d
+prologue_end	obj/kern/kernel.asm	/^                prologue_end = 1;$/;"	d
+prologue_end	obj/kern/kernel.asm	/^            prologue_end = 0;$/;"	d
+protcseg	boot/boot.S	/^protcseg:$/;"	l
+protcseg	obj/boot/boot.asm	/^protcseg:$/;"	l
+pt	obj/kern/kernel.asm	/^			pt = (pte_t*) KADDR(pa);$/;"	d
+pte	obj/kern/kernel.asm	/^		pte = (pte_t *) KADDR(PTE_ADDR(*pde));$/;"	d
+pte	obj/kern/kernel.asm	/^		pte = pdpe_walk(pdpe,va,create); $/;"	d
+pte	obj/kern/kernel.asm	/^	pte = (pte_t*) KADDR(PTE_ADDR(*pde));$/;"	d
+pte	obj/kern/kernel.asm	/^                pte = (pte_t *) page2kva(pg);$/;"	d
+pte	obj/kern/kernel.asm	/^                pte = pgdir_walk(pde,va,create);$/;"	d
+pte_t	inc/memlayout.h	/^typedef uint64_t pte_t;$/;"	t
+pte_t	obj/kern/kernel.asm	/^pte_t *$/;"	l
+ptep	obj/kern/kernel.asm	/^	ptep = KADDR(PTE_ADDR(pde[PDX(PGSIZE)]));$/;"	d
+ptep	obj/kern/kernel.asm	/^	ptep = pml4e_walk(boot_pml4e, va, 1);$/;"	d
+ptep	obj/kern/kernel.asm	/^    ptep  = KADDR(PTE_ADDR(pde[0]));$/;"	d
+ptep1	obj/kern/kernel.asm	/^	ptep1 = KADDR(PTE_ADDR(pde[PDX(va)]));$/;"	d
+putch	kern/printf.c	/^putch(int ch, int *cnt)$/;"	f	file:
+putch	lib/printf.c	/^putch(int ch, struct printbuf *b)$/;"	f	file:
+r	grade-lab1	/^r = Runner(save("jos.out"),$/;"	v
+r	grade-lab2	/^r = Runner(save("jos.out"),$/;"	v
+r	grade-lab3	/^r = Runner(save("jos.out"),$/;"	v
+rc	obj/kern/kernel.asm	/^	rc = vsnprintf(buf, n, fmt, aq);$/;"	d
+rc	obj/user/badsegment.asm	/^	rc = vsnprintf(buf, n, fmt, aq);$/;"	d
+rc	obj/user/breakpoint.asm	/^	rc = vsnprintf(buf, n, fmt, aq);$/;"	d
+rc	obj/user/buggyhello.asm	/^	rc = vsnprintf(buf, n, fmt, aq);$/;"	d
+rc	obj/user/buggyhello2.asm	/^	rc = vsnprintf(buf, n, fmt, aq);$/;"	d
+rc	obj/user/divzero.asm	/^	rc = vsnprintf(buf, n, fmt, aq);$/;"	d
+rc	obj/user/evilhello.asm	/^	rc = vsnprintf(buf, n, fmt, aq);$/;"	d
+rc	obj/user/faultread.asm	/^	rc = vsnprintf(buf, n, fmt, aq);$/;"	d
+rc	obj/user/faultreadkernel.asm	/^	rc = vsnprintf(buf, n, fmt, aq);$/;"	d
+rc	obj/user/faultwrite.asm	/^	rc = vsnprintf(buf, n, fmt, aq);$/;"	d
+rc	obj/user/faultwritekernel.asm	/^	rc = vsnprintf(buf, n, fmt, aq);$/;"	d
+rc	obj/user/hello.asm	/^	rc = vsnprintf(buf, n, fmt, aq);$/;"	d
+rc	obj/user/softint.asm	/^	rc = vsnprintf(buf, n, fmt, aq);$/;"	d
+rc	obj/user/testbss.asm	/^	rc = vsnprintf(buf, n, fmt, aq);$/;"	d
+rcr0	inc/x86.h	/^rcr0(void)$/;"	f
+rcr2	inc/x86.h	/^rcr2(void)$/;"	f
+rcr3	inc/x86.h	/^rcr3(void)$/;"	f
+rcr4	inc/x86.h	/^rcr4(void)$/;"	f
+read	kern/dwarf.h	/^    uint64_t  (*read)(uint8_t *, uint64_t *, int);$/;"	m	struct:_Dwarf_Debug
+read_eflags	inc/x86.h	/^read_eflags(void)$/;"	f
+read_rbp	inc/x86.h	/^read_rbp(void)$/;"	f
+read_rip	inc/x86.h	259;"	d
+read_rsp	inc/x86.h	/^read_rsp(void)$/;"	f
+read_section_headers	kern/elf_rw.c	/^read_section_headers(uintptr_t elfhdr, uintptr_t to_va)$/;"	f
+read_tsc	inc/x86.h	/^read_tsc(void)$/;"	f
+readdeps	mergedep.pl	/^sub readdeps {$/;"	s
+readline	lib/readline.c	/^readline(const char *prompt)$/;"	f
+readsect	boot/main.c	/^readsect(void *dst, uint32_t offset)$/;"	f
+readsect	kern/elf_rw.c	/^readsect(void *dst, uint64_t offset)$/;"	f
+readseg	boot/main.c	/^readseg(uint32_t pa, uint32_t count, uint32_t offset)$/;"	f
+readseg	kern/elf_rw.c	/^readseg(uint64_t pa, uint64_t count, uint64_t offset, uint64_t* kvoffset)$/;"	f
+reg	obj/kern/kernel.asm	/^                        reg = _dwarf_decode_uleb128(&p);$/;"	d
+reg2	obj/kern/kernel.asm	/^                        reg2 = _dwarf_decode_uleb128(&p);$/;"	d
+reg_names_ptr	kern/kdebug.c	53;"	d	file:
+reg_names_ptr	kern/kdebug.c	73;"	d	file:
+reg_r10	inc/trap.h	/^    uint64_t reg_r10;$/;"	m	struct:PushRegs
+reg_r11	inc/trap.h	/^    uint64_t reg_r11;$/;"	m	struct:PushRegs
+reg_r12	inc/trap.h	/^    uint64_t reg_r12;$/;"	m	struct:PushRegs
+reg_r13	inc/trap.h	/^    uint64_t reg_r13;$/;"	m	struct:PushRegs
+reg_r14	inc/trap.h	/^    uint64_t reg_r14;$/;"	m	struct:PushRegs
+reg_r15	inc/trap.h	/^    uint64_t reg_r15;$/;"	m	struct:PushRegs
+reg_r8	inc/trap.h	/^    uint64_t reg_r8;$/;"	m	struct:PushRegs
+reg_r9	inc/trap.h	/^    uint64_t reg_r9;$/;"	m	struct:PushRegs
+reg_rax	inc/trap.h	/^	uint64_t reg_rax;$/;"	m	struct:PushRegs
+reg_rbp	inc/trap.h	/^	uint64_t reg_rbp;$/;"	m	struct:PushRegs
+reg_rbx	inc/trap.h	/^	uint64_t reg_rbx;$/;"	m	struct:PushRegs
+reg_rcx	inc/trap.h	/^	uint64_t reg_rcx;$/;"	m	struct:PushRegs
+reg_rdi	inc/trap.h	/^	uint64_t reg_rdi;$/;"	m	struct:PushRegs
+reg_rdx	inc/trap.h	/^	uint64_t reg_rdx;$/;"	m	struct:PushRegs
+reg_rsi	inc/trap.h	/^	uint64_t reg_rsi;$/;"	m	struct:PushRegs
+reg_table	kern/kdebug.h	/^	Dwarf_Regtable reg_table;$/;"	m	struct:Ripdebuginfo
+region_alloc	kern/env.c	/^region_alloc(struct Env *e, void *va, size_t len)$/;"	f	file:
+register_test	gradelib.py	/^    def register_test(fn, title=title):$/;"	f	function:test
+relocated	kern/entry.S	/^relocated:$/;"	l
+relocated	obj/kern/kernel.asm	/^relocated:$/;"	l
+remaining_memory	obj/kern/kernel.asm	/^			remaining_memory = ph->p_memsz - ph->p_filesz;$/;"	d
+reserved	kern/multiboot.h	/^   uint32_t reserved;$/;"	m	struct:aout_symbol_table
+reserved	kern/multiboot.h	/^   uint32_t reserved;$/;"	m	struct:module
+reset_fs	gradelib.py	/^def reset_fs():$/;"	f
+restrictive_type	kern/multiboot.h	/^uint32_t restrictive_type(uint32_t t1, uint32_t t2) {$/;"	f
+result	obj/kern/kernel.asm	/^	result = nextfree;$/;"	d
+reswitch	obj/kern/kernel.asm	/^	reswitch:$/;"	l
+reswitch	obj/user/badsegment.asm	/^	reswitch:$/;"	l
+reswitch	obj/user/breakpoint.asm	/^	reswitch:$/;"	l
+reswitch	obj/user/buggyhello.asm	/^	reswitch:$/;"	l
+reswitch	obj/user/buggyhello2.asm	/^	reswitch:$/;"	l
+reswitch	obj/user/divzero.asm	/^	reswitch:$/;"	l
+reswitch	obj/user/evilhello.asm	/^	reswitch:$/;"	l
+reswitch	obj/user/faultread.asm	/^	reswitch:$/;"	l
+reswitch	obj/user/faultreadkernel.asm	/^	reswitch:$/;"	l
+reswitch	obj/user/faultwrite.asm	/^	reswitch:$/;"	l
+reswitch	obj/user/faultwritekernel.asm	/^	reswitch:$/;"	l
+reswitch	obj/user/hello.asm	/^	reswitch:$/;"	l
+reswitch	obj/user/softint.asm	/^	reswitch:$/;"	l
+reswitch	obj/user/testbss.asm	/^	reswitch:$/;"	l
+ret	obj/kern/kernel.asm	/^				ret = _dwarf_frame_set_cie(dbg, ds,$/;"	d
+ret	obj/kern/kernel.asm	/^				ret = _dwarf_frame_set_fde(dbg, ret_fde, ds,$/;"	d
+ret	obj/kern/kernel.asm	/^				ret = _dwarf_frame_set_fde(dbg,ret_fde, ds,$/;"	d
+ret	obj/kern/kernel.asm	/^			ret = _dwarf_frame_read_lsb_encoded(dbg, &val,$/;"	d
+ret	obj/kern/kernel.asm	/^			ret = page_insert(e->env_pml4e, pg, va+i, PTE_U | PTE_W | PTE_P);$/;"	d
+ret	obj/kern/kernel.asm	/^		ret = _dwarf_frame_parse_lsb_cie_augment(dbg, cie, error);$/;"	d
+ret	obj/kern/kernel.asm	/^		ret = _dwarf_frame_read_lsb_encoded(dbg, &val, ds->ds_data,$/;"	d
+ret	obj/kern/kernel.asm	/^		ret = dwarf_search_die_within_cu(dbg, cu, offset, ret_die, 0);$/;"	d
+ret	obj/kern/kernel.asm	/^		ret = src[0];$/;"	d
+ret	obj/kern/kernel.asm	/^		ret = src[1] | ((uint64_t) src[0]) << 8;$/;"	d
+ret	obj/kern/kernel.asm	/^		ret = src[3] | ((uint64_t) src[2]) << 8;$/;"	d
+ret	obj/kern/kernel.asm	/^		ret = src[7] | ((uint64_t) src[6]) << 8;$/;"	d
+ret	obj/kern/kernel.asm	/^	ret = 0;$/;"	d
+ret	obj/kern/kernel.asm	/^	ret = dst;$/;"	d
+ret	obj/kern/kernel.asm	/^	ret = src = (char *) data + *offsetp;$/;"	d
+ret	obj/kern/kernel.asm	/^	ret = src = (uint8_t *) data + *offsetp;$/;"	d
+ret	obj/kern/kernel.asm	/^                                ret = DW_DLE_FRAME_INSTR_EXEC_ERROR;$/;"	d
+ret	obj/kern/kernel.asm	/^                        ret = DW_DLE_FRAME_INSTR_EXEC_ERROR;$/;"	d
+ret	obj/kern/kernel.asm	/^                ret = _dwarf_frame_run_inst(dbg, rt, fde->fde_inst,$/;"	d
+ret	obj/kern/kernel.asm	/^                ret = _dwarf_lineno_add_file(li, &p, NULL,$/;"	d
+ret	obj/kern/kernel.asm	/^            ret = (section_info + i);$/;"	d
+ret	obj/kern/kernel.asm	/^        ret = DW_DLE_ATTR_FORM_BAD;$/;"	d
+ret	obj/kern/kernel.asm	/^        ret = DW_DLE_DEBUG_LINE_LENGTH_BAD;$/;"	d
+ret	obj/kern/kernel.asm	/^        ret = DW_DLE_NONE;$/;"	d
+ret	obj/kern/kernel.asm	/^        ret = _dwarf_abbrev_parse(dbg, cu, &offset, abp, ds);$/;"	d
+ret	obj/kern/kernel.asm	/^        ret = _dwarf_frame_get_internal_table(fde, pc_requested, &rt, &pc,$/;"	d
+ret	obj/kern/kernel.asm	/^        ret = _dwarf_frame_run_inst(dbg, rt, cie->cie_initinst,$/;"	d
+ret	obj/kern/kernel.asm	/^        ret = _dwarf_lineno_add_file(li, &p, NULL, error, dbg);$/;"	d
+ret	obj/kern/kernel.asm	/^    ret = DW_DLE_NONE;$/;"	d
+ret	obj/kern/kernel.asm	/^    ret = _dwarf_lineno_run_program(cu, li, p, ds->ds_data + endoff, pc,$/;"	d
+ret	obj/kern/kernel.asm	/^    ret = dwarf_search_die_within_cu(dbg, *cu, die->die_next_off, ret_die, 0);$/;"	d
+ret	obj/kern/kernel.asm	/^    ret = dwarf_search_die_within_cu(dbg, *cu, offset, ret_die, search_sibling);$/;"	d
+ret	obj/user/badsegment.asm	/^	ret = dst;$/;"	d
+ret	obj/user/breakpoint.asm	/^	ret = dst;$/;"	d
+ret	obj/user/buggyhello.asm	/^	ret = dst;$/;"	d
+ret	obj/user/buggyhello2.asm	/^	ret = dst;$/;"	d
+ret	obj/user/divzero.asm	/^	ret = dst;$/;"	d
+ret	obj/user/evilhello.asm	/^	ret = dst;$/;"	d
+ret	obj/user/faultread.asm	/^	ret = dst;$/;"	d
+ret	obj/user/faultreadkernel.asm	/^	ret = dst;$/;"	d
+ret	obj/user/faultwrite.asm	/^	ret = dst;$/;"	d
+ret	obj/user/faultwritekernel.asm	/^	ret = dst;$/;"	d
+ret	obj/user/hello.asm	/^	ret = dst;$/;"	d
+ret	obj/user/softint.asm	/^	ret = dst;$/;"	d
+ret	obj/user/testbss.asm	/^	ret = dst;$/;"	d
+ret_val	obj/kern/kernel.asm	/^					ret_val = attr->u[0].u64;$/;"	d
+ret_val	obj/kern/kernel.asm	/^                    	ret_val = attr->u[0].u64;$/;"	d
+rip_file	kern/kdebug.h	/^	const char *rip_file;		\/\/ Source code filename for RIP$/;"	m	struct:Ripdebuginfo
+rip_fn_addr	kern/kdebug.h	/^	uintptr_t rip_fn_addr;		\/\/ Address of start of function$/;"	m	struct:Ripdebuginfo
+rip_fn_name	kern/kdebug.h	/^	const char *rip_fn_name;	\/\/ Name of function containing RIP$/;"	m	struct:Ripdebuginfo
+rip_fn_namelen	kern/kdebug.h	/^	int rip_fn_namelen;		\/\/ Length of function name$/;"	m	struct:Ripdebuginfo
+rip_fn_narg	kern/kdebug.h	/^	int rip_fn_narg;		\/\/ Number of function arguments$/;"	m	struct:Ripdebuginfo
+rip_line	kern/kdebug.h	/^	int rip_line;			\/\/ Source code linenumber for RIP$/;"	m	struct:Ripdebuginfo
+rpos	kern/console.c	/^	uint32_t rpos;$/;"	m	struct:__anon14	file:
+rt	obj/kern/kernel.asm	/^        rt = dbg->dbg_internal_reg_table;$/;"	d
+rt3_cfa_rule	kern/dwarf.h	/^        Dwarf_Regtable_Entry3   rt3_cfa_rule;$/;"	m	struct:__anon3
+rt3_reg_table_size	kern/dwarf.h	/^        Dwarf_Half              rt3_reg_table_size;$/;"	m	struct:__anon3
+rt3_rules	kern/dwarf.h	/^        Dwarf_Regtable_Entry3   *rt3_rules;$/;"	m	struct:__anon3
+rules	kern/dwarf.h	/^        } rules[DW_REG_TABLE_SIZE];$/;"	m	struct:__anon9	typeref:struct:__anon9::__anon10
+run_qemu	gradelib.py	/^    def run_qemu(self, *monitors, **kw):$/;"	m	class:Runner
+run_qemu_kw	gradelib.py	/^        def run_qemu_kw(target_base="qemu", make_args=[], timeout=30):$/;"	f	function:Runner.run_qemu
+run_test	gradelib.py	/^        def run_test():$/;"	f	function:test.register_test
+run_tests	gradelib.py	/^def run_tests():$/;"	f
+runcmd	kern/monitor.c	/^runcmd(char *buf, struct Trapframe *tf)$/;"	f	file:
+s	kern/dwarf.h	/^        char        *s;         \/* String. *\/$/;"	m	union:_Dwarf_Attribute::__anon7
+s	obj/kern/kernel.asm	/^	s = src;$/;"	d
+s	obj/user/badsegment.asm	/^	s = src;$/;"	d
+s	obj/user/breakpoint.asm	/^	s = src;$/;"	d
+s	obj/user/buggyhello.asm	/^	s = src;$/;"	d
+s	obj/user/buggyhello2.asm	/^	s = src;$/;"	d
+s	obj/user/divzero.asm	/^	s = src;$/;"	d
+s	obj/user/evilhello.asm	/^	s = src;$/;"	d
+s	obj/user/faultread.asm	/^	s = src;$/;"	d
+s	obj/user/faultreadkernel.asm	/^	s = src;$/;"	d
+s	obj/user/faultwrite.asm	/^	s = src;$/;"	d
+s	obj/user/faultwritekernel.asm	/^	s = src;$/;"	d
+s	obj/user/hello.asm	/^	s = src;$/;"	d
+s	obj/user/softint.asm	/^	s = src;$/;"	d
+s	obj/user/testbss.asm	/^	s = src;$/;"	d
+s64	kern/dwarf.h	/^        int64_t     s64;        \/* Signed value. *\/$/;"	m	union:_Dwarf_Attribute::__anon7
+save	gradelib.py	/^def save(path):$/;"	f
+save_on_finish	gradelib.py	/^    def save_on_finish(fail):$/;"	f	function:save
+sc	obj/kern/kernel.asm	/^            sc = *in++;$/;"	d
+sc	obj/user/badsegment.asm	/^            sc = *in++;$/;"	d
+sc	obj/user/breakpoint.asm	/^            sc = *in++;$/;"	d
+sc	obj/user/buggyhello.asm	/^            sc = *in++;$/;"	d
+sc	obj/user/buggyhello2.asm	/^            sc = *in++;$/;"	d
+sc	obj/user/divzero.asm	/^            sc = *in++;$/;"	d
+sc	obj/user/evilhello.asm	/^            sc = *in++;$/;"	d
+sc	obj/user/faultread.asm	/^            sc = *in++;$/;"	d
+sc	obj/user/faultreadkernel.asm	/^            sc = *in++;$/;"	d
+sc	obj/user/faultwrite.asm	/^            sc = *in++;$/;"	d
+sc	obj/user/faultwritekernel.asm	/^            sc = *in++;$/;"	d
+sc	obj/user/hello.asm	/^            sc = *in++;$/;"	d
+sc	obj/user/softint.asm	/^            sc = *in++;$/;"	d
+sc	obj/user/testbss.asm	/^            sc = *in++;$/;"	d
+sd_avl	inc/mmu.h	/^	unsigned sd_avl : 1;        \/\/ Unused (available for software use)$/;"	m	struct:Segdesc
+sd_avl	inc/mmu.h	/^	unsigned sd_avl : 1;        \/\/ Unused (available for software use)$/;"	m	struct:SystemSegdesc64
+sd_base_15_0	inc/mmu.h	/^	unsigned sd_base_15_0 : 16; \/\/ Low bits of segment base address$/;"	m	struct:Segdesc
+sd_base_15_0	inc/mmu.h	/^    unsigned sd_base_15_0 : 16;$/;"	m	struct:SystemSegdesc64
+sd_base_23_16	inc/mmu.h	/^	unsigned sd_base_23_16 : 8; \/\/ Middle bits of segment base address$/;"	m	struct:Segdesc
+sd_base_23_16	inc/mmu.h	/^    unsigned sd_base_23_16 : 8;$/;"	m	struct:SystemSegdesc64
+sd_base_31_24	inc/mmu.h	/^	unsigned sd_base_31_24 : 8; \/\/ High bits of segment base address$/;"	m	struct:Segdesc
+sd_base_31_24	inc/mmu.h	/^	unsigned sd_base_31_24 : 8; \/\/ High bits of segment base address$/;"	m	struct:SystemSegdesc64
+sd_base_63_32	inc/mmu.h	/^    uint32_t sd_base_63_32;  $/;"	m	struct:SystemSegdesc64
+sd_clear	inc/mmu.h	/^    unsigned sd_clear : 8;$/;"	m	struct:SystemSegdesc64
+sd_db	inc/mmu.h	/^	unsigned sd_db : 1;         \/\/ 0 = 16-bit segment, 1 = 32-bit segment$/;"	m	struct:Segdesc
+sd_dpl	inc/mmu.h	/^	unsigned sd_dpl : 2;        \/\/ Descriptor Privilege Level$/;"	m	struct:Segdesc
+sd_dpl	inc/mmu.h	/^	unsigned sd_dpl : 2;        \/\/ Descriptor Privilege Level$/;"	m	struct:SystemSegdesc64
+sd_g	inc/mmu.h	/^	unsigned sd_g : 1;          \/\/ Granularity: limit scaled by 4K when set$/;"	m	struct:Segdesc
+sd_g	inc/mmu.h	/^	unsigned sd_g : 1;          \/\/ Granularity: limit scaled by 4K when set$/;"	m	struct:SystemSegdesc64
+sd_l	inc/mmu.h	/^	unsigned sd_l : 1;       \/\/ Reserved$/;"	m	struct:Segdesc
+sd_lim_15_0	inc/mmu.h	/^	unsigned sd_lim_15_0 : 16;  \/\/ Low bits of segment limit$/;"	m	struct:Segdesc
+sd_lim_15_0	inc/mmu.h	/^    unsigned sd_lim_15_0 : 16;$/;"	m	struct:SystemSegdesc64
+sd_lim_19_16	inc/mmu.h	/^	unsigned sd_lim_19_16 : 4;  \/\/ High bits of segment limit$/;"	m	struct:Segdesc
+sd_lim_19_16	inc/mmu.h	/^	unsigned sd_lim_19_16 : 4;  \/\/ High bits of segment limit$/;"	m	struct:SystemSegdesc64
+sd_p	inc/mmu.h	/^	unsigned sd_p : 1;          \/\/ Present$/;"	m	struct:Segdesc
+sd_p	inc/mmu.h	/^	unsigned sd_p : 1;          \/\/ Present$/;"	m	struct:SystemSegdesc64
+sd_res1	inc/mmu.h	/^    unsigned sd_res1 : 8;$/;"	m	struct:SystemSegdesc64
+sd_res2	inc/mmu.h	/^    unsigned sd_res2 : 16;$/;"	m	struct:SystemSegdesc64
+sd_rsv1	inc/mmu.h	/^	unsigned sd_rsv1 : 2;       \/\/ Reserved$/;"	m	struct:SystemSegdesc64
+sd_s	inc/mmu.h	/^	unsigned sd_s : 1;          \/\/ 0 = system, 1 = application$/;"	m	struct:Segdesc
+sd_s	inc/mmu.h	/^	unsigned sd_s : 1;          \/\/ 0 = system, 1 = application$/;"	m	struct:SystemSegdesc64
+sd_type	inc/mmu.h	/^	unsigned sd_type : 4;       \/\/ Segment type (see STS_ constants)$/;"	m	struct:Segdesc
+sd_type	inc/mmu.h	/^    unsigned sd_type : 4;$/;"	m	struct:SystemSegdesc64
+search_sibling	obj/kern/kernel.asm	/^            search_sibling = 1;$/;"	d
+search_sibling	obj/kern/kernel.asm	/^    search_sibling = 0;$/;"	d
+sec_name	obj/kern/kernel.asm	/^	sec_name = secthdr_ptr[ehdr->e_shstrndx]; $/;"	d
+sect	obj/kern/kernel.asm	/^    sect = _dwarf_find_section(".debug_info");	$/;"	d
+secthdr	obj/kern/kernel.asm	/^	secthdr = (char*)orig_secthdr + (offset - ROUNDDOWN(offset, SECTSIZE));$/;"	d
+section_info	kern/elf_rw.c	/^Dwarf_Section section_info[NDEBUG_SECT] = { $/;"	v
+serial_exists	kern/console.c	/^static bool serial_exists;$/;"	v	file:
+serial_exists	obj/kern/kernel.asm	/^	serial_exists = (inb(COM1+COM_LSR) != 0xFF);$/;"	d
+serial_init	kern/console.c	/^serial_init(void)$/;"	f	file:
+serial_intr	kern/console.c	/^serial_intr(void)$/;"	f
+serial_proc_data	kern/console.c	/^serial_proc_data(void)$/;"	f	file:
+serial_putc	kern/console.c	/^serial_putc(int c)$/;"	f	file:
+setup_breakpoint	gradelib.py	/^    def setup_breakpoint(runner):$/;"	f	function:stop_breakpoint
+setup_call_on_line	gradelib.py	/^    def setup_call_on_line(runner):$/;"	f	function:call_on_line
+setup_save	gradelib.py	/^    def setup_save(runner):$/;"	f	function:save
+sh_addr	inc/elf.h	/^	uint64_t sh_addr;$/;"	m	struct:Secthdr
+sh_addr	kern/dwarf_elf.h	/^               uint64_t   sh_addr;$/;"	m	struct:__anon12
+sh_addr	kern/dwarf_elf.h	/^    uint32_t sh_addr;$/;"	m	struct:Secthdr
+sh_addralign	inc/elf.h	/^	uint64_t sh_addralign;$/;"	m	struct:Secthdr
+sh_addralign	kern/dwarf_elf.h	/^               uint64_t   sh_addralign;$/;"	m	struct:__anon12
+sh_addralign	kern/dwarf_elf.h	/^    uint32_t sh_addralign;$/;"	m	struct:Secthdr
+sh_entsize	inc/elf.h	/^	uint64_t sh_entsize;$/;"	m	struct:Secthdr
+sh_entsize	kern/dwarf_elf.h	/^               uint64_t   sh_entsize;$/;"	m	struct:__anon12
+sh_entsize	kern/dwarf_elf.h	/^    uint32_t sh_entsize;$/;"	m	struct:Secthdr
+sh_flags	inc/elf.h	/^	uint64_t sh_flags;$/;"	m	struct:Secthdr
+sh_flags	kern/dwarf_elf.h	/^               uint64_t   sh_flags;$/;"	m	struct:__anon12
+sh_flags	kern/dwarf_elf.h	/^    uint32_t sh_flags;$/;"	m	struct:Secthdr
+sh_info	inc/elf.h	/^	uint32_t sh_info;$/;"	m	struct:Secthdr
+sh_info	kern/dwarf_elf.h	/^               uint32_t   sh_info;$/;"	m	struct:__anon12
+sh_info	kern/dwarf_elf.h	/^    uint32_t sh_info;$/;"	m	struct:Secthdr
+sh_link	inc/elf.h	/^	uint32_t sh_link;$/;"	m	struct:Secthdr
+sh_link	kern/dwarf_elf.h	/^               uint32_t   sh_link;$/;"	m	struct:__anon12
+sh_link	kern/dwarf_elf.h	/^    uint32_t sh_link;$/;"	m	struct:Secthdr
+sh_name	inc/elf.h	/^	uint32_t sh_name;$/;"	m	struct:Secthdr
+sh_name	kern/dwarf_elf.h	/^               uint32_t   sh_name;$/;"	m	struct:__anon12
+sh_name	kern/dwarf_elf.h	/^    uint32_t sh_name;$/;"	m	struct:Secthdr
+sh_offset	inc/elf.h	/^	uint64_t sh_offset;$/;"	m	struct:Secthdr
+sh_offset	kern/dwarf_elf.h	/^               uint64_t   sh_offset;$/;"	m	struct:__anon12
+sh_offset	kern/dwarf_elf.h	/^    uint32_t sh_offset;$/;"	m	struct:Secthdr
+sh_size	inc/elf.h	/^	uint64_t sh_size;$/;"	m	struct:Secthdr
+sh_size	kern/dwarf_elf.h	/^               uint64_t   sh_size;$/;"	m	struct:__anon12
+sh_size	kern/dwarf_elf.h	/^    uint32_t sh_size;$/;"	m	struct:Secthdr
+sh_type	inc/elf.h	/^	uint32_t sh_type;$/;"	m	struct:Secthdr
+sh_type	kern/dwarf_elf.h	/^               uint32_t   sh_type;$/;"	m	struct:__anon12
+sh_type	kern/dwarf_elf.h	/^    uint32_t sh_type;$/;"	m	struct:Secthdr
+shiftcode	kern/console.c	/^static uint8_t shiftcode[256] =$/;"	v	file:
+shiftmap	kern/console.c	/^static uint8_t shiftmap[256] =$/;"	v	file:
+shndx	kern/multiboot.h	/^   uint32_t shndx;$/;"	m	struct:elf_section_header_table
+show_command	gradelib.py	/^def show_command(cmd):$/;"	f
+show_part	gradelib.py	/^    def show_part():$/;"	f	function:end_part
+sib	obj/kern/kernel.asm	/^				sib = ret; $/;"	d
+sib	obj/kern/kernel.asm	/^			sib = ret; $/;"	d
+size	kern/multiboot.h	/^   uint32_t size;$/;"	m	struct:elf_section_header_table
+size	kern/multiboot.h	/^   uint32_t size;$/;"	m	struct:memory_map
+size_fn_arg	kern/kdebug.h	/^    int size_fn_arg[10];    \/\/ Sizes of each of function arguments$/;"	m	struct:Ripdebuginfo
+size_t	inc/types.h	/^typedef uint64_t size_t;$/;"	t
+size_t	obj/kern/kernel.asm	/^size_t$/;"	l
+size_t	obj/user/badsegment.asm	/^size_t$/;"	l
+size_t	obj/user/breakpoint.asm	/^size_t$/;"	l
+size_t	obj/user/buggyhello.asm	/^size_t$/;"	l
+size_t	obj/user/buggyhello2.asm	/^size_t$/;"	l
+size_t	obj/user/divzero.asm	/^size_t$/;"	l
+size_t	obj/user/evilhello.asm	/^size_t$/;"	l
+size_t	obj/user/faultread.asm	/^size_t$/;"	l
+size_t	obj/user/faultreadkernel.asm	/^size_t$/;"	l
+size_t	obj/user/faultwrite.asm	/^size_t$/;"	l
+size_t	obj/user/faultwritekernel.asm	/^size_t$/;"	l
+size_t	obj/user/hello.asm	/^size_t$/;"	l
+size_t	obj/user/softint.asm	/^size_t$/;"	l
+size_t	obj/user/testbss.asm	/^size_t$/;"	l
+snprintf	lib/printfmt.c	/^snprintf(char *buf, int n, const char *fmt, ...)$/;"	f
+soff	obj/kern/kernel.asm	/^                        soff = _dwarf_decode_sleb128(&p);$/;"	d
+spin	boot/boot.S	/^spin:$/;"	l
+spin	kern/entry.S	/^spin:	jmp	spin$/;"	l
+spin	obj/boot/boot.asm	/^spin:$/;"	l
+spin	obj/kern/kernel.asm	/^spin:	jmp	spin$/;"	l
+sprintbuf	lib/printfmt.c	/^struct sprintbuf {$/;"	s	file:
+sprintputch	lib/printfmt.c	/^sprintputch(int ch, struct sprintbuf *b)$/;"	f	file:
+src	obj/kern/kernel.asm	/^	src = *data;$/;"	d
+src	obj/kern/kernel.asm	/^	src = data + *offsetp;$/;"	d
+src	obj/kern/kernel.asm	/^    src = *p;$/;"	d
+ssize_t	inc/types.h	/^typedef int32_t ssize_t;$/;"	t
+stab_end	kern/kdebug.c	/^	const struct Stab *stab_end;$/;"	m	struct:UserStabData	typeref:struct:UserStabData::Stab	file:
+stabs	kern/kdebug.c	/^	const struct Stab *stabs;$/;"	m	struct:UserStabData	typeref:struct:UserStabData::Stab	file:
+stabstr	kern/kdebug.c	/^	const char *stabstr;$/;"	m	struct:UserStabData	file:
+stabstr_end	kern/kdebug.c	/^	const char *stabstr_end;$/;"	m	struct:UserStabData	file:
+start	boot/boot.S	/^start:$/;"	l
+start	obj/boot/boot.asm	/^start:$/;"	l
+static	obj/boot/boot.asm	/^static __inline uint8_t$/;"	l
+static	obj/boot/boot.asm	/^static __inline void$/;"	l
+static	obj/kern/kernel.asm	/^    static struct Env* lastenv = NULL;$/;"	t
+static	obj/kern/kernel.asm	/^static __inline uint64_t$/;"	l
+static	obj/kern/kernel.asm	/^static __inline uint8_t$/;"	l
+static	obj/kern/kernel.asm	/^static __inline void $/;"	l
+static	obj/kern/kernel.asm	/^static __inline void$/;"	l
+static	obj/kern/kernel.asm	/^static bool serial_exists;$/;"	l
+static	obj/kern/kernel.asm	/^static char buf[BUFLEN];$/;"	l
+static	obj/kern/kernel.asm	/^static const char *trapname(int trapno)$/;"	l
+static	obj/kern/kernel.asm	/^static envid_t$/;"	l
+static	obj/kern/kernel.asm	/^static inline physaddr_t$/;"	l
+static	obj/kern/kernel.asm	/^static inline ppn_t$/;"	l
+static	obj/kern/kernel.asm	/^static inline struct PageInfo*$/;"	l
+static	obj/kern/kernel.asm	/^static inline void*$/;"	l
+static	obj/kern/kernel.asm	/^static int$/;"	l
+static	obj/kern/kernel.asm	/^static long long$/;"	l
+static	obj/kern/kernel.asm	/^static uint16_t *crt_buf;$/;"	l
+static	obj/kern/kernel.asm	/^static uint16_t crt_pos;$/;"	l
+static	obj/kern/kernel.asm	/^static unsigned long long$/;"	l
+static	obj/kern/kernel.asm	/^static void *$/;"	l
+static	obj/kern/kernel.asm	/^static void cons_putc(int c);$/;"	l
+static	obj/kern/kernel.asm	/^static void$/;"	l
+static	obj/user/badsegment.asm	/^static inline int64_t$/;"	l
+static	obj/user/badsegment.asm	/^static long long$/;"	l
+static	obj/user/badsegment.asm	/^static unsigned long long$/;"	l
+static	obj/user/badsegment.asm	/^static void$/;"	l
+static	obj/user/breakpoint.asm	/^static inline int64_t$/;"	l
+static	obj/user/breakpoint.asm	/^static long long$/;"	l
+static	obj/user/breakpoint.asm	/^static unsigned long long$/;"	l
+static	obj/user/breakpoint.asm	/^static void$/;"	l
+static	obj/user/buggyhello.asm	/^static inline int64_t$/;"	l
+static	obj/user/buggyhello.asm	/^static long long$/;"	l
+static	obj/user/buggyhello.asm	/^static unsigned long long$/;"	l
+static	obj/user/buggyhello.asm	/^static void$/;"	l
+static	obj/user/buggyhello2.asm	/^static inline int64_t$/;"	l
+static	obj/user/buggyhello2.asm	/^static long long$/;"	l
+static	obj/user/buggyhello2.asm	/^static unsigned long long$/;"	l
+static	obj/user/buggyhello2.asm	/^static void$/;"	l
+static	obj/user/divzero.asm	/^static inline int64_t$/;"	l
+static	obj/user/divzero.asm	/^static long long$/;"	l
+static	obj/user/divzero.asm	/^static unsigned long long$/;"	l
+static	obj/user/divzero.asm	/^static void$/;"	l
+static	obj/user/evilhello.asm	/^static inline int64_t$/;"	l
+static	obj/user/evilhello.asm	/^static long long$/;"	l
+static	obj/user/evilhello.asm	/^static unsigned long long$/;"	l
+static	obj/user/evilhello.asm	/^static void$/;"	l
+static	obj/user/faultread.asm	/^static inline int64_t$/;"	l
+static	obj/user/faultread.asm	/^static long long$/;"	l
+static	obj/user/faultread.asm	/^static unsigned long long$/;"	l
+static	obj/user/faultread.asm	/^static void$/;"	l
+static	obj/user/faultreadkernel.asm	/^static inline int64_t$/;"	l
+static	obj/user/faultreadkernel.asm	/^static long long$/;"	l
+static	obj/user/faultreadkernel.asm	/^static unsigned long long$/;"	l
+static	obj/user/faultreadkernel.asm	/^static void$/;"	l
+static	obj/user/faultwrite.asm	/^static inline int64_t$/;"	l
+static	obj/user/faultwrite.asm	/^static long long$/;"	l
+static	obj/user/faultwrite.asm	/^static unsigned long long$/;"	l
+static	obj/user/faultwrite.asm	/^static void$/;"	l
+static	obj/user/faultwritekernel.asm	/^static inline int64_t$/;"	l
+static	obj/user/faultwritekernel.asm	/^static long long$/;"	l
+static	obj/user/faultwritekernel.asm	/^static unsigned long long$/;"	l
+static	obj/user/faultwritekernel.asm	/^static void$/;"	l
+static	obj/user/hello.asm	/^static inline int64_t$/;"	l
+static	obj/user/hello.asm	/^static long long$/;"	l
+static	obj/user/hello.asm	/^static unsigned long long$/;"	l
+static	obj/user/hello.asm	/^static void$/;"	l
+static	obj/user/softint.asm	/^static inline int64_t$/;"	l
+static	obj/user/softint.asm	/^static long long$/;"	l
+static	obj/user/softint.asm	/^static unsigned long long$/;"	l
+static	obj/user/softint.asm	/^static void$/;"	l
+static	obj/user/testbss.asm	/^static inline int64_t$/;"	l
+static	obj/user/testbss.asm	/^static long long$/;"	l
+static	obj/user/testbss.asm	/^static unsigned long long$/;"	l
+static	obj/user/testbss.asm	/^static void$/;"	l
+static_assert	inc/assert.h	18;"	d
+status	obj/kern/kernel.asm	/^        status  = _dwarf_find_section_enhanced(&debug_frame_sec);$/;"	d
+stop	gradelib.py	/^    def stop(line):$/;"	f	function:stop_on_line
+stop_breakpoint	gradelib.py	/^def stop_breakpoint(addr):$/;"	f
+stop_on_line	gradelib.py	/^def stop_on_line(regexp):$/;"	f
+str	obj/kern/kernel.asm	/^        str = _dwarf_find_section(".debug_str");$/;"	d
+str1	user/sendpage.c	/^const char *str1 = "hello child environment! how are you?";$/;"	v
+str2	user/sendpage.c	/^const char *str2 = "hello parent environment! I'm good.";$/;"	v
+strcat	lib/string.c	/^strcat(char *dst, const char *src)$/;"	f
+strchr	lib/string.c	/^strchr(const char *s, char c)$/;"	f
+strcmp	lib/string.c	/^strcmp(const char *p, const char *q)$/;"	f
+strcpy	lib/string.c	/^strcpy(char *dst, const char *src)$/;"	f
+strfind	lib/string.c	/^strfind(const char *s, char c)$/;"	f
+string	kern/multiboot.h	/^   uint32_t string;$/;"	m	struct:module
+strlcpy	lib/string.c	/^strlcpy(char *dst, const char *src, size_t size)$/;"	f
+strlen	lib/string.c	/^strlen(const char *s)$/;"	f
+strncmp	lib/string.c	/^strncmp(const char *p, const char *q, size_t n)$/;"	f
+strncpy	lib/string.c	/^strncpy(char *dst, const char *src, size_t size) {$/;"	f
+strnlen	lib/string.c	/^strnlen(const char *s, size_t size)$/;"	f
+strsize	kern/multiboot.h	/^   uint32_t strsize;$/;"	m	struct:aout_symbol_table
+strstr	lib/string.c	/^char * strstr(const char *in, const char *str)$/;"	f
+strtol	lib/string.c	/^strtol(const char *s, char **endptr, int base)$/;"	f
+sys_cgetc	kern/syscall.c	/^sys_cgetc(void)$/;"	f	file:
+sys_cgetc	lib/syscall.c	/^sys_cgetc(void)$/;"	f
+sys_cputs	kern/syscall.c	/^sys_cputs(const char *s, size_t len)$/;"	f	file:
+sys_cputs	lib/syscall.c	/^sys_cputs(const char *s, size_t len)$/;"	f
+sys_env_destroy	kern/syscall.c	/^sys_env_destroy(envid_t envid)$/;"	f	file:
+sys_env_destroy	lib/syscall.c	/^sys_env_destroy(envid_t envid)$/;"	f
+sys_getenvid	kern/syscall.c	/^sys_getenvid(void)$/;"	f	file:
+sys_getenvid	lib/syscall.c	/^sys_getenvid(void)$/;"	f
+syscall	kern/syscall.c	/^syscall(uint64_t syscallno, uint64_t a1, uint64_t a2, uint64_t a3, uint64_t a4, uint64_t a5)$/;"	f
+syscall	lib/syscall.c	/^syscall(int num, int check, uint64_t a1, uint64_t a2, uint64_t a3, uint64_t a4, uint64_t a5)$/;"	f	file:
+tabsize	kern/multiboot.h	/^   uint32_t tabsize;$/;"	m	struct:aout_symbol_table
+tag	obj/kern/kernel.asm	/^    tag = _dwarf_read_uleb128((uint8_t *)abbr_addr, offset);$/;"	d
+temp	obj/kern/kernel.asm	/^	temp = kvoffset;$/;"	d
+temp	obj/kern/kernel.asm	/^        temp = kvoffset;$/;"	d
+test	gradelib.py	/^def test(points, title=None, parent=None):$/;"	f
+test_backtrace_arguments	grade-lab1	/^def test_backtrace_arguments():$/;"	f
+test_backtrace_count	grade-lab1	/^def test_backtrace_count():$/;"	f
+test_backtrace_lines	grade-lab1	/^def test_backtrace_lines():$/;"	f
+test_backtrace_symbols	grade-lab1	/^def test_backtrace_symbols():$/;"	f
+test_badsegment	grade-lab3	/^def test_badsegment():$/;"	f
+test_breakpoint	grade-lab3	/^def test_breakpoint():$/;"	f
+test_buggyhello	grade-lab3	/^def test_buggyhello():$/;"	f
+test_buggyhello2	grade-lab3	/^def test_buggyhello2():$/;"	f
+test_check_kern_pgdir	grade-lab2	/^def test_check_kern_pgdir():$/;"	f
+test_check_page	grade-lab2	/^def test_check_page():$/;"	f
+test_check_page_alloc	grade-lab2	/^def test_check_page_alloc():$/;"	f
+test_divzero	grade-lab3	/^def test_divzero():$/;"	f
+test_evilhello	grade-lab3	/^def test_evilhello():$/;"	f
+test_faultread	grade-lab3	/^def test_faultread():$/;"	f
+test_faultreadkernel	grade-lab3	/^def test_faultreadkernel():$/;"	f
+test_faultwrite	grade-lab3	/^def test_faultwrite():$/;"	f
+test_faultwritekernel	grade-lab3	/^def test_faultwritekernel():$/;"	f
+test_hello	grade-lab3	/^def test_hello():$/;"	f
+test_jos	grade-lab1	/^def test_jos():$/;"	f
+test_jos	grade-lab2	/^def test_jos():$/;"	f
+test_printf	grade-lab1	/^def test_printf():$/;"	f
+test_softint	grade-lab3	/^def test_softint():$/;"	f
+test_testbss	grade-lab3	/^def test_testbss():$/;"	f
+tf	obj/kern/kernel.asm	/^		tf = &curenv->env_tf;$/;"	d
+tf_cs	inc/trap.h	/^	uint16_t tf_cs;$/;"	m	struct:Trapframe
+tf_ds	inc/trap.h	/^	uint16_t tf_ds;$/;"	m	struct:Trapframe
+tf_eflags	inc/trap.h	/^	uint64_t tf_eflags;$/;"	m	struct:Trapframe
+tf_err	inc/trap.h	/^	uint64_t tf_err;$/;"	m	struct:Trapframe
+tf_es	inc/trap.h	/^	uint16_t tf_es;$/;"	m	struct:Trapframe
+tf_padding1	inc/trap.h	/^	uint16_t tf_padding1;$/;"	m	struct:Trapframe
+tf_padding2	inc/trap.h	/^    uint32_t tf_padding2;$/;"	m	struct:Trapframe
+tf_padding3	inc/trap.h	/^	uint16_t tf_padding3;$/;"	m	struct:Trapframe
+tf_padding4	inc/trap.h	/^    uint32_t tf_padding4;$/;"	m	struct:Trapframe
+tf_padding5	inc/trap.h	/^	uint16_t tf_padding5;$/;"	m	struct:Trapframe
+tf_padding6	inc/trap.h	/^    uint32_t tf_padding6;$/;"	m	struct:Trapframe
+tf_padding7	inc/trap.h	/^	uint16_t tf_padding7;$/;"	m	struct:Trapframe
+tf_padding8	inc/trap.h	/^    uint32_t tf_padding8;$/;"	m	struct:Trapframe
+tf_regs	inc/trap.h	/^	struct PushRegs tf_regs;$/;"	m	struct:Trapframe	typeref:struct:Trapframe::PushRegs
+tf_rip	inc/trap.h	/^	uintptr_t tf_rip;$/;"	m	struct:Trapframe
+tf_rsp	inc/trap.h	/^	uintptr_t tf_rsp;$/;"	m	struct:Trapframe
+tf_ss	inc/trap.h	/^	uint16_t tf_ss;$/;"	m	struct:Trapframe
+tf_trapno	inc/trap.h	/^	uint64_t tf_trapno;$/;"	m	struct:Trapframe
+thisenv	lib/libmain.c	/^const volatile struct Env *thisenv;$/;"	v	typeref:struct:Env
+thisenv	obj/user/badsegment.asm	/^	thisenv = 0;$/;"	d
+thisenv	obj/user/breakpoint.asm	/^	thisenv = 0;$/;"	d
+thisenv	obj/user/buggyhello.asm	/^	thisenv = 0;$/;"	d
+thisenv	obj/user/buggyhello2.asm	/^	thisenv = 0;$/;"	d
+thisenv	obj/user/divzero.asm	/^	thisenv = 0;$/;"	d
+thisenv	obj/user/evilhello.asm	/^	thisenv = 0;$/;"	d
+thisenv	obj/user/faultread.asm	/^	thisenv = 0;$/;"	d
+thisenv	obj/user/faultreadkernel.asm	/^	thisenv = 0;$/;"	d
+thisenv	obj/user/faultwrite.asm	/^	thisenv = 0;$/;"	d
+thisenv	obj/user/faultwritekernel.asm	/^	thisenv = 0;$/;"	d
+thisenv	obj/user/hello.asm	/^	thisenv = 0;$/;"	d
+thisenv	obj/user/softint.asm	/^	thisenv = 0;$/;"	d
+thisenv	obj/user/testbss.asm	/^	thisenv = 0;$/;"	d
+tlb_invalidate	kern/pmap.c	/^tlb_invalidate(pml4e_t *pml4e, void *va)$/;"	f
+tlbflush	inc/x86.h	/^tlbflush(void)$/;"	f
+togglecode	kern/console.c	/^static uint8_t togglecode[256] =$/;"	v	file:
+trap	kern/trap.c	/^trap(struct Trapframe *tf)$/;"	f
+trap_dispatch	kern/trap.c	/^trap_dispatch(struct Trapframe *tf)$/;"	f	file:
+trap_init	kern/trap.c	/^trap_init(void)$/;"	f
+trap_init_percpu	kern/trap.c	/^trap_init_percpu(void)$/;"	f
+trapname	kern/trap.c	/^static const char *trapname(int trapno)$/;"	f	file:
+true	inc/types.h	/^enum { false, true };$/;"	e	enum:__anon16
+try_again	obj/kern/kernel.asm	/^try_again:$/;"	l
+ts	kern/trap.c	/^static struct Taskstate ts;$/;"	v	typeref:struct:Taskstate	file:
+ts_esp0	inc/mmu.h	/^	uintptr_t ts_esp0;	\/\/ Stack pointers and segment selectors$/;"	m	struct:Taskstate
+ts_esp1	inc/mmu.h	/^	uintptr_t ts_esp1;$/;"	m	struct:Taskstate
+ts_esp2	inc/mmu.h	/^	uintptr_t ts_esp2;$/;"	m	struct:Taskstate
+ts_iomb	inc/mmu.h	/^	uint16_t ts_iomb;	\/\/ I\/O map base address$/;"	m	struct:Taskstate
+ts_ist1	inc/mmu.h	/^    uint64_t ts_ist1;$/;"	m	struct:Taskstate
+ts_ist2	inc/mmu.h	/^    uint64_t ts_ist2;$/;"	m	struct:Taskstate
+ts_ist3	inc/mmu.h	/^    uint64_t ts_ist3;$/;"	m	struct:Taskstate
+ts_ist4	inc/mmu.h	/^    uint64_t ts_ist4;$/;"	m	struct:Taskstate
+ts_ist5	inc/mmu.h	/^    uint64_t ts_ist5;$/;"	m	struct:Taskstate
+ts_ist6	inc/mmu.h	/^    uint64_t ts_ist6;$/;"	m	struct:Taskstate
+ts_ist7	inc/mmu.h	/^    uint64_t ts_ist7;$/;"	m	struct:Taskstate
+ts_res1	inc/mmu.h	/^	uint32_t ts_res1;	\/\/ -- reserved in long mode$/;"	m	struct:Taskstate
+ts_res2	inc/mmu.h	/^	uint64_t ts_res2;	\/\/ reserved in long mode$/;"	m	struct:Taskstate
+ts_res3	inc/mmu.h	/^    uint64_t ts_res3;$/;"	m	struct:Taskstate
+ts_res4	inc/mmu.h	/^    uint16_t ts_res4;$/;"	m	struct:Taskstate
+type	kern/multiboot.h	/^   uint32_t type;$/;"	m	struct:memory_map
+u	kern/dwarf.h	/^    } u[2];                 \/* Value. *\/$/;"	m	struct:_Dwarf_Attribute	typeref:union:_Dwarf_Attribute::__anon7
+u	kern/multiboot.h	/^   } u;$/;"	m	struct:multiboot_info	typeref:union:multiboot_info::__anon1
+u64	kern/dwarf.h	/^        uint64_t    u64;        \/* Unsigned value. *\/$/;"	m	union:_Dwarf_Attribute::__anon7
+u8p	kern/dwarf.h	/^        uint8_t     *u8p;       \/* Block data. *\/$/;"	m	union:_Dwarf_Attribute::__anon7
+uint16_t	inc/types.h	/^typedef unsigned short uint16_t;$/;"	t
+uint32_t	inc/types.h	/^typedef unsigned int uint32_t;$/;"	t
+uint32_t	obj/kern/kernel.asm	/^uint32_t restrictive_type(uint32_t t1, uint32_t t2) {$/;"	l
+uint32_t	obj/user/testbss.asm	/^uint32_t bigarray[ARRAYSIZE];$/;"	l
+uint64_t	inc/types.h	/^typedef unsigned long long uint64_t;$/;"	t
+uint64_t	obj/kern/kernel.asm	/^uint64_t end_debug;$/;"	l
+uint64_t	obj/kern/kernel.asm	/^uint64_t$/;"	l
+uint8_t	inc/types.h	/^typedef unsigned char uint8_t;$/;"	t
+uint8_t	obj/kern/kernel.asm	/^uint8_t *$/;"	l
+uintptr_t	inc/types.h	/^typedef uint64_t uintptr_t;$/;"	t
+uintptr_t	obj/kern/kernel.asm	/^uintptr_t$/;"	l
+umain	user/badsegment.c	/^umain(int argc, char **argv)$/;"	f
+umain	user/breakpoint.c	/^umain(int argc, char **argv)$/;"	f
+umain	user/buggyhello.c	/^umain(int argc, char **argv)$/;"	f
+umain	user/buggyhello2.c	/^umain(int argc, char **argv)$/;"	f
+umain	user/divzero.c	/^umain(int argc, char **argv)$/;"	f
+umain	user/evilhello.c	/^umain(int argc, char **argv)$/;"	f
+umain	user/faultread.c	/^umain(int argc, char **argv)$/;"	f
+umain	user/faultreadkernel.c	/^umain(int argc, char **argv)$/;"	f
+umain	user/faultwrite.c	/^umain(int argc, char **argv)$/;"	f
+umain	user/faultwritekernel.c	/^umain(int argc, char **argv)$/;"	f
+umain	user/hello.c	/^umain(int argc, char **argv)$/;"	f
+umain	user/sendpage.c	/^umain(int argc, char **argv)$/;"	f
+umain	user/softint.c	/^umain(int argc, char **argv)$/;"	f
+umain	user/testbss.c	/^umain(int argc, char **argv)$/;"	f
+unsigned	obj/kern/kernel.asm	/^unsigned$/;"	l
+uoff	obj/kern/kernel.asm	/^                        uoff = _dwarf_decode_uleb128(&p);$/;"	d
+user_mem_assert	kern/pmap.c	/^user_mem_assert(struct Env *env, const void *va, size_t len, int perm)$/;"	f
+user_mem_check	kern/pmap.c	/^user_mem_check(struct Env *env, const void *va, size_t len, int perm)$/;"	f
+user_mem_check_addr	kern/pmap.c	/^static uintptr_t user_mem_check_addr;$/;"	v	file:
+user_test	gradelib.py	/^    def user_test(self, binary, *monitors, **kw):$/;"	m	class:Runner
+va	obj/kern/kernel.asm	/^	va = (void*)(PGSIZE * 100);$/;"	d
+va	obj/kern/kernel.asm	/^	va = ROUNDDOWN(va, PGSIZE);$/;"	d
+va_arg	inc/stdarg.h	11;"	d
+va_copy	inc/stdarg.h	15;"	d
+va_end	inc/stdarg.h	13;"	d
+va_list	inc/stdarg.h	/^typedef __builtin_va_list va_list;$/;"	t
+va_start	inc/stdarg.h	9;"	d
+vcprintf	kern/printf.c	/^vcprintf(const char *fmt, va_list ap)$/;"	f
+vcprintf	lib/printf.c	/^vcprintf(const char *fmt, va_list ap)$/;"	f
+verify_cpu	kern/bootstrap.S	/^verify_cpu:$/;"	l
+verify_cpu	obj/kern/kernel.asm	/^verify_cpu:$/;"	l
+verify_cpu_no_longmode	kern/bootstrap.S	/^verify_cpu_no_longmode:$/;"	l
+verify_cpu_no_longmode	obj/kern/kernel.asm	/^verify_cpu_no_longmode:$/;"	l
+version	kern/dwarf.h	/^    uint16_t version;				\/\/Dwarf version, currently should either be 2 or 3.$/;"	m	struct:_Dwarf_CU
+void	obj/boot/boot.asm	/^void readseg(uint32_t, uint32_t, uint32_t);$/;"	l
+void	obj/boot/boot.asm	/^void$/;"	l
+void	obj/kern/kernel.asm	/^void	user_mem_assert(struct Env *env, const void *va, size_t len, int perm);$/;"	l
+void	obj/kern/kernel.asm	/^void *$/;"	l
+void	obj/kern/kernel.asm	/^void find_debug_sections(uintptr_t elf) $/;"	l
+void	obj/kern/kernel.asm	/^void print_cu(Dwarf_CU cu)$/;"	l
+void	obj/kern/kernel.asm	/^void printfmt(void (*putch)(int, void*), void *putdat, const char *fmt, ...);$/;"	l
+void	obj/kern/kernel.asm	/^void$/;"	l
+void	obj/user/badsegment.asm	/^void *$/;"	l
+void	obj/user/badsegment.asm	/^void printfmt(void (*putch)(int, void*), void *putdat, const char *fmt, ...);$/;"	l
+void	obj/user/badsegment.asm	/^void$/;"	l
+void	obj/user/breakpoint.asm	/^void *$/;"	l
+void	obj/user/breakpoint.asm	/^void printfmt(void (*putch)(int, void*), void *putdat, const char *fmt, ...);$/;"	l
+void	obj/user/breakpoint.asm	/^void$/;"	l
+void	obj/user/buggyhello.asm	/^void *$/;"	l
+void	obj/user/buggyhello.asm	/^void printfmt(void (*putch)(int, void*), void *putdat, const char *fmt, ...);$/;"	l
+void	obj/user/buggyhello.asm	/^void$/;"	l
+void	obj/user/buggyhello2.asm	/^void *$/;"	l
+void	obj/user/buggyhello2.asm	/^void printfmt(void (*putch)(int, void*), void *putdat, const char *fmt, ...);$/;"	l
+void	obj/user/buggyhello2.asm	/^void$/;"	l
+void	obj/user/divzero.asm	/^void *$/;"	l
+void	obj/user/divzero.asm	/^void printfmt(void (*putch)(int, void*), void *putdat, const char *fmt, ...);$/;"	l
+void	obj/user/divzero.asm	/^void$/;"	l
+void	obj/user/evilhello.asm	/^void *$/;"	l
+void	obj/user/evilhello.asm	/^void printfmt(void (*putch)(int, void*), void *putdat, const char *fmt, ...);$/;"	l
+void	obj/user/evilhello.asm	/^void$/;"	l
+void	obj/user/faultread.asm	/^void *$/;"	l
+void	obj/user/faultread.asm	/^void printfmt(void (*putch)(int, void*), void *putdat, const char *fmt, ...);$/;"	l
+void	obj/user/faultread.asm	/^void$/;"	l
+void	obj/user/faultreadkernel.asm	/^void *$/;"	l
+void	obj/user/faultreadkernel.asm	/^void printfmt(void (*putch)(int, void*), void *putdat, const char *fmt, ...);$/;"	l
+void	obj/user/faultreadkernel.asm	/^void$/;"	l
+void	obj/user/faultwrite.asm	/^void *$/;"	l
+void	obj/user/faultwrite.asm	/^void printfmt(void (*putch)(int, void*), void *putdat, const char *fmt, ...);$/;"	l
+void	obj/user/faultwrite.asm	/^void$/;"	l
+void	obj/user/faultwritekernel.asm	/^void *$/;"	l
+void	obj/user/faultwritekernel.asm	/^void printfmt(void (*putch)(int, void*), void *putdat, const char *fmt, ...);$/;"	l
+void	obj/user/faultwritekernel.asm	/^void$/;"	l
+void	obj/user/hello.asm	/^void *$/;"	l
+void	obj/user/hello.asm	/^void printfmt(void (*putch)(int, void*), void *putdat, const char *fmt, ...);$/;"	l
+void	obj/user/hello.asm	/^void$/;"	l
+void	obj/user/softint.asm	/^void *$/;"	l
+void	obj/user/softint.asm	/^void printfmt(void (*putch)(int, void*), void *putdat, const char *fmt, ...);$/;"	l
+void	obj/user/softint.asm	/^void$/;"	l
+void	obj/user/testbss.asm	/^void *$/;"	l
+void	obj/user/testbss.asm	/^void printfmt(void (*putch)(int, void*), void *putdat, const char *fmt, ...);$/;"	l
+void	obj/user/testbss.asm	/^void$/;"	l
+vprintfmt	lib/printfmt.c	/^vprintfmt(void (*putch)(int, void*), void *putdat, const char *fmt, va_list ap)$/;"	f
+vsnprintf	lib/printfmt.c	/^vsnprintf(char *buf, int n, const char *fmt, va_list ap)$/;"	f
+wait	gradelib.py	/^    def wait(self):$/;"	f
+waitdisk	boot/main.c	/^waitdisk(void)$/;"	f
+waitdisk	kern/elf_rw.c	/^waitdisk(void)$/;"	f
+warn	inc/assert.h	11;"	d
+was	obj/kern/kernel.asm	/^	was = *cp;$/;"	d
+width	obj/kern/kernel.asm	/^				width = 0;$/;"	d
+width	obj/kern/kernel.asm	/^				width = precision, precision = -1;$/;"	d
+width	obj/kern/kernel.asm	/^		width = -1;$/;"	d
+width	obj/user/badsegment.asm	/^				width = 0;$/;"	d
+width	obj/user/badsegment.asm	/^				width = precision, precision = -1;$/;"	d
+width	obj/user/badsegment.asm	/^		width = -1;$/;"	d
+width	obj/user/breakpoint.asm	/^				width = 0;$/;"	d
+width	obj/user/breakpoint.asm	/^				width = precision, precision = -1;$/;"	d
+width	obj/user/breakpoint.asm	/^		width = -1;$/;"	d
+width	obj/user/buggyhello.asm	/^				width = 0;$/;"	d
+width	obj/user/buggyhello.asm	/^				width = precision, precision = -1;$/;"	d
+width	obj/user/buggyhello.asm	/^		width = -1;$/;"	d
+width	obj/user/buggyhello2.asm	/^				width = 0;$/;"	d
+width	obj/user/buggyhello2.asm	/^				width = precision, precision = -1;$/;"	d
+width	obj/user/buggyhello2.asm	/^		width = -1;$/;"	d
+width	obj/user/divzero.asm	/^				width = 0;$/;"	d
+width	obj/user/divzero.asm	/^				width = precision, precision = -1;$/;"	d
+width	obj/user/divzero.asm	/^		width = -1;$/;"	d
+width	obj/user/evilhello.asm	/^				width = 0;$/;"	d
+width	obj/user/evilhello.asm	/^				width = precision, precision = -1;$/;"	d
+width	obj/user/evilhello.asm	/^		width = -1;$/;"	d
+width	obj/user/faultread.asm	/^				width = 0;$/;"	d
+width	obj/user/faultread.asm	/^				width = precision, precision = -1;$/;"	d
+width	obj/user/faultread.asm	/^		width = -1;$/;"	d
+width	obj/user/faultreadkernel.asm	/^				width = 0;$/;"	d
+width	obj/user/faultreadkernel.asm	/^				width = precision, precision = -1;$/;"	d
+width	obj/user/faultreadkernel.asm	/^		width = -1;$/;"	d
+width	obj/user/faultwrite.asm	/^				width = 0;$/;"	d
+width	obj/user/faultwrite.asm	/^				width = precision, precision = -1;$/;"	d
+width	obj/user/faultwrite.asm	/^		width = -1;$/;"	d
+width	obj/user/faultwritekernel.asm	/^				width = 0;$/;"	d
+width	obj/user/faultwritekernel.asm	/^				width = precision, precision = -1;$/;"	d
+width	obj/user/faultwritekernel.asm	/^		width = -1;$/;"	d
+width	obj/user/hello.asm	/^				width = 0;$/;"	d
+width	obj/user/hello.asm	/^				width = precision, precision = -1;$/;"	d
+width	obj/user/hello.asm	/^		width = -1;$/;"	d
+width	obj/user/softint.asm	/^				width = 0;$/;"	d
+width	obj/user/softint.asm	/^				width = precision, precision = -1;$/;"	d
+width	obj/user/softint.asm	/^		width = -1;$/;"	d
+width	obj/user/testbss.asm	/^				width = 0;$/;"	d
+width	obj/user/testbss.asm	/^				width = precision, precision = -1;$/;"	d
+width	obj/user/testbss.asm	/^		width = -1;$/;"	d
+wpos	kern/console.c	/^	uint32_t wpos;$/;"	m	struct:__anon14	file:
+write_eflags	inc/x86.h	/^write_eflags(uint64_t eflags)$/;"	f
+x64_vm_init	kern/pmap.c	/^x64_vm_init(void)$/;"	f
+xchg	inc/x86.h	/^xchg(volatile uint32_t *addr,uint32_t newval){$/;"	f
+zero	obj/user/divzero.asm	/^	zero = 0;$/;"	d
+zero	user/divzero.c	/^int zero;$/;"	v
